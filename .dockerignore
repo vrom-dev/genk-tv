@@ -1,0 +1,12 @@
+/node_modules
+/coverage
+/fixtures
+/test
+/fixtures
+.gitignore
+cypress.json
+.husky
+.git
+README.md
+Dockerfile
+.dockerignore

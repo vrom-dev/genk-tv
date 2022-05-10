@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  tmdb-project-kairos:
+    image: tmdb-project-kairos
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "${DOCKER_HOST_PORT}:80"
