@@ -20,7 +20,6 @@ export class PopularMoviesComponent extends LitElement {
     super.connectedCallback();
     const popularMoviesUsecase = new PopularMoviesUsecase();
     const response = await popularMoviesUsecase.execute();
-    console.log(response);
     const { results, genres } = response;
     this.movies = results;
     this.genres = genres;
