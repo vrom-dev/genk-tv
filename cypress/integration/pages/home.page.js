@@ -3,5 +3,4 @@
 
 it('user click button on home page', () => {
   cy.visit('/');
-})
-;
+});
