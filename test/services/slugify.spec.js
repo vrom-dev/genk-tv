@@ -1,6 +1,6 @@
 import { UtilsService } from '../../src/services/utils.services';
 
-describe('Slugify', () => {
+describe('slugify()', () => {
   it('returns a new normalized String converted to slug', () => {
     const title = 'Las aventuras de Pil';
     const slug = UtilsService.slugify(title);
@@ -16,7 +16,7 @@ describe('Slugify', () => {
     const slug = UtilsService.slugify(title);
     expect(slug).toBe('sonic-3-la-pelicula');
   });
-  it('does not receive a string as an argument, it throws a TypeError with a descriptive error message', () => {
+  it('if it does not receive a string as an argument, it throws a TypeError with a descriptive error message', () => {
     const errors = [['Sonic 3: la Película'], { title: 'Sonic 3: la Película' }, null, undefined, true, 150, 150n];
     errors.forEach(error => {
       const errorThrower = () => UtilsService.slugify(error);
