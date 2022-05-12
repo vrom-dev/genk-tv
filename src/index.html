@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,23 @@
   <title>Hello World - Vanilla starter</title>
 </head>
 <body>
-  <h1>Hello World - Vanilla starter</h1>
+  <header class="header">
+    <div class="header__top-wrapper">
+      <div class="header__top-bar">
+        <div class="header__brand-logo">Logo here</div>
+        <tmdb-menu-ui></tmdb-menu-ui>
+      </div>
+    </div>
+    <div class="header__search-wrapper">
+      <div class="header__search-bar">
+        <tmdb-search-bar></tmdb-search-bar>
+      </div>
+    </div>
+  </header>
+  <div id="outlet" class="outlet"></div>
+  <footer class="footer">
+    Made with <a href="https://lit.dev" >Lit</a> 💙 & ☕ 
+    by <a href="https://www.linkedin.com/in/vromdev">Víctor Romero</a>
+  </footer>
 </body>
 </html>
