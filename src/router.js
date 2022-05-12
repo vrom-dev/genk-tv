@@ -10,6 +10,7 @@ router.setRoutes([
   { path: '/', component: 'tmdb-home' },
   { path: '/trending', component: 'tmdb-home' },
   { path: '/tv', component: 'tmdb-home' },
+  { path: '/movies', component: 'tmdb-movies' },
   { path: '/search', component: 'tmdb-search' },
   { path: '(.*)', redirect: '/' }
 ]);

@@ -1,0 +1,408 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "adult": false,
+          "backdrop_path": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
+          "genre_ids": [
+              28,
+              878,
+              35,
+              10751,
+              12
+          ],
+          "id": 675353,
+          "original_language": "en",
+          "original_title": "Sonic the Hedgehog 2",
+          "overview": "Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no esta solo lo ayudara Tails.",
+          "popularity": 12851.144,
+          "poster_path": "/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg",
+          "release_date": "2022-03-30",
+          "title": "Sonic 2: La Película",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 1142
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
+          "genre_ids": [
+              14,
+              28,
+              12
+          ],
+          "id": 453395,
+          "original_language": "en",
+          "original_title": "Doctor Strange in the Multiverse of Madness",
+          "overview": "Viaja a lo desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para enfrentarse a un nuevo y misterioso adversario.",
+          "popularity": 5007.839,
+          "poster_path": "/1w3MlLZPqr2Pm5loQ9h2gJwenMr.jpg",
+          "release_date": "2022-05-04",
+          "title": "Doctor Strange en el multiverso de la locura",
+          "video": false,
+          "vote_average": 7.5,
+          "vote_count": 1139
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/fEe5fe82qHzjO4yej0o79etqsWV.jpg",
+          "genre_ids": [
+              16,
+              35,
+              28,
+              10751,
+              80
+          ],
+          "id": 629542,
+          "original_language": "en",
+          "original_title": "The Bad Guys",
+          "overview": "Cinco villanos notorios: el Sr. Wolf, Mr. Snake, Mr. Piranha, Mr. Shark y Ms. Tarantula, que han pasado toda una vida juntos realizando grandes atracos.",
+          "popularity": 4730.107,
+          "poster_path": "/wFdwJh3fbhp5aiRbQelVz1mbbwP.jpg",
+          "release_date": "2022-03-17",
+          "title": "Los Tipos Malos",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 305
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/5P8SmMzSNYikXpxil6BYzJ16611.jpg",
+          "genre_ids": [
+              80,
+              9648,
+              53
+          ],
+          "id": 414906,
+          "original_language": "en",
+          "original_title": "The Batman",
+          "overview": "Cuando un asesino se dirige a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas envía Batman a una investigación en los bajos fondos. A medida que las pruebas comienzan a acercarse a su casa y se hace evidente la magnitud de los planes del autor, Batman debe forjar nuevas relaciones, desenmascarar al culpable y hacer justicia al abuso de poder y la corrupción que durante mucho tiempo han asolado Gotham City.",
+          "popularity": 4740.532,
+          "poster_path": "/zFTLPipninMF4THDbdkQUZLWMEw.jpg",
+          "release_date": "2022-03-01",
+          "title": "The Batman",
+          "video": false,
+          "vote_average": 7.8,
+          "vote_count": 4401
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
+          "genre_ids": [
+              28,
+              12
+          ],
+          "id": 335787,
+          "original_language": "en",
+          "original_title": "Uncharted",
+          "overview": "Un descendiente del explorador Sir Francis Drake descubre la ubicación de la legendaria ciudad de El Dorado. Con la ayuda de su mentor Victor Sullivan y la ambiciosa periodista Elena Fischer, Nathan Drake trabajará para descubrir sus secretos, mientras sobreviven en una isla llena de piratas, mercenarios, y un misterioso enemigo, se embarcarán en una búsqueda sin precedentes por alcanzar el tesoro antes que sus perseguidores. Adaptación del aclamado videojuego homónimo.",
+          "popularity": 4449.169,
+          "poster_path": "/6hlI9Ea1O4IeJ2cj7OiNinqg8Qd.jpg",
+          "release_date": "2022-02-10",
+          "title": "Uncharted",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 1796
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+          "genre_ids": [
+              28,
+              12,
+              878
+          ],
+          "id": 634649,
+          "original_language": "en",
+          "original_title": "Spider-Man: No Way Home",
+          "overview": "Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.",
+          "popularity": 3933.964,
+          "poster_path": "/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg",
+          "release_date": "2021-12-15",
+          "title": "Spider-Man: No Way Home",
+          "video": false,
+          "vote_average": 8.1,
+          "vote_count": 12602
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/eQN31P4IEhyp6NkdccvppJnyuJ4.jpg",
+          "genre_ids": [
+              28,
+              12,
+              14,
+              878
+          ],
+          "id": 284052,
+          "original_language": "en",
+          "original_title": "Doctor Strange",
+          "overview": "La vida del Dr. Stephen Strange cambia para siempre tras un accidente automovilístico que le deja muy malheridas sus manos. Cuando la medicina tradicional falla, se ve obligado a buscar esperanza y una cura en un lugar impensable: una comunidad aislada en Nepal llamada Kamar-Taj. Rápidamente descubre que éste no es sólo un centro de recuperación, sino también la primera línea de una batalla en contra de fuerzas oscuras y ocultas empeñadas en destruir nuestra realidad. En poco tiempo, Strange, armado con sus poderes mágicos recientemente adquiridos, se ve obligado a elegir entre volver a su antigua vida de riqueza y prestigio o dejarlo todo, para defender el mundo como el mago más poderoso del planeta.",
+          "popularity": 2807.025,
+          "poster_path": "/sOsvKTJS0XwtfLsNMO3C0CVWJ4u.jpg",
+          "release_date": "2016-10-25",
+          "title": "Doctor Strange",
+          "video": false,
+          "vote_average": 7.4,
+          "vote_count": 18894
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/192vHmAPbk5esL34XMKZ1YLGFjr.jpg",
+          "genre_ids": [
+              28,
+              53,
+              80
+          ],
+          "id": 763285,
+          "original_language": "en",
+          "original_title": "Ambulance",
+          "overview": "Dos hermanos roban una ambulancia tras un atraco que sale mal y deberán de trabajar juntos para escapar de la policía que los persigue.",
+          "popularity": 2670.696,
+          "poster_path": "/hUbgg3mMSbY9PlpTxBo4IFUVSd6.jpg",
+          "release_date": "2022-03-16",
+          "title": "Ambulance: Plan de Huida",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 515
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
+          "genre_ids": [
+              16,
+              10751,
+              35,
+              14
+          ],
+          "id": 508947,
+          "original_language": "en",
+          "original_title": "Turning Red",
+          "overview": "Mei Lee, una niña de 13 años un poco rara pero segura de sí misma, se debate entre ser la hija obediente que su madre quiere que sea y el caos propio de la adolescencia. Ming, su protectora y ligeramente exigente madre, no se separa nunca de ella lo que es una situación poco deseable para una adolescente. Y por si los cambios en su vida y en su cuerpo no fueran suficientes, cada vez que se emociona demasiado (lo que le ocurre prácticamente todo el tiempo), se convierte en un panda rojo gigante.",
+          "popularity": 2493.062,
+          "poster_path": "/hUupIkIKPpNLYniPGRxRpEQFrX3.jpg",
+          "release_date": "2022-03-10",
+          "title": "Red",
+          "video": false,
+          "vote_average": 7.4,
+          "vote_count": 2058
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/x747ZvF0CcYYTTpPRCoUrxA2cYy.jpg",
+          "genre_ids": [
+              878,
+              12,
+              28
+          ],
+          "id": 406759,
+          "original_language": "en",
+          "original_title": "Moonfall",
+          "overview": "El mundo se enfrenta a la posibilidad de la extinción porque una fuerza desconocida empuja a la luna de su órbita rumbo a la Tierra. Un equipo de astronautas asume la misión de evitar el apocalipsis.",
+          "popularity": 2231.435,
+          "poster_path": "/9oF7M0gVeeOzR109cXkHWs2Ipgt.jpg",
+          "release_date": "2022-02-03",
+          "title": "Moonfall",
+          "video": false,
+          "vote_average": 6.5,
+          "vote_count": 935
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/t9hNIUFcy0tYu55IPxjxRTTdZ6X.jpg",
+          "genre_ids": [
+              10749,
+              18
+          ],
+          "id": 829557,
+          "original_language": "pl",
+          "original_title": "365 Days: This Day",
+          "overview": "Secuela de '365 días' (2020). Vuelven Laura y Massimo más apasionados que nunca. Pero la nueva vida de la pareja se complica por culpa de los lazos familiares de Massimo y de un hombre misterioso dispuesto a ganarse el corazón y la confianza de Laura, cueste lo que cueste.",
+          "popularity": 1823.374,
+          "poster_path": "/k3J2GdYxhR6U2RfsHZOsmHVKW7m.jpg",
+          "release_date": "2022-04-27",
+          "title": "365 días: Aquel día",
+          "video": false,
+          "vote_average": 5.7,
+          "vote_count": 346
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/2n95p9isIi1LYTscTcGytlI4zYd.jpg",
+          "genre_ids": [
+              18,
+              53,
+              80
+          ],
+          "id": 799876,
+          "original_language": "en",
+          "original_title": "The Outfit",
+          "overview": "Leonard (Rylance), es un sastre inglés que confeccionaba trajes en la mundialmente famosa Savile Row de Londres. Después de una tragedia personal termina en Chicago, trabajando en una pequeña sastrería en una zona difícil de la ciudad donde hace ropa elegante para las únicas personas a su alrededor que pueden pagarla: una familia de gángsters.‎",
+          "popularity": 1754.178,
+          "poster_path": "/uoMyXY1ReK5I1kkMMQfqod7YhXh.jpg",
+          "release_date": "2022-02-25",
+          "title": "El sastre de la mafia",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 186
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/i0zbSmiyyylh7H3Qb4jgscz46Pm.jpg",
+          "genre_ids": [
+              27
+          ],
+          "id": 893370,
+          "original_language": "es",
+          "original_title": "Virus-32",
+          "overview": "Se desata un virus y una escalofriante masacre recorre las calles de Montevideo. Los enfermos se convierten en cazadores y solo calman su fiebre matando sin escrúpulos a todos los que aún no están infectados. Sin darse cuenta de esto, Iris y su hija pasan el día en el club deportivo donde Iris trabaja como guardia de seguridad. Cuando llega la noche, está por comenzar una pelea sin piedad. Su única esperanza de salvación llega cuando descubren que después de cada ataque los infectados parecen tener 32 segundos de paz antes de volver a cargar.",
+          "popularity": 1961.188,
+          "poster_path": "/3CvBuw9aoziJJAbqymmsF2drnzH.jpg",
+          "release_date": "2022-04-21",
+          "title": "Virus-32",
+          "video": false,
+          "vote_average": 6.7,
+          "vote_count": 36
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/xzLOQjF1w4og963lxsGJwMhPbZ.jpg",
+          "genre_ids": [
+              28,
+              80,
+              18
+          ],
+          "id": 951470,
+          "original_language": "en",
+          "original_title": "Silverton Siege",
+          "overview": "Tras una misión de sabotaje fallida, un trío de rebeldes contra el apartheid se ve envuelto en una tensa situación con rehenes en un banco.",
+          "popularity": 1226.236,
+          "poster_path": "/lNfiU8VrSXyp2hhZNlJyk4dm04R.jpg",
+          "release_date": "2022-04-27",
+          "title": "El asedio de Silverton",
+          "video": false,
+          "vote_average": 6.3,
+          "vote_count": 46
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/kLnqNE9Af5QHyvUxw8cDGhF1ilv.jpg",
+          "genre_ids": [
+              53
+          ],
+          "id": 956101,
+          "original_language": "la",
+          "original_title": "La Octava Cláusula",
+          "overview": "Kat y Borja aparentan ser una pareja perfecta, pero como en todo matrimonio guardan secretos, mentiras e infidelidades que saldrán a la luz la noche que llega una visita inesperada.",
+          "popularity": 1863.932,
+          "poster_path": "/8tc8eMFAX2SDC1TRu987qFQy8Cl.jpg",
+          "release_date": "2022-04-29",
+          "title": "La Octava Cláusula",
+          "video": false,
+          "vote_average": 4.1,
+          "vote_count": 7
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/figlwUsXXFehX3IebdjqNLV6vWk.jpg",
+          "genre_ids": [
+              28,
+              53
+          ],
+          "id": 628900,
+          "original_language": "en",
+          "original_title": "The Contractor",
+          "overview": "Después de ser dado de baja involuntariamente de las Fuerzas Especiales de EE. UU., James Harper decide apoyar a su familia uniéndose a una organización de contratación privada junto a su mejor amigo y bajo el mando de un compañero veterano. En el extranjero en una misión encubierta, Harper debe evadir a quienes intentan matarlo mientras regresa a casa.",
+          "popularity": 1285.035,
+          "poster_path": "/uboar85WH92Q5Ct2Y0B2YEdYRNF.jpg",
+          "release_date": "2022-03-10",
+          "title": "The Contractor",
+          "video": false,
+          "vote_average": 6.4,
+          "vote_count": 205
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
+          "genre_ids": [
+              16,
+              35,
+              10751,
+              14
+          ],
+          "id": 568124,
+          "original_language": "en",
+          "original_title": "Encanto",
+          "overview": "Los Madrigal son una familia extraordinaria que vive en una casa mágica de un pueblo vibrante en las montañas de Colombia, escondidas en un 'Encanto'. La magia ha bendecido a cada niño de la familia con un don único, desde la superfuerza hasta el poder de sanar. A todos, excepto Mirabel, quien desea ser tan especial como el resto de su familia.  Pero cuando la magia que rodea al Encanto está en peligro, Mirabel decide que ella, la única Madrigal sin ningún tipo de don único, puede ser la única esperanza de su excepcional familia.",
+          "popularity": 1174.064,
+          "poster_path": "/d0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg",
+          "release_date": "2021-11-24",
+          "title": "Encanto",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 6357
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/j8ve0iuDEnrcSpUxL62uvI4wnwB.jpg",
+          "genre_ids": [
+              35,
+              10751,
+              10749
+          ],
+          "id": 937337,
+          "original_language": "es",
+          "original_title": "¡Qué despadre!",
+          "overview": "Es la historia de Pedro (Mauricio Ochmann), un soltero cuarentón que le gusta la fiesta no tiene hijos y vive de noche. Todo cambia cuando conoce a Aline (Fionna Palomo). Ella le menciona que está buscando a su papá y que hay una alta probabilidad de que sea él. Esto cambiará la vida a Pedro quien tendrá que asumir su edad y nuevas responsabilidades.",
+          "popularity": 1065.468,
+          "poster_path": "/IkdBm3dDA11pNFlbkLcU5WdESn.jpg",
+          "release_date": "2022-02-09",
+          "title": "¡Qué despadre!",
+          "video": false,
+          "vote_average": 8,
+          "vote_count": 26
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/xicKILMzPn6XZYCOpWwaxlUzg6S.jpg",
+          "genre_ids": [
+              53,
+              28
+          ],
+          "id": 294793,
+          "original_language": "en",
+          "original_title": "All the Old Knives",
+          "overview": "Cuando la CIA descubre que uno de sus agentes filtró la información que costó la vida a más de 100 personas, el veterano agente Henry Pelham (Chris Pine) es asignado para descubrir quién es el topo entre sus antiguos compañeros en la oficina de la agencia en Viena. Durante su investigación se reencuentra con su antigua colega y ex amante Celia Harrison (Thandiwe Newton). La pareja se verá obligada a difuminar los límites entre la profesión y la pasión mientras reexaminan la misión en la que participaron 6 años atrás.",
+          "popularity": 1062.699,
+          "poster_path": "/svoUDTNzUtozyQXyrQ3UDSGRjU6.jpg",
+          "release_date": "2022-04-08",
+          "title": "Una cita con el pasado",
+          "video": false,
+          "vote_average": 6,
+          "vote_count": 206
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/tq3klWQevRK0Or0cGhsw0h3FDWQ.jpg",
+          "genre_ids": [
+              12,
+              16,
+              35,
+              10751,
+              14
+          ],
+          "id": 676705,
+          "original_language": "fr",
+          "original_title": "Pil",
+          "overview": "Pil es una pequeña huérfana que vive en la calle, en la ciudad medieval de Roc-en-Brume. Junto a sus tres comadrejas amaestradas, Pil sobrevive robando comida en el castillo del siniestro rey Tristain, que ha usurpado el trono.",
+          "popularity": 982.846,
+          "poster_path": "/xIMqbFYkZx0pfgOLMXDdgsY6dA4.jpg",
+          "release_date": "2021-08-11",
+          "title": "Las aventuras de Pil",
+          "video": false,
+          "vote_average": 6.9,
+          "vote_count": 78
+      }
+  ],
+  "total_pages": 33502,
+  "total_results": 670037
+}
