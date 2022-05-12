@@ -13,6 +13,9 @@ export class UtilsService {
   }
 
   static textShortener (text) {
+    if (typeof text !== 'string') {
+      throw new TypeError(`Argument must be a string. Received: ${text} (${typeof (text)})`);
+    }
     return text
       .trim()
       .split(' ')
@@ -21,6 +24,9 @@ export class UtilsService {
   }
 
   static getFullYear (string) {
+    if (typeof string !== 'string') {
+      throw new TypeError(`Argument must be a string. Received: ${string} (${typeof (string)})`);
+    }
     return new Date(string).getFullYear();
   }
 }
