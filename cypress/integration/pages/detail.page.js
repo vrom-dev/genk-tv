@@ -16,7 +16,7 @@ describe('detailed movies/tv-show', () => {
   });
   it('displays detailed info of the movie/tv-show', () => {
     cy
-      .get('tmdb-element-detail-ui')
+      .get('tmdb-detailed-view-ui')
       .shadow()
       .as('movieInfo');
     cy
@@ -42,12 +42,12 @@ describe('detailed movies/tv-show', () => {
   });
   it('can open a modal window with the trailer of the movie/tv-show', () => {
     cy
-      .get('tmdb-element-detail-ui')
+      .get('tmdb-detailed-view-ui')
       .shadow()
       .as('movieInfo');
     cy
       .get('@movieInfo')
-      .find('tmdb-video')
+      .find('tmdb-modal-video')
       .shadow()
       .as('modalVideo');
     cy
