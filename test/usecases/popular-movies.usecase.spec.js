@@ -27,7 +27,7 @@ describe('Popular movies use case...', () => {
     expect(Object.keys(genres)).toEqual(['12', '14', '16', '18', '27', '28', '35', '36', '37', '53', '80', '99', '878', '9648', '10402', '10749', '10751', '10752', '10770']);
     expect(genres[12]).toBe('Aventura');
     expect(genres[10749]).toBe('Romance');
-    expect(results.elementType).toBe('movies');
+    expect(results.elementType).toBe('movie');
     expect(results.elements).toHaveLength(20);
 
     const singleMovie = results.elements[0];

@@ -11,7 +11,7 @@ beforeEach(() => {
     `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.API_KEY}&language=es-ES`,
     { fixture: './../../fixtures/movies_genres.json' }
   );
-  cy.visit('/movies');
+  cy.visit('/movie');
 });
 
 it('displays a list of movies', () => {
