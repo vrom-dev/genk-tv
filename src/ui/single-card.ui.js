@@ -11,9 +11,6 @@ export class TMDBCardUi extends LitElement {
         type: Object,
         state: true
       },
-      type: {
-        type: String
-      },
       genres: {
         type: Object,
         state: true
@@ -107,7 +104,7 @@ export class TMDBCardUi extends LitElement {
       <article class="card">
         <div>
           <header class="back" @click=${this.handleClick}>
-            <a href=${`/${this.type}/${this.element.id}/${UtilsService.slugify(this.element.title)}`}>
+            <a href=${`/${this.element.type}/${this.element.id}/${UtilsService.slugify(this.element.title)}`}>
               <h2>${this.element.title}</h2>
             </a>
             <time>${new Date(this.element.release_date).getFullYear()}</time>
