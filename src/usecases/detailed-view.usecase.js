@@ -1,11 +1,11 @@
-import { DetailsRepository } from '../repositories/details.repository';
+import { TMDBRepository } from '../repositories/tmdb.repository';
 
-export class DetailsUseCase {
+export class DetailedViewUseCase {
   async execute ({ id, type }) {
-    const repository = new DetailsRepository();
+    const repository = new TMDBRepository();
     const [details, { results: videos }] = await Promise.all([
-      repository.getElementDetails({ id, type }),
-      repository.getElementVideos({ id, type })
+      repository.getDetails({ id, type }),
+      repository.getVideos({ id, type })
     ]);
     const trailer = videos.find(video => video.type === 'Trailer');
     if (type === 'tv') {

@@ -1,9 +1,11 @@
-import '../components/element-details.component';
+import '../components/detailed-view.component';
 
-export class TMDBMovieDetailsPage extends HTMLElement {
+export class TMDBMovieDetailPage extends HTMLElement {
   connectedCallback () {
-    this.innerHTML = '<tmdb-element-detail type="movie"></tmdb-element-detail>';
+    this.innerHTML = `
+      <tmdb-detailed-view type="movie"></tmdb-detailed-view>
+    `;
   }
 }
 
-customElements.define('tmdb-movie-details-page', TMDBMovieDetailsPage);
+customElements.define('tmdb-movie-detail-page', TMDBMovieDetailPage);

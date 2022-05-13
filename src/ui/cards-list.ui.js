@@ -26,6 +26,28 @@ export class TMDBCardListUi extends LitElement {
         grid-template-columns: repeat(5, 1fr);
         place-items: center;
       }
+      li {
+        position: relative;
+      }
+      span {
+        font-size: 2rem;
+        position: absolute;
+        color: var(--color-white);
+        bottom: 2rem;
+        left: 1rem;
+        z-index: 1;
+        font-weight: 900;
+        text-shadow:1px 1px 2px var(--color-primary);
+      }
+      li:first-of-type > span {
+        font-size: 4rem;
+      }
+      li:nth-of-type(2) > span {
+        font-size: 3.5rem;
+      }
+      li:nth-of-type(3) > span {
+        font-size: 3rem;
+      }
       @media(max-width: 1400px) {
         ul {
           grid-template-columns: repeat(4, 1fr);
@@ -52,8 +74,9 @@ export class TMDBCardListUi extends LitElement {
   render () {
     return html`
       <ul>
-        ${this.list && this.list.elements.map(element => html`
+        ${this.list && this.list.elements.map((element, index) => html`
             <li>
+              <span class='position'>${index + 1}</span>
               <tmdb-single-card-ui .element=${element} .genres=${this.genres} type=${this.list.elementType}>
                 ${element.title}
               </tmdb-single-card-ui>

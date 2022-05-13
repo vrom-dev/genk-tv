@@ -1,10 +1,10 @@
 import { html, LitElement } from 'lit';
 import { router } from '../router';
-import { DetailsUseCase } from '../usecases/details.usecase';
 
-import '../ui/element-detail-ui.js';
+import { DetailedViewUseCase } from '../usecases/detailed-view.usecase';
+import '../ui/detailed-view-ui';
 
-export class ElementDetailsComponent extends LitElement {
+export class DetailedViewComponent extends LitElement {
   static get properties () {
     return {
       location: {
@@ -30,12 +30,12 @@ export class ElementDetailsComponent extends LitElement {
     super.connectedCallback();
     this.location = router.location;
     this.id = this.location.params.id;
-    const detailsUseCase = new DetailsUseCase();
-    this.element = await detailsUseCase.execute({ id: this.id, type: this.type });
+    const useCase = new DetailedViewUseCase();
+    this.element = await useCase.execute({ id: this.id, type: this.type });
   }
 
   render () {
-    return html`<tmdb-element-detail-ui .element=${this.element} type=${this.type}></tmdb-element-detail-ui>`;
+    return html`<tmdb-detailed-view-ui .element=${this.element} type=${this.type}></tmdb-detailed-view-ui>`;
   }
 
   createRenderRoot () {
@@ -43,4 +43,4 @@ export class ElementDetailsComponent extends LitElement {
   }
 }
 
-customElements.define('tmdb-element-detail', ElementDetailsComponent);
+customElements.define('tmdb-detailed-view', DetailedViewComponent);

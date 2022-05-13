@@ -16,6 +16,7 @@ export class UtilsService {
     if (typeof text !== 'string') {
       throw new TypeError(`Argument must be a string. Received: ${text} (${typeof (text)})`);
     }
+
     return text
       .trim()
       .split(' ')
