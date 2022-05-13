@@ -12,7 +12,7 @@
   border-bottom: 1px solid var(--border-color);
 }
 .header__search-wrapper {
-  background-color: var(--color-white)
+  background-color: var(--bg-color)
 }
 .header__top-bar {
   max-width: 1200px;
