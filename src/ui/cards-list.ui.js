@@ -23,25 +23,25 @@ export class TMDBCardListUi extends LitElement {
         padding-left: 0;
         margin: 0;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         place-items: center;
       }
-      @media(max-width: 1367px) {
+      @media(max-width: 1400px) {
         ul {
           grid-template-columns: repeat(4, 1fr);
         } 
       }
-      @media(max-width: 1044px) {
+      @media(max-width: 992px) {
         ul {
           grid-template-columns: repeat(3, 1fr);
         } 
       }
-      @media(max-width: 792px) {
+      @media(max-width: 768px) {
         ul {
           grid-template-columns: repeat(2, 1fr);
         } 
       }
-      @media(max-width: 536px) {
+      @media(max-width: 576px) {
         ul {
           grid-template-columns: repeat(1, 1fr);
         } 

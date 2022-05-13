@@ -44,8 +44,6 @@ class TMDBMenuUi extends LitElement {
         line-height: 1.1rem;
         padding: 1rem;
         display: block;
-      }
-      .menu__link:visited {
         color: var(--menu-text-color-primary);
       }
       .menu__link:hover {
@@ -179,7 +177,7 @@ class TMDBMenuUi extends LitElement {
             <a class='menu__link' role='menuitem' href='/trending'>Trending</a>
           </li>
           <li class='menu__item' role='none' @click=${this._toggleOpen}>
-            <a class='menu__link' role='menuitem' href='/movies'>Películas</a>
+            <a class='menu__link' role='menuitem' href='/movie'>Películas</a>
           </li>
           <li class='menu__item' role='none' @click=${this._toggleOpen}>
             <a class='menu__link' role='menuitem' href='/tv'>TV</a>  

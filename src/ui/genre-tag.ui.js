@@ -12,7 +12,7 @@ class TMDBTag extends LitElement {
       }
       span:hover {
         background-color: hsla(0, 0%, 28%, 0.8);
-
+        
       }
     `;
   }
