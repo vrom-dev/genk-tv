@@ -16,7 +16,7 @@ export class PopularMoviesUsecase {
     return {
       results: {
         elements: sortedMovies,
-        elementType: 'movies'
+        elementType: 'movie'
       },
       genres: genresObj
     };
