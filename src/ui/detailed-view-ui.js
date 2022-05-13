@@ -1,8 +1,8 @@
 import { css, html, LitElement } from 'lit';
 import apiConfig from '../../api.config.json';
-import './video.ui';
+import './modal-video.ui';
 
-class TMDBElementDetailUi extends LitElement {
+class TMDBDetailedViewUi extends LitElement {
   static get properties () {
     return {
       element: {
@@ -188,7 +188,7 @@ class TMDBElementDetailUi extends LitElement {
             </h1>
             <ul class='detail__list'>${this.element.genres.map(genre => html`<li class='detail__list-item'><tmdb-tag>${genre.name}</tmdb-tag></li>`)}</ul>
             <ul class='detail__list'>
-              ${this.element.trailer && html`<li><tmdb-video video=${this.element.trailer.key}></tmdb-video></li>`}
+              ${this.element.trailer && html`<li><tmdb-modal-video video=${this.element.trailer.key}></tmdb-modal-video></li>`}
               <li class='vote-average'>
                 <a href='https://www.themoviedb.org/${this.type}/${this.element.id}' class='detail__link' target='_blank'>
                   <span class='vote-average__rating'>${this.element.vote_average}
@@ -200,7 +200,7 @@ class TMDBElementDetailUi extends LitElement {
           </header>
           <p class='detail__overview'>
             <span class='overview__title'>Sinopsis:</span>
-            ${this.element.overview}
+            ${this.element.overview || 'No existe una sinopsis en español. Puedes ayudar a TMDB a ampliar su base de datos añadiendo una.'}
           </p>
         </div>
         <figure class='detail__poster'>
@@ -212,4 +212,4 @@ class TMDBElementDetailUi extends LitElement {
   }
 }
 
-customElements.define('tmdb-element-detail-ui', TMDBElementDetailUi);
+customElements.define('tmdb-detailed-view-ui', TMDBDetailedViewUi);

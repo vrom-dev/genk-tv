@@ -1,6 +1,6 @@
 import { css, html, LitElement } from 'lit';
 
-class TMDBVideo extends LitElement {
+class TMDBModalVideo extends LitElement {
   static get properties () {
     return {
       video: {
@@ -106,4 +106,4 @@ class TMDBVideo extends LitElement {
   }
 }
 
-customElements.define('tmdb-video', TMDBVideo);
+customElements.define('tmdb-modal-video', TMDBModalVideo);

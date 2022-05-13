@@ -113,7 +113,11 @@ export class TMDBCardUi extends LitElement {
             <time>${new Date(this.element.release_date).getFullYear()}</time>
             <ul>${this.element.genre_ids.map(genre => html`<li><tmdb-tag>${this.genres[genre]}</tmdb-tag></li>`)}</ul>
             <p class="des">
-              ${UtilsService.textShortener(this.element.overview)}
+              ${
+                this.element.overview
+                ? UtilsService.textShortener(this.element.overview)
+                : 'No existe una sinopsis en español. Puedes ayudar a TMDB a ampliar su base de datos añadiendo una.'
+            }
             </p>
           </header>
           <figure class="front">

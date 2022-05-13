@@ -1,25 +1,25 @@
-import { MoviesRepository } from '../../src/repositories/movies.repository';
+import { TMDBRepository } from '../../src/repositories/tmdb.repository';
 import POPULAR_MOVIES from '../../fixtures/popular_movies.json';
 import MOVIES_GENRES from '../../fixtures/movies_genres.json';
-import { PopularMoviesUsecase } from '../../src/usecases/popular-movies.usecase';
+import { MostPopularUseCase } from '../../src/usecases/most-popular.usecase';
 
-jest.mock('../../src/repositories/movies.repository');
+jest.mock('../../src/repositories/tmdb.repository');
 
-describe('Popular movies use case...', () => {
+describe('Most popular use case...', () => {
   beforeEach(() => {
-    MoviesRepository.mockClear();
+    TMDBRepository.mockClear();
   });
 
   it('should execute correctly, returning a new object with all data', async () => {
-    MoviesRepository.mockImplementation(() => {
+    TMDBRepository.mockImplementation(() => {
       return {
-        getMostPopularMovies: () => POPULAR_MOVIES,
-        getMoviesGenre: () => MOVIES_GENRES
+        getMostPopular: () => POPULAR_MOVIES,
+        getGenres: () => MOVIES_GENRES
       };
     });
 
-    const useCase = new PopularMoviesUsecase();
-    const response = await useCase.execute();
+    const useCase = new MostPopularUseCase();
+    const response = await useCase.execute({ type: 'movie' });
     expect(Object.keys(response)).toEqual(['results', 'genres']);
 
     const { results, genres } = response;

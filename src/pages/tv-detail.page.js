@@ -1,9 +1,9 @@
-import '../components/element-details.component';
+import '../components/detailed-view.component';
 
-export class TMDBTVDetailsPage extends HTMLElement {
+export class TMDBTVDetailPage extends HTMLElement {
   connectedCallback () {
-    this.innerHTML = '<tmdb-element-detail type="tv"></tmdb-element-detail>';
+    this.innerHTML = '<tmdb-detailed-view type="tv"></tmdb-detailed-view>';
   }
 }
 
-customElements.define('tmdb-tv-details-page', TMDBTVDetailsPage);
+customElements.define('tmdb-tv-detail-page', TMDBTVDetailPage);
