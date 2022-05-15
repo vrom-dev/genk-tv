@@ -25,4 +25,10 @@ export class TMDBRepository {
     const { data } = await axios.get(`${API_URL}/${type}/${id}/videos?api_key=${process.env.API_KEY}`);
     return data;
   }
+
+  async getSearchResults ({ query }) {
+    const { API_URL } = config;
+    const { data } = await axios.get(`${API_URL}/search/multi?api_key=${process.env.API_KEY}&query=${query}&language=es-ES&region=ES&include_adult=false`);
+    return data;
+  }
 }

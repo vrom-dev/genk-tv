@@ -11,7 +11,7 @@ export class MostPopularUseCase {
     let sortedResults = [...results]
       .sort((a, b) => b.popularity - a.popularity)
       .map(result => {
-        return { type, ...result };
+        return { media_type: type, ...result };
       });
     if (type === 'tv') {
       sortedResults = [...sortedResults].map((tvshow) => {

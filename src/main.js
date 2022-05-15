@@ -10,5 +10,5 @@ import './styles/05-utilities/utility-classes.css';
 import './styles/main.css';
 
 import './router';
-import './components/search.component';
+import './components/search-bar.component';
 import './ui/menu.ui';
