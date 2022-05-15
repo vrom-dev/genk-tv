@@ -115,6 +115,13 @@ describe('popular list of movies/tv-shows', () => {
     cy.get('@firstCard')
       .find('header')
       .click();
-    cy.url().should('include', '/');
+    cy
+      .get('tmdb-detailed-view-ui')
+      .shadow()
+      .as('movieInfo');
+    cy
+      .get('@movieInfo')
+      .findByRole('heading')
+      .contains('Sonic');
   });
 });

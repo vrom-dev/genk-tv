@@ -29,9 +29,9 @@ describe('Most popular use case...', () => {
     expect(results).toHaveLength(20);
 
     const singleMovie = results[0];
-    expect(Object.keys(singleMovie)).toEqual(['type', 'adult', 'backdrop_path', 'genre_ids', 'id', 'original_language', 'original_title', 'overview', 'popularity', 'poster_path', 'release_date', 'title', 'video', 'vote_average', 'vote_count']);
+    expect(Object.keys(singleMovie)).toEqual(['media_type', 'adult', 'backdrop_path', 'genre_ids', 'id', 'original_language', 'original_title', 'overview', 'popularity', 'poster_path', 'release_date', 'title', 'video', 'vote_average', 'vote_count']);
     expect(singleMovie.title).toBe('Sonic 2: La Película');
-    expect(singleMovie.type).toBe('movie');
+    expect(singleMovie.media_type).toBe('movie');
     expect(singleMovie.release_date).toBe('2022-03-30');
     expect(singleMovie.vote_average).toBe(7.7);
     expect(singleMovie.genre_ids).toEqual([28, 878, 35, 10751, 12]);
