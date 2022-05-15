@@ -4,21 +4,25 @@ describe('popular list of movies/tv-shows', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}&language=es-ES&page=1&region=ES&include_adult=false`,
-      { fixture: './../../fixtures/popular_movies.json' }
+      `https://api.themoviedb.org/3/search/multi?api_key=${process.env.API_KEY}&query=the%20last%20kingdom&language=es-ES&region=ES&include_adult=false`,
+      { fixture: './../../fixtures/multi_search.json' }
     );
     cy.intercept(
       'GET',
       `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.API_KEY}&language=es-ES`,
       { fixture: './../../fixtures/movies_genres.json' }
     );
-    cy.visit('/movie');
+    cy.intercept(
+      'GET',
+      `https://api.themoviedb.org/3/genre/tv/list?api_key=${process.env.API_KEY}&language=es-ES`,
+      { fixture: './../../fixtures/tv_genres.json' }
+    );
+    cy.visit('/search?q=the%20last%20kingdom');
   });
 
   it('displays a list of movies/tvshows', () => {
     cy
-      .get('tmdb-most-popular')
-      .should('have.attr', 'type');
+      .get('tmdb-search-results');
     cy
       .get('tmdb-cards-list-ui')
       .shadow()
@@ -33,7 +37,7 @@ describe('popular list of movies/tv-shows', () => {
     cy.get('@cardsList')
       .find('ul')
       .children()
-      .should('have.lengthOf', 20);
+      .should('have.lengthOf', 3);
   });
 
   it('displays a card with an image of the movie/tvshow', () => {
@@ -63,24 +67,24 @@ describe('popular list of movies/tv-shows', () => {
     cy.get('@firstCard')
       .find('header')
       .find('h2')
-      .contains('Sonic 2: La Película');
+      .contains('The Last Kingdom');
 
     cy.get('@firstCard')
       .find('time')
-      .contains('2022');
+      .contains('2015');
 
     cy.get('@firstCard')
       .find('li')
       .first()
-      .contains('Acción');
+      .contains('Action & Adventure');
 
     cy.get('@firstCard')
       .find('li')
-      .contains('Aventura');
+      .contains('Drama');
 
     cy.get('@firstCard')
       .find('li')
-      .contains('Aventura');
+      .contains('War & Politics');
   });
 
   it('info is not visible unless we mouse over the card', () => {
@@ -122,6 +126,6 @@ describe('popular list of movies/tv-shows', () => {
     cy
       .get('@movieInfo')
       .findByRole('heading')
-      .contains('Sonic');
+      .contains('The Last Kingdom');
   });
 });

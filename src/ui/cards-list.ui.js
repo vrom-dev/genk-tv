@@ -12,6 +12,9 @@ export class TMDBCardListUi extends LitElement {
       genres: {
         type: Object,
         state: true
+      },
+      ordered: {
+        type: Boolean
       }
     };
   }
@@ -74,10 +77,10 @@ export class TMDBCardListUi extends LitElement {
   render () {
     return html`
       <ul>
-        ${this.list && this.list.elements.map((element, index) => html`
+        ${this.list && this.list.map((element, index) => html`
             <li>
-              <span class='position'>${index + 1}</span>
-              <tmdb-single-card-ui .element=${element} .genres=${this.genres} type=${this.list.elementType}>
+              ${this.ordered && html`<span class='position'>${index + 1}</span>`}
+              <tmdb-single-card-ui .element=${element} .genres=${this.genres}>
                 ${element.title}
               </tmdb-single-card-ui>
             </li>

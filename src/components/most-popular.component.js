@@ -31,7 +31,7 @@ export class MostPopularComponent extends LitElement {
   }
 
   render () {
-    return html`<tmdb-cards-list-ui .list=${this.results} .genres=${this.genres} ></tmdb-cards-list-ui>`;
+    return html`<tmdb-cards-list-ui .list=${this.results} .genres=${this.genres} ordered></tmdb-cards-list-ui>`;
   }
 
   createRenderRoot () {

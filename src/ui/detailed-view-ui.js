@@ -177,14 +177,14 @@ class TMDBDetailedViewUi extends LitElement {
     return this.element && html`
     <section class='detail'>
       <div class='detail__backdrop'>
-        <img src='${apiConfig.BASE_URL_IMG}/original/${this.element.backdrop_path}' alt=${this.element.title}></img>
+      ${this.element.backdrop_path && html`<img src='${apiConfig.BASE_URL_IMG}/original/${this.element.backdrop_path}' alt=${this.element.title}></img>`}
       </div>
       <div class='detail__content'>
         <div class='content__wrapper'>
           <header class='detail__header'>
             <h1 class='detail__title'>
               ${this.element.title}
-              <time class='detail__date'>(${new Date(this.element.release_date).getFullYear()})</time>
+              ${this.element.release_date && html`<time class='detail__date'>(${new Date(this.element.release_date).getFullYear()})</time>`}
             </h1>
             <ul class='detail__list'>${this.element.genres.map(genre => html`<li class='detail__list-item'><tmdb-tag>${genre.name}</tmdb-tag></li>`)}</ul>
             <ul class='detail__list'>

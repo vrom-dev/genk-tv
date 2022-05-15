@@ -11,9 +11,6 @@ export class TMDBCardUi extends LitElement {
         type: Object,
         state: true
       },
-      type: {
-        type: String
-      },
       genres: {
         type: Object,
         state: true
@@ -107,17 +104,17 @@ export class TMDBCardUi extends LitElement {
       <article class="card">
         <div>
           <header class="back" @click=${this.handleClick}>
-            <a href=${`/${this.type}/${this.element.id}/${UtilsService.slugify(this.element.title)}`}>
+            <a href=${`/${this.element.media_type}/${this.element.id}/${UtilsService.slugify(this.element.title)}`}>
               <h2>${this.element.title}</h2>
             </a>
-            <time>${new Date(this.element.release_date).getFullYear()}</time>
+            <time>${this.element.release_date && new Date(this.element.release_date).getFullYear()}</time>
             <ul>${this.element.genre_ids.map(genre => html`<li><tmdb-tag>${this.genres[genre]}</tmdb-tag></li>`)}</ul>
             <p class="des">
               ${
                 this.element.overview
-                ? UtilsService.textShortener(this.element.overview)
+                ? UtilsService.textShortener(this.element.overview, 100)
                 : 'No existe una sinopsis en español. Puedes ayudar a TMDB a ampliar su base de datos añadiendo una.'
-            }
+              }
             </p>
           </header>
           <figure class="front">

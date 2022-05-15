@@ -8,7 +8,11 @@ export class MostPopularUseCase {
       repository.getMostPopular({ type }),
       repository.getGenres({ type })
     ]);
-    let sortedResults = [...results].sort((a, b) => b.popularity - a.popularity);
+    let sortedResults = [...results]
+      .sort((a, b) => b.popularity - a.popularity)
+      .map(result => {
+        return { media_type: type, ...result };
+      });
     if (type === 'tv') {
       sortedResults = [...sortedResults].map((tvshow) => {
         /* eslint-disable camelcase */
@@ -25,10 +29,7 @@ export class MostPopularUseCase {
       return prev;
     }, {});
     return {
-      results: {
-        elements: sortedResults,
-        elementType: type
-      },
+      results: sortedResults,
       genres: genresObj
     };
   }
