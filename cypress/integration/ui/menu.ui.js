@@ -18,7 +18,7 @@ describe('responsive menu ui', () => {
     cy
       .get('@menu')
       .children()
-      .should('have.lengthOf', 3);
+      .should('have.lengthOf', 4);
     cy
       .get('@menu')
       .contains('TV');
@@ -47,13 +47,16 @@ describe('responsive menu ui', () => {
     cy
       .get('@menu')
       .children()
-      .should('have.lengthOf', 3);
+      .should('have.lengthOf', 4);
     cy
       .get('@menu')
       .contains('TV');
     cy
       .get('@menu')
       .contains('Películas');
+    cy
+      .get('@menu')
+      .contains('Mi Lista');
   });
 
   it('in mobile view, menu button is visible', () => {
