@@ -15,13 +15,16 @@ export class TMDBCardListUi extends LitElement {
       },
       ordered: {
         type: Boolean
+      },
+      scroll: {
+        type: Number
       }
     };
   }
 
   static get styles () {
     return css`
-      ul {
+      .cards__list {
         list-style: none;
         padding-left: 0;
         margin: 0;
@@ -29,10 +32,11 @@ export class TMDBCardListUi extends LitElement {
         grid-template-columns: repeat(5, 1fr);
         place-items: center;
       }
-      li {
+      .cards__list-item {
         position: relative;
       }
-      span {
+      .position {
+        display: none;
         font-size: 2rem;
         position: absolute;
         color: var(--color-white);
@@ -42,32 +46,52 @@ export class TMDBCardListUi extends LitElement {
         font-weight: 900;
         text-shadow:1px 1px 2px var(--color-primary);
       }
-      li:first-of-type > span {
+      :host([ordered]) .position {
+        display: inherit
+      }
+      .cards__list-item:first-of-type > .position {
         font-size: 4rem;
       }
-      li:nth-of-type(2) > span {
+      .cards__list-item:nth-of-type(2) > .position {
         font-size: 3.5rem;
       }
-      li:nth-of-type(3) > span {
+      .cards__list-item:nth-of-type(3) > .position {
         font-size: 3rem;
       }
+      :host([landscape]) .cards__list {
+        display: flex;
+        max-width: 100%;
+        overflow-x: scroll;
+        gap: 1rem;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+      }
+       .cards__list::-webkit-scrollbar {
+        display: block;
+        height: 0.35rem;
+      }
+
+      .cards__list::-webkit-scrollbar-thumb {
+        background-color: #DBDBDB;
+      }
+      
       @media(max-width: 1400px) {
-        ul {
+        .cards__list {
           grid-template-columns: repeat(4, 1fr);
         } 
       }
       @media(max-width: 992px) {
-        ul {
+        .cards__list {
           grid-template-columns: repeat(3, 1fr);
         } 
       }
       @media(max-width: 768px) {
-        ul {
+        .cards__list {
           grid-template-columns: repeat(2, 1fr);
         } 
       }
       @media(max-width: 576px) {
-        ul {
+        .cards__list {
           grid-template-columns: repeat(1, 1fr);
         } 
       }
@@ -76,14 +100,14 @@ export class TMDBCardListUi extends LitElement {
 
   render () {
     return html`
-      <ul>
+      <ul class='cards__list'>
         ${this.list && this.list.map((element, index) => html`
-            <li>
-              ${this.ordered && html`<span class='position'>${index + 1}</span>`}
-              <tmdb-single-card-ui .element=${element} .genres=${this.genres}>
-                ${element.title}
-              </tmdb-single-card-ui>
-            </li>
+            <li class='cards__list-item'>
+            <span class='position'>${index + 1}</span>
+            <tmdb-single-card-ui .element=${element} .genres=${this.genres}>
+              ${element.title}
+            </tmdb-single-card-ui>
+          </li>
         `)}
       </ul>
     `;

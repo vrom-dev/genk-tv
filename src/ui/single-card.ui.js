@@ -38,6 +38,7 @@ export class TMDBCardUi extends LitElement {
         color: #fff;
         cursor: pointer;
         position:relative;
+        scroll-snap-align: center;
       }
       .front {
         margin: 0;
@@ -118,7 +119,7 @@ export class TMDBCardUi extends LitElement {
             </p>
           </header>
           <figure class="front">
-            <img class="profile" loading="lazy" src=${`${config.BASE_URL_IMG}/w220_and_h330_face/${this.element.poster_path}`} alt=${`${this.element.title} - Poster path`}>
+            <img class="profile" src=${`${config.BASE_URL_IMG}/w220_and_h330_face/${this.element.poster_path}`} alt=${`${this.element.title} - Poster path`}>
           </figure>
         </div>
       </article>`;
