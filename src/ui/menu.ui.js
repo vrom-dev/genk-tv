@@ -177,10 +177,13 @@ class TMDBMenuUi extends LitElement {
             <a class='menu__link' role='menuitem' href='/trending'>Portada</a>
           </li>
           <li class='menu__item' role='none' @click=${this._toggleOpen}>
-            <a class='menu__link' role='menuitem' href='/movie'>Películas</a>
+            <a class='menu__link' role='menuitem' href='/movie'>Top Películas</a>
           </li>
           <li class='menu__item' role='none' @click=${this._toggleOpen}>
-            <a class='menu__link' role='menuitem' href='/tv'>TV</a>  
+            <a class='menu__link' role='menuitem' href='/tv'>Top TV</a>  
+          </li>
+          <li class='menu__item' role='none' @click=${this._toggleOpen}>
+            <a class='menu__link' role='menuitem' href='/my-list'>Mi Lista</a>  
           </li>
         </ul>
         <tmdb-dark-theme></tmdb-dark-theme> 
