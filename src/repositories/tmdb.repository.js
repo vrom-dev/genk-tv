@@ -43,4 +43,10 @@ export class TMDBRepository {
     const { data } = await axios.get(`${API_URL}/${type}/top_rated?api_key=${process.env.API_KEY}&language=es-ES&include_adult=false`);
     return data;
   }
+
+  async getRecommendations ({ type, id }) {
+    const { API_URL } = config;
+    const { data } = await axios.get(`${API_URL}/${type}/${id}/recommendations?api_key=${process.env.API_KEY}&language=es-ES&include_adult=false`);
+    return data;
+  }
 }

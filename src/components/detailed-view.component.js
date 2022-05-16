@@ -1,7 +1,8 @@
-import { html, LitElement } from 'lit';
+import { css, html, LitElement } from 'lit';
 import { router } from '../router';
 
 import { DetailedViewUseCase } from '../usecases/detailed-view.usecase';
+import './recommendations.component';
 import '../ui/detailed-view-ui';
 
 export class DetailedViewComponent extends LitElement {
@@ -35,7 +36,11 @@ export class DetailedViewComponent extends LitElement {
   }
 
   render () {
-    return html`<tmdb-detailed-view-ui .element=${this.element} type=${this.type}></tmdb-detailed-view-ui>`;
+    console.log(this.id, this.type);
+    return html`
+        <tmdb-detailed-view-ui .element=${this.element} type=${this.type}></tmdb-detailed-view-ui>
+        <tmdb-recommendations id=${this.id} type=${this.type}></tmdb-recommendations>
+      `;
   }
 
   createRenderRoot () {
