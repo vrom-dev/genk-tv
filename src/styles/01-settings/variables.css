@@ -1,0 +1,21 @@
+:root {
+  --color-primary: hsla(222, 47%, 11%, 1);
+  --color-secondary: hsla(199, 89%, 48%, 1);
+  --text-color-primary: hsla(217, 33%, 17%, 1);
+  --text-color-secondary: hsla(215, 16%, 47%, .85);
+	--border-color: hsla(222, 47%, 11%, 0.1);
+	--color-white: hsla(0, 0%, 100%, 0.95);
+	--bg-color: hsla(210, 40%, 99%, 1);
+	--bg-color-90: hsla(210, 40%, 99%, 0.90);
+}
+
+:root[data-theme='dark'] {
+  --color-primary: hsla(222, 47%, 11%, 1);
+  --color-secondary: hsla(199, 89%, 48%, 1);
+  --text-color-primary: hsla(214, 32%, 91%, 1);
+  --text-color-secondary: hsla(214, 18%, 57%, 1);
+	--border-color: hsla(213, 27%, 84%, 0.1);
+	--color-white: hsla(0, 0%, 100%, 0.95);
+	--bg-color: hsla(222, 47%, 11%, 1);
+	--bg-color-90: hsla(222, 47%, 11%, 0.90);
+}

@@ -2,3 +2,7 @@
 /dist
 /coverage
 .env
+/instrumented
+/.nyc_output
+/cypress-coverage
+coverage.json

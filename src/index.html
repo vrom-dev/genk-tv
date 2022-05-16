@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World - Vanilla starter</title>
+  <title>GenK TV - Tu biblioteca de películas y programas de TV</title>
 </head>
 <body>
-  <h1>Hello World - Vanilla starter</h1>
+  <header class="header">
+    <div class="header__top-wrapper">
+      <div class="header__top-bar">
+        <div class="header__brand-name">
+          GENK TV
+        </div>
+        <tmdb-menu-ui></tmdb-menu-ui>
+      </div>
+    </div>
+    <div class="header__search-wrapper">
+      <div class="header__search-bar">
+        <tmdb-search-bar></tmdb-search-bar>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="outlet" class="outlet"></div>
+  </main>
+  <footer class="footer">
+    Made with <a href="https://lit.dev" >Lit</a> 💙 & ☕ 
+    by <a href="https://www.linkedin.com/in/vromdev">Víctor Romero</a>
+  </footer>
 </body>
 </html>

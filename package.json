@@ -1,14 +1,34 @@
 {
-  "name": "spa-starter",
-  "version": "1.0.0",
-  "description": "",
+  "name": "genk-tv",
+  "version": "0.0.1",
+  "description": "GenK TV an epic library of movies, series, and TV shows.",
+  "author": "Víctor Romero",
+  "license": "ISC",
+  "keywords": [
+    "movies",
+    "tv",
+    "library",
+    "lit",
+    "web components",
+    "tmdb",
+    "the movie database"
+  ],
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
     "start": "webpack serve --config=webpack.dev.js",
     "build": "webpack --config=webpack.prod.js",
     "test": "jest --coverage --passWithNoTests",
-    "lint": "semistandard --fix"
+    "test:watch": "jest --coverage --passWithNoTests --watch",
+    "lint": "semistandard --fix",
+    "phoenix": "rm -rf /node_modules && npm i",
+    "cy:open": "cypress open",
+    "cy:test": "cypress run",
+    "test:ci": "start-server-and-test start http-get://localhost:8080 cy:test",
+    "cov:merge": "istanbul-merge --out coverage.json coverage/coverage-final.json cypress-coverage/coverage-final.json",
+    "clean:cov": "rm -rf coverage cypress-coverage .nyc_output instrumented",
+    "report:cov": "istanbul report --include coverage.json --dir coverage lcov html text",
+    "test:all": "npm run clean:cov && nyc instrument --compact=false src instrumented && npm run test && npm run test:ci && npm run cov:merge && npm run report:cov"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -22,32 +42,47 @@
   "jest": {
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    },
+    "coveragePathIgnorePatterns": [
+      "instrumented"
+    ]
   },
   "browserslist": [
     "defaults",
     "not IE 11"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "nyc": {
+    "report-dir": "cypress-coverage",
+    "exclude": [
+      "instrumented/**"
+    ]
+  },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
+    "@cypress/code-coverage": "^3.9.12",
+    "@testing-library/cypress": "^8.0.2",
     "@testing-library/dom": "^8.13.0",
     "babel-jest": "^28.0.2",
     "babel-loader": "^8.2.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "css-loader": "^6.7.1",
+    "cypress": "^9.6.0",
     "dotenv-webpack": "^7.1.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
+    "istanbul": "^0.4.5",
+    "istanbul-merge": "^1.1.1",
     "jest": "^28.0.2",
     "mini-css-extract-plugin": "^2.6.0",
+    "nyc": "^15.1.0",
     "semistandard": "^16.0.1",
+    "start-server-and-test": "^1.14.0",
     "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1",
