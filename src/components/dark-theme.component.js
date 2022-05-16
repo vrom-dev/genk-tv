@@ -87,13 +87,17 @@ export class DarkTheme extends LitElement {
     super.connectedCallback();
     const root = document.querySelector('html');
     const savedTheme = JSON.parse(window.localStorage.getItem('tmdb-vrom-dark-theme'));
-    root.dataset.theme = savedTheme;
+    if (savedTheme) {
+      root.dataset.theme = savedTheme;
+    }
   }
 
   firstUpdated () {
     const savedTheme = JSON.parse(window.localStorage.getItem('tmdb-vrom-dark-theme'));
     const svg = this.shadowRoot.querySelector('svg');
-    svg.dataset.theme = savedTheme;
+    if (savedTheme) {
+      svg.dataset.theme = savedTheme;
+    }
   }
 
   handleClick () {
