@@ -1,10 +1,6 @@
 import { LitElement, css, html } from 'lit';
 
 export class DarkTheme extends LitElement {
-  static get properties () {
-    return {};
-  }
-
   static get styles () {
     return css`
       :host {
@@ -47,16 +43,16 @@ export class DarkTheme extends LitElement {
         stroke: var(--icon-fill-hover);
       }
       
-      [data-theme='dark'] .sun-and-moon, 
-      [data-theme='dark'] .sun {
+      [data-theme='light'] .sun-and-moon, 
+      [data-theme='light'] .sun {
         transform: scale(1.75);
       }
       
-      [data-theme='dark'] .sun-beams {
+      [data-theme='light'] .sun-beams {
         opacity: 0;
       }
       
-      [data-theme='dark'] .moon > circle {
+      [data-theme='light'] .moon > circle {
         transform: translateX(-6px);
       }
       
@@ -68,23 +64,36 @@ export class DarkTheme extends LitElement {
         transform .5s cubic-bezier(.5,1.5,.75,1.25),
           opacity .5s cubic-bezier(.25,0,.3,1);
       }
-      [data-theme='dark'] .sun {
+      [data-theme='light'] .sun {
         transform: scale(1.75);
         transition-timing-function: cubic-bezier(.25,0,.3,1);
         transition-duration: .25s;
       }
-      [data-theme='dark'] .sun-beams {
+      [data-theme='light'] .sun-beams {
         transform: rotateZ(-25deg);
         transition-duration: .15s;
       }
       .sun-and-moon .moon > circle {
         transition: transform .25s cubic-bezier(0,0,0,1);
       }
-      [data-theme='dark'] .sun-and-moon .moon > circle {
+      [data-theme='light'] .sun-and-moon .moon > circle {
         transition-delay: .25s;
         transition-duration: .5s;
       }
     `;
+  }
+
+  connectedCallback () {
+    super.connectedCallback();
+    const root = document.querySelector('html');
+    const savedTheme = JSON.parse(window.localStorage.getItem('tmdb-vrom-dark-theme'));
+    root.dataset.theme = savedTheme;
+  }
+
+  firstUpdated () {
+    const savedTheme = JSON.parse(window.localStorage.getItem('tmdb-vrom-dark-theme'));
+    const svg = this.shadowRoot.querySelector('svg');
+    svg.dataset.theme = savedTheme;
   }
 
   handleClick () {
@@ -92,6 +101,7 @@ export class DarkTheme extends LitElement {
     const svg = this.shadowRoot.querySelector('svg');
     const actualTheme = root.dataset.theme;
     const newTheme = actualTheme === 'light' ? 'dark' : 'light';
+    window.localStorage.setItem('tmdb-vrom-dark-theme', JSON.stringify(newTheme));
     root.dataset.theme = newTheme;
     svg.dataset.theme = newTheme;
   }
@@ -106,7 +116,7 @@ export class DarkTheme extends LitElement {
       aria-live='polite'
       @click=${this.handleClick}
     >
-      <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+      <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" data-theme='light'>
         <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
         <g class="sun-beams" stroke="currentColor">
           <line x1="12" y1="1" x2="12" y2="3" />

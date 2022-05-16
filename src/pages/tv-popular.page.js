@@ -2,7 +2,10 @@ import '../components/most-popular.component';
 
 export class TMDBTvPopularPage extends HTMLElement {
   connectedCallback () {
-    this.innerHTML = '<tmdb-most-popular type="tv"></tmdb-most-popular>';
+    this.innerHTML = `
+      <h1 class='page-title'>Programas de televisión populares</h1>
+      <tmdb-most-popular type="tv"></tmdb-most-popular>`
+    ;
   }
 }
 
