@@ -1,0 +1,50 @@
+stages:
+  - build
+  - deploy
+  - qa
+
+job_build:
+  stage: build
+  image: node:14.19.1-alpine3.14
+  script:
+    - npm install
+    - npm run build -- --output-path=dist
+  artifacts:
+    expire_in: 20 min
+    paths:
+      - dist/
+  only:
+  - main
+
+job_deploy:
+  stage: deploy
+  image: docker:20.10.14-alpine3.15
+  services:
+    - docker:dind
+  dependencies:
+    - job_build
+  before_script:
+    - docker login -u $DOCKER_HUB_USER -p $DOCKER_HUB_PASS
+    - 'PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: ''{ print $2 }'' | sed ''s/[",]//g'' | tr -d ''[[:space:]]'')'
+  script:
+    - docker build -t $DOCKER_HUB_USER/$CI_PROJECT_NAME:$PACKAGE_VERSION .
+    - docker push $DOCKER_HUB_USER/$CI_PROJECT_NAME:$PACKAGE_VERSION
+  only:
+    - main
+
+# variables:
+#   SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
+#   GIT_DEPTH: "0"  # Tells git to fetch all the branches of the project, required by the analysis task
+# sonarcloud-check:
+#   stage: qa
+#   image:
+#     name: sonarsource/sonar-scanner-cli:latest
+#     entrypoint: [""]
+#   cache:
+#     key: "${CI_JOB_NAME}"
+#     paths:
+#       - .sonar/cache
+#   script:
+#     - sonar-scanner
+#   only:
+#     - main
