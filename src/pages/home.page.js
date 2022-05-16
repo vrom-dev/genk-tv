@@ -9,7 +9,7 @@ export class HomePage extends HTMLElement {
       <tmdb-header></tmdb-header>
       <main>
         <h1 class='cta-title'>Bienvenidos.</h1>
-        <p class='cta-description'>Millones de películas, programas de televisión y personas por descubrir. Explora ahora.</p>
+        <p class='cta-description'>Millones de películas, programas de televisión y series por descubrir. Explora ahora.</p>
         <section>
           <h2>Tendencias: Películas</h2>
           <tmdb-trending type='movie'></tmdb-trending>
