@@ -31,4 +31,16 @@ export class TMDBRepository {
     const { data } = await axios.get(`${API_URL}/search/multi?api_key=${process.env.API_KEY}&query=${query}&language=es-ES&region=ES&include_adult=false`);
     return data;
   }
+
+  async getTrendingToday ({ type }) {
+    const { API_URL } = config;
+    const { data } = await axios.get(`${API_URL}/trending/${type}/day?api_key=${process.env.API_KEY}&language=es-ES&include_adult=false`);
+    return data;
+  }
+
+  async getTopRated ({ type }) {
+    const { API_URL } = config;
+    const { data } = await axios.get(`${API_URL}/${type}/top_rated?api_key=${process.env.API_KEY}&language=es-ES&include_adult=false`);
+    return data;
+  }
 }

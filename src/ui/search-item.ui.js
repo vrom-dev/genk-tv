@@ -20,7 +20,7 @@ export class TMDBSearchItemUi extends LitElement {
 
       }      
       li:hover {
-        background-color: #ccc;
+        background-color: hsla(199, 89%, 48%, .2);
       }
       .img-container {
         display: flex;
@@ -45,6 +45,7 @@ export class TMDBSearchItemUi extends LitElement {
         font-size: 0.9rem;
         line-height: 1.25rem;
         margin: 0;
+        color: var(--text-color-primary);
       }
       .search-profile__description {
         font-size: 0.8rem;

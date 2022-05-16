@@ -174,7 +174,7 @@ class TMDBMenuUi extends LitElement {
           aria-labelledby='menubutton'
         >
           <li class='menu__item' role='none' @click=${this._toggleOpen}>
-            <a class='menu__link' role='menuitem' href='/trending'>Trending</a>
+            <a class='menu__link' role='menuitem' href='/trending'>Portada</a>
           </li>
           <li class='menu__item' role='none' @click=${this._toggleOpen}>
             <a class='menu__link' role='menuitem' href='/movie'>Películas</a>
