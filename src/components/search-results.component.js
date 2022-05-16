@@ -14,6 +14,10 @@ export class SearchResultsComponent extends LitElement {
       results: {
         type: Object,
         state: true
+      },
+      query: {
+        type: String,
+        state: true
       }
     };
   }
@@ -29,6 +33,7 @@ export class SearchResultsComponent extends LitElement {
     const useCase = new SearchUseCase();
     const params = (new URL(document.location)).searchParams;
     const query = params.get('q');
+    this.query = query;
     const { results, genres } = await useCase.execute({ query });
     this.results = results;
     this.genres = genres;
@@ -46,7 +51,13 @@ export class SearchResultsComponent extends LitElement {
   }
 
   render () {
-    return html`<tmdb-cards-list-ui .list=${this.results} .genres=${this.genres} ></tmdb-cards-list-ui>`;
+    return html`
+        <h1 class='page-title'>Resultados de búsqueda para: '${this.query}'</h1>
+        ${this.results && this.results.length > 0
+          ? html`<tmdb-cards-list-ui .list=${this.results} .genres=${this.genres} ></tmdb-cards-list-ui>`
+          : html`<p>Lo sentimos, no existen resultados para esta búsqueda.</p>`
+        }
+      `;
   }
 
   createRenderRoot () {

@@ -2,7 +2,10 @@ import '../components/most-popular.component';
 
 export class TMDBMoviePopularPage extends HTMLElement {
   connectedCallback () {
-    this.innerHTML = '<tmdb-most-popular type="movie"></tmdb-most-popular>';
+    this.innerHTML = `
+    <h1 class='page-title'>Películas populares</h1>
+    <tmdb-most-popular type="movie"></tmdb-most-popular>
+    `;
   }
 }
 
