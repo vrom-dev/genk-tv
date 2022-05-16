@@ -9,6 +9,7 @@ import './styles/04-object/cta.css';
 import './styles/04-object/header.css';
 import './styles/04-object/footer.css';
 import './styles/04-object/layout.css';
+import './styles/03-element/aside.css';
 import './styles/05-utilities/utility-classes.css';
 import './styles/main.css';
 
