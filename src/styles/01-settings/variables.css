@@ -6,6 +6,7 @@
 	--border-color: hsla(222, 47%, 11%, 0.1);
 	--color-white: hsla(0, 0%, 100%, 0.95);
 	--bg-color: hsla(210, 40%, 99%, 1);
+	--bg-color-50: hsla(210, 40%, 99%, 0.5);
 }
 
 :root[data-theme='dark'] {
@@ -16,4 +17,5 @@
 	--border-color: hsla(213, 27%, 84%, 0.1);
 	--color-white: hsla(0, 0%, 100%, 0.95);
 	--bg-color: hsla(222, 47%, 11%, 1);
+	--bg-color-50: hsla(222, 47%, 11%, 0.5);
 }

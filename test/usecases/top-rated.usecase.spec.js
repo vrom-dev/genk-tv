@@ -1,13 +1,13 @@
 import { TMDBRepository } from '../../src/repositories/tmdb.repository';
-import POPULAR_MOVIES from '../../fixtures/movies_popular.json';
+import TOP_RATED_MOVIES from '../../fixtures/movies_toprated.json';
 import MOVIES_GENRES from '../../fixtures/movies_genres.json';
-import POPULAR_TV from '../../fixtures/tvshow_popular.json';
+import TOP_RATED_TV from '../../fixtures/tvshow_toprated.json';
 import TV_GENRES from '../../fixtures/tv_genres.json';
-import { MostPopularUseCase } from '../../src/usecases/most-popular.usecase';
+import { TopRatedUseCase } from '../../src/usecases/top-rated.usecase';
 
 jest.mock('../../src/repositories/tmdb.repository');
 
-describe('Most popular use case...', () => {
+describe('Trending use case...', () => {
   beforeEach(() => {
     TMDBRepository.mockClear();
   });
@@ -15,12 +15,12 @@ describe('Most popular use case...', () => {
   it('should execute correctly, returning a new object with all data', async () => {
     TMDBRepository.mockImplementation(() => {
       return {
-        getMostPopular: () => POPULAR_MOVIES,
+        getTopRated: () => TOP_RATED_MOVIES,
         getGenres: () => MOVIES_GENRES
       };
     });
 
-    const useCase = new MostPopularUseCase();
+    const useCase = new TopRatedUseCase();
     const response = await useCase.execute({ type: 'movie' });
     expect(Object.keys(response)).toEqual(['results', 'genres']);
 
@@ -32,28 +32,28 @@ describe('Most popular use case...', () => {
 
     const singleMovie = results[0];
     expect(Object.keys(singleMovie)).toEqual(['media_type', 'adult', 'backdrop_path', 'genre_ids', 'id', 'original_language', 'original_title', 'overview', 'popularity', 'poster_path', 'release_date', 'title', 'video', 'vote_average', 'vote_count']);
-    expect(singleMovie.title).toBe('Sonic 2: La Película');
+    expect(singleMovie.title).toBe('Cadena perpetua');
     expect(singleMovie.media_type).toBe('movie');
-    expect(singleMovie.release_date).toBe('2022-03-30');
-    expect(singleMovie.vote_average).toBe(7.7);
-    expect(singleMovie.genre_ids).toEqual([28, 878, 35, 10751, 12]);
+    expect(singleMovie.release_date).toBe('1995-02-24');
+    expect(singleMovie.vote_average).toBe(8.7);
+    expect(singleMovie.genre_ids).toEqual([18, 80]);
   });
   it('with tvs it adds release and title properties to the object', async () => {
     TMDBRepository.mockImplementation(() => {
       return {
-        getMostPopular: () => POPULAR_TV,
+        getTopRated: () => TOP_RATED_TV,
         getGenres: () => TV_GENRES
       };
     });
 
-    const useCase = new MostPopularUseCase();
+    const useCase = new TopRatedUseCase();
     const response = await useCase.execute({ type: 'tv' });
 
     const { results } = response;
     const singleMovie = results[0];
 
-    expect(singleMovie.title).toBe('Halo');
+    expect(singleMovie.title).toBe("The D'Amelio Show");
     expect(singleMovie.media_type).toBe('tv');
-    expect(singleMovie.release_date).toBe('2022-03-24');
+    expect(singleMovie.release_date).toBe('2021-09-03');
   });
 });

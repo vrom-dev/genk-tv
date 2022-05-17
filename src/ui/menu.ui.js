@@ -185,6 +185,9 @@ class TMDBMenuUi extends LitElement {
           <li class='menu__item' role='none' @click=${this._toggleOpen}>
             <a class='menu__link' role='menuitem' href='/my-list'>Mi Lista</a>  
           </li>
+          <li class='menu__item' role='none' @click=${this._toggleOpen}>
+            <a class='menu__link' role='menuitem' href='/upcoming'>Estrenos</a>  
+          </li>
         </ul>
         <tmdb-dark-theme></tmdb-dark-theme> 
       </nav>

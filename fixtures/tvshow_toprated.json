@@ -1,0 +1,422 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "backdrop_path": "/7q448EVOnuE3gVAx24krzO7SNXM.jpg",
+          "first_air_date": "2021-09-03",
+          "genre_ids": [
+              10764
+          ],
+          "id": 130392,
+          "name": "The D'Amelio Show",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "The D'Amelio Show",
+          "overview": "Al pasar de una relativa sombra y una vida aparentemente normal a ser lanzados a los focos de Hollywood casi de la noche a la mañana, los D’Amelio se enfrentan a retos y oportunidades que nunca habrían imaginado. Charli, Dixie, Heidi y Marc hacen todo lo posible por mantenerse unidos mientras intentan adaptarse a la vida en Hollywood.",
+          "popularity": 17.252,
+          "poster_path": "/z0iCS5Znx7TeRwlYSd4c01Z0lFx.jpg",
+          "vote_average": 9.4,
+          "vote_count": 2700
+      },
+      {
+          "backdrop_path": null,
+          "first_air_date": "2004-05-10",
+          "genre_ids": [
+              16,
+              35
+          ],
+          "id": 100,
+          "name": "I Am Not an Animal",
+          "origin_country": [
+              "GB"
+          ],
+          "original_language": "en",
+          "original_name": "I Am Not an Animal",
+          "overview": "I Am Not An Animal es una serie de comedia animada sobre los únicos seis animales que hablan en el mundo, cuya existencia en una unidad de vivisección se pone patas arriba cuando son liberados por activistas de los derechos de los animales.",
+          "popularity": 10.842,
+          "poster_path": "/qG59J1Q7rpBc1dvku4azbzcqo8h.jpg",
+          "vote_average": 9.2,
+          "vote_count": 704
+      },
+      {
+          "backdrop_path": "/vJacVFr8Or0ddCYCb3ZU5vg3DeK.jpg",
+          "first_air_date": "2022-04-14",
+          "genre_ids": [
+              10764
+          ],
+          "id": 154521,
+          "name": "Las Kardashian",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Kardashians",
+          "overview": "La familia a la que tanto conoces y adoras vuelve con una nueva serie dando acceso pleno a toda su vida. Kris, Kourtney, Kim, Khloé, Kendall y Kylie se exponen ante las cámaras para revelar los secretos que hay tras los titulares.",
+          "popularity": 606.415,
+          "poster_path": "/ozG4vhWrb5KYZHUfhl9c3IJjfOg.jpg",
+          "vote_average": 9.1,
+          "vote_count": 509
+      },
+      {
+          "backdrop_path": "/rkB4LyZHo1NHXFEDHl9vSD9r1lI.jpg",
+          "first_air_date": "2021-11-06",
+          "genre_ids": [
+              16,
+              10765,
+              10759,
+              18
+          ],
+          "id": 94605,
+          "name": "Arcane",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Arcane",
+          "overview": "Con las dispares ciudades de Piltover y Zaun como telón de fondo, dos hermanas luchan en bandos opuestos de una guerra entre tecnologías mágicas y creencias enfrentadas.",
+          "popularity": 129.847,
+          "poster_path": "/ohGz4HDYGTite1GmRhRuBMVAn03.jpg",
+          "vote_average": 9.1,
+          "vote_count": 2076
+      },
+      {
+          "backdrop_path": "/igxqysAqY84xQISHbZllwV67JPr.jpg",
+          "first_air_date": "1978-04-04",
+          "genre_ids": [
+              16,
+              10759,
+              10751,
+              10762,
+              10765
+          ],
+          "id": 19239,
+          "name": "Conan, el niño del futuro",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "未来少年コナン",
+          "overview": "La acción trascurre 20 años después de la tercera guerra mundial. La raza humana y la tecnología han sido prácticamente borradas de la faz de la tierra por los terremotos y tsunamis provocados por el uso de armas magnéticas. Conan y su abuelo habitan en un tranquilo atolón, la Isla Perdida, creyéndose solos en el mundo, hasta que una muchacha llamada Lana aparece desvanecida en la playa, perseguida por unos soldados que intentarán llevársela por la fuerza. Esto cambiará drásticamente la vida de Conan y le llevará a correr las más increíbles aventuras para tratar de rescatar a su nueva amiga de las garras de los egoístas y peligrosos hombres de la Ciudad de Industria, que ansían hacerse con el secreto de la energía solar y así poder controlar lo que queda de la civilización humana... Es la primera serie dirigida por el prestigioso Hayao Miyazaki.",
+          "popularity": 14.158,
+          "poster_path": "/2H14yE1oY6qh8PtR4Aib7a8g6Sd.jpg",
+          "vote_average": 9,
+          "vote_count": 100
+      },
+      {
+          "backdrop_path": "/7gbmM2NWcqZONbp65HUWDf4wr0Q.jpg",
+          "first_air_date": "2019-07-12",
+          "genre_ids": [
+              16,
+              18
+          ],
+          "id": 88040,
+          "name": "Given",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "ギヴン",
+          "overview": "Ritsuka Uenoyama es un joven que se aficionó a la guitarra siendo muy joven y tras mucho esfuerzo, consiguió alcanzar el nivel que quería, pero la guitarra que tanto amaba ha perdido su brillo y no le divierte ni le apasiona como antes… hasta que un día conoce a Mafuyu Sato, un joven que se aferra a una guitarra con toda su alma pese a que no sabe tocarla y quien le pedirá que le enseñe a tocar… haciendo que todo en la vida de Uenoyama cambie y la música acelere nuevamente su corazón.",
+          "popularity": 30.851,
+          "poster_path": "/pdDCcAq8RNSZNk81PXYoHNUPHjn.jpg",
+          "vote_average": 9,
+          "vote_count": 610
+      },
+      {
+          "backdrop_path": "/hqFaSNICeh0Y3Hp0gtEIzDBmUVo.jpg",
+          "first_air_date": "2020-08-19",
+          "genre_ids": [
+              10764
+          ],
+          "id": 106600,
+          "name": "BTS In the SOOP",
+          "origin_country": [
+              "KR"
+          ],
+          "original_language": "ko",
+          "original_name": "In the SOOP BTS편",
+          "overview": "",
+          "popularity": 14.98,
+          "poster_path": "/gkB6mHtF7g95N5j35D3GNeR9vOh.jpg",
+          "vote_average": 8.9,
+          "vote_count": 316
+      },
+      {
+          "backdrop_path": "/qSgBzXdu6QwVVeqOYOlHolkLRxZ.jpg",
+          "first_air_date": "2019-01-09",
+          "genre_ids": [
+              16,
+              10759,
+              10765,
+              18
+          ],
+          "id": 83095,
+          "name": "Tate no Yusha no Nariagari",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "盾の勇者の成り上がり",
+          "overview": "Naofumi Iwatani se encuentra un día en un mundo paralelo donde ha sido invocado junto a otras personas para convertirse juntos en los salvadores del mismo. Cada uno de los héroes apareció con su propio set de equipo legendario al ser invocado y a Naofumi le tocó el escudo. Debido a que Naofumi carece de carisma y es un poco tímido, no tardan mucho en considerarlo el más débil y al tercer día lo traicionan, lo acusan en falso y le roban. Olvidado de la mano de dios por todos, desde reyes al pueblo, Naofumi se sume en una espiral de ira y venganza. Es así como comienza su nuevo destino en este mundo paralelo.",
+          "popularity": 97.836,
+          "poster_path": "/yX0d6aTjHrE5Sjp6gZ1dkPWCmIF.jpg",
+          "vote_average": 8.9,
+          "vote_count": 826
+      },
+      {
+          "backdrop_path": "/iLR6tKvMu67oSK0DIgDutkPBaiy.jpg",
+          "first_air_date": "2018-07-08",
+          "genre_ids": [
+              35,
+              16
+          ],
+          "id": 80539,
+          "name": "Asobi Asobase",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "あそびあそばせ",
+          "overview": "Esta comedia gira en torno a tres compañeras de clase que juegan juegos de manos simples. Una de las chicas es buena en los juegos, pero detesta que siempre perdió contra su hermana mayor y por ello se vio obligada a hacer las tareas domésticas mientras crecía. Otra niña es de ascendencia estadounidense, pero criada en Japón, y que solo finge ser mala con el japonés. Otra chica suele observar a las dos primeras jugar y pierde siempre contra ellas.",
+          "popularity": 11.478,
+          "poster_path": "/de9UhF8J7HoTMGx1KahTZrcnZ88.jpg",
+          "vote_average": 8.9,
+          "vote_count": 101
+      },
+      {
+          "backdrop_path": "/c8dm74uPCMA27iKAR1WnHKTsI9h.jpg",
+          "first_air_date": "2015-08-01",
+          "genre_ids": [
+              10764
+          ],
+          "id": 77696,
+          "name": "Corre BTS (Run BTS)",
+          "origin_country": [
+              "KR"
+          ],
+          "original_language": "ko",
+          "original_name": "달려라 방탄!",
+          "overview": "",
+          "popularity": 30.603,
+          "poster_path": "/xxv8Ibs8Anni6qrWkAf60rDsPCu.jpg",
+          "vote_average": 8.9,
+          "vote_count": 267
+      },
+      {
+          "backdrop_path": "/uAjMQlbPkVHmUahhCouANlHSDW2.jpg",
+          "first_air_date": "2019-01-11",
+          "genre_ids": [
+              16,
+              9648,
+              10765,
+              10759,
+              18
+          ],
+          "id": 83097,
+          "name": "Yakusoku no Neverland‬‏",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "約束のネバーランド",
+          "overview": "Por mucho que los niños la quieran, ella no es su madre. Viven juntos, pero no son familiares de sangre. Grace Field es un hogar al que son enviados los niños que no tienen padres. Un hogar irreemplazable para los 38 niños que allí viven felices su día a día, como si fueran hermanos, aunque al inicio fueran completos desconocidos. Al menos así era hasta que cierto descubrimiento cambió sus vidas por completo...",
+          "popularity": 49.786,
+          "poster_path": "/8RWcKSmCbwsN8porFyTOB5e2cDG.jpg",
+          "vote_average": 8.9,
+          "vote_count": 783
+      },
+      {
+          "backdrop_path": "/1ejS56lC8db62IKVj1pTQlfAEQy.jpg",
+          "first_air_date": "2018-09-13",
+          "genre_ids": [
+              10759,
+              16,
+              18,
+              10751
+          ],
+          "id": 123566,
+          "name": "Metal Family",
+          "origin_country": [
+              "RU"
+          ],
+          "original_language": "ru",
+          "original_name": "Metal Family",
+          "overview": "",
+          "popularity": 32.775,
+          "poster_path": "/yovTSLBdNjXIVo8CPaPWFE5NcAw.jpg",
+          "vote_average": 8.9,
+          "vote_count": 310
+      },
+      {
+          "backdrop_path": "/ci7jTekDFEx6U48XUCl3vBMdrns.jpg",
+          "first_air_date": "2018-07-06",
+          "genre_ids": [
+              10759,
+              18,
+              9648,
+              16,
+              80
+          ],
+          "id": 80564,
+          "name": "Banana Fish",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "バナナフィッシュ",
+          "overview": "La naturaleza hizo a Ash Lynx un hombre hermoso al que convirtieron en un asesino despiadado y frío. Era un niño fugitivo criado como el heredero adoptado, el ejecutor y juguete sexual de “Papa” Dino Golzine, el señor del crimen de la Costa Este. Sin embargo, cuando Ash cumple los diecisiete años, decide huir de este reino de poder y riquezas para unirse a una banda de matones callejeros. En ese momento conocerá a Eiji Okamura, un joven e inocente fotógrafo llegado desde Japón que caerá en la espiral de orgullo, lujuria, ira y orgullo provocada por el nombre en clave “Banana Fish”.",
+          "popularity": 45.359,
+          "poster_path": "/3GiB5Ybbhzt0ePRR2zgld9R56DB.jpg",
+          "vote_average": 8.9,
+          "vote_count": 692
+      },
+      {
+          "backdrop_path": "/sWghoJDqMRHDnkmk7fr3By5XPnf.jpg",
+          "first_air_date": "2019-10-05",
+          "genre_ids": [
+              16,
+              35,
+              10765
+          ],
+          "id": 91801,
+          "name": "Mairimashita! Iruma-kun",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "魔入りました！入間くん",
+          "overview": "Suzuki Iruma acaba de ser abandonado y vendido a un demonio por sus padres irresponsables. Sorprendentemente, lo siguiente que sabe es que está viviendo con el demonio que lo adoptó como si fuera su nuevo nieto y tras ser transferido a una escuela en el mundo de los demonios donde su nuevo abuelo «demonio» trabaja como director. Así comienza la extraordinaria vida escolar del cobarde Iruma-kun entre los seres del otro mundo, a la ves que aprende a enfrentarse a verdadero yo, asumiendo desafíos y convirtiéndose en alguien grande …",
+          "popularity": 46.178,
+          "poster_path": "/5o1PjfSTASqjUH6giJXiskDbXpj.jpg",
+          "vote_average": 8.9,
+          "vote_count": 182
+      },
+      {
+          "backdrop_path": "/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg",
+          "first_air_date": "2014-10-10",
+          "genre_ids": [
+              16,
+              35,
+              18
+          ],
+          "id": 61663,
+          "name": "Shigatsu wa Kimi no Uso",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "四月は君の嘘",
+          "overview": "Kôsei Arima vio truncada su carrera musical como pianista a la edad de 11 años a causa del fallecimiento de su madre. Kôsei sufrió un shock emocional durante un recital y desde entonces fue incapaz de oír el sonido que producían las teclas al tocarlas a pesar de que sus oídos estaban perfectamente. Incapacitado para seguir tocando el piano, abandonó la música y su vida se volvió monótona y aburrida. En la actualidad, Kôsei es un estudiante de secundaria que comparte instituto con sus amigos Tsubaki y Watari. Lo que no sabe es que su vida está a punto de cambiar cuando conozca a Kaori Miyazono, una extraordinaria violinista que logrará que Kôsei regrese al mundo de la música y que le enseñará a tocar de una forma más libre y menos rígida.",
+          "popularity": 36.991,
+          "poster_path": "/rWZS22W0JgbrcQtSWDT2GvD4ilU.jpg",
+          "vote_average": 8.9,
+          "vote_count": 694
+      },
+      {
+          "backdrop_path": "/ohOrfdh80HVY5QBD8kV2FYYSVwF.jpg",
+          "first_air_date": "2021-01-10",
+          "genre_ids": [
+              16,
+              10759
+          ],
+          "id": 110309,
+          "name": "SK8 the Infinity",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "SK∞ エスケーエイト",
+          "overview": "Reki, un estudiante de segundo año de secundaria y patinador, es adicto a \"S\", una carrera de patinaje cuesta abajo altamente secreta y peligrosa que tiene lugar en una mina abandonada. Los patinadores están especialmente locos por las \"carnes\" o batallas acaloradas que estallan en las carreras. Reki lleva a Langa, un estudiante transferido que regresa a Japón después de estudiar en el extranjero, a la mina donde se realizan las carreras. Langa, que no tiene experiencia en skate, se ve arrastrado al mundo de \"S\"...",
+          "popularity": 58.617,
+          "poster_path": "/9eJ9RhdXqrkWURK8j3pTDOBMVqc.jpg",
+          "vote_average": 8.9,
+          "vote_count": 215
+      },
+      {
+          "backdrop_path": "/2f8OLO6UYp78dIQMs0oi7ja15Bl.jpg",
+          "first_air_date": "2010-04-02",
+          "genre_ids": [
+              16,
+              35,
+              18
+          ],
+          "id": 65648,
+          "name": "Kaichou wa Maid-sama!",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "会長はメイド様！",
+          "overview": "Ayuzawa Misaki, presidenta del consejo estudiantil, es la protagonista de esta comedia romántica con su enorme aversión hacia los hombres, lo cual resulta ser un gran problema ya que su escuela solía ser solo de hombres y la población femenina es bastante reducida. Misaki tiene un ?enorme secreto? ya que trabaja en un maid cafe y es descubierta por Usui Takumi, el chico mas guapo y popular de la escuela.",
+          "popularity": 24.55,
+          "poster_path": "/kYP6kFq79cuyKbGXuHPqhSexT7R.jpg",
+          "vote_average": 8.9,
+          "vote_count": 452
+      },
+      {
+          "backdrop_path": "/4sSzTvk200BQyYjRJq69mLwE9xG.jpg",
+          "first_air_date": "2018-04-25",
+          "genre_ids": [
+              16,
+              35,
+              18,
+              10759
+          ],
+          "id": 79141,
+          "name": "Scissor Seven",
+          "origin_country": [
+              "CN"
+          ],
+          "original_language": "zh",
+          "original_name": "刺客伍六七",
+          "overview": "Este aprendiz de sicario empuña de noche sus tijeras de peluquero para ganar dinero y recordar su pasado mientras lidia con unos compañeros poco amistosos.",
+          "popularity": 97.95,
+          "poster_path": "/ppiumCPMB9ezt4oLcpKtSS5E82X.jpg",
+          "vote_average": 8.8,
+          "vote_count": 438
+      },
+      {
+          "backdrop_path": "/5nubzpKcNjV7zDwHkAV0J7yAJlH.jpg",
+          "first_air_date": "2021-07-01",
+          "genre_ids": [
+              18
+          ],
+          "id": 125910,
+          "name": "Jóvenes Altezas",
+          "origin_country": [
+              "SE"
+          ],
+          "original_language": "sv",
+          "original_name": "Young Royals",
+          "overview": "Cuando el príncipe Wilhelm llega al prestigioso internado de Hillerska, por fin tiene la ocasión de descubrirse a sí mismo y averiguar la clase de vida que realmente quiere. Entonces empieza a soñar con un futuro de libertad y amor incondicional, lejos de las obligaciones soberanas. Hasta que, de pronto, se convierte en el próximo en la línea sucesoria y su dilema se agrava, pues tiene que tomar una decisión: el amor o el deber.",
+          "popularity": 49.42,
+          "poster_path": "/4Cb15KJkRW0VIIjoYFhAY53TqHx.jpg",
+          "vote_average": 8.8,
+          "vote_count": 625
+      },
+      {
+          "backdrop_path": "/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
+          "first_air_date": "2016-04-03",
+          "genre_ids": [
+              10759,
+              16
+          ],
+          "id": 65930,
+          "name": "My Hero Academia",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "僕のヒーローアカデミア",
+          "overview": "Las personas no nacen igual. El protagonista de esta historia es uno de esos casos raros que nacen sin superpoderes, pero esto no le impedirá perseguir su sueño: ser un gran héroe como el legendario All-Might. Para convertirse en el héroe que quiere ser, se apuntará a una de las academias de héroes más prestigiosas del país: Yueiko. Con la ayuda de su ídolo, All-Might, ¿podrá convertirse en un verdadero héroe?",
+          "popularity": 60.273,
+          "poster_path": "/dmUuNVWAJumRkDNuauFaLSvga00.jpg",
+          "vote_average": 8.8,
+          "vote_count": 3675
+      }
+  ],
+  "total_pages": 121,
+  "total_results": 2416
+}

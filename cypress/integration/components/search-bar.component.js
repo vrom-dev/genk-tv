@@ -1,6 +1,6 @@
 /* global cy */
 /// <reference types="Cypress" />
-describe('popular list of movies/tv-shows', () => {
+describe('search bar component', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',

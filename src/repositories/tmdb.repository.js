@@ -49,4 +49,10 @@ export class TMDBRepository {
     const { data } = await axios.get(`${API_URL}/${type}/${id}/recommendations?api_key=${process.env.API_KEY}&language=es-ES&include_adult=false`);
     return data;
   }
+
+  async getUpcoming () {
+    const { API_URL } = config;
+    const { data } = await axios.get(`${API_URL}/movie/upcoming?api_key=${process.env.API_KEY}&language=es-ES&region=ES&include_adult=false`);
+    return data;
+  }
 }

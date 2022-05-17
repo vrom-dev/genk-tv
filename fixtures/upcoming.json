@@ -1,0 +1,393 @@
+{
+  "dates": {
+      "maximum": "2022-06-10",
+      "minimum": "2022-05-16"
+  },
+  "page": 1,
+  "results": [
+      {
+          "adult": false,
+          "backdrop_path": "/2n95p9isIi1LYTscTcGytlI4zYd.jpg",
+          "genre_ids": [
+              80,
+              18,
+              53
+          ],
+          "id": 799876,
+          "original_language": "en",
+          "original_title": "The Outfit",
+          "overview": "Leonard (Rylance), es un sastre inglés que confeccionaba trajes en la mundialmente famosa Savile Row de Londres. Después de una tragedia personal termina en Chicago, trabajando en una pequeña sastrería en una zona difícil de la ciudad donde hace ropa elegante para las únicas personas a su alrededor que pueden pagarla: una familia de gángsters.‎",
+          "popularity": 1588.991,
+          "poster_path": "/uoMyXY1ReK5I1kkMMQfqod7YhXh.jpg",
+          "release_date": "2022-05-20",
+          "title": "El sastre de la mafia",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 208
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/tH1afdfqqrYTP3l2oqsHEsNN5ul.jpg",
+          "genre_ids": [
+              16,
+              10751,
+              35
+          ],
+          "id": 678287,
+          "original_language": "en",
+          "original_title": "Marmaduke",
+          "overview": "Un perro faldero demasiado grande, con una veta irascible y una inclinación por las travesuras, se atempera con un profundo sentido de amor y responsabilidad por su familia.",
+          "popularity": 534.752,
+          "poster_path": "/tvhX4QQnMyMjlFeShLCXovvbf0c.jpg",
+          "release_date": "2022-06-03",
+          "title": "Marmaduke",
+          "video": false,
+          "vote_average": 5.4,
+          "vote_count": 6
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/geYUecpFI2AonDLhjyK9zoVFcMv.jpg",
+          "genre_ids": [
+              16,
+              28,
+              12,
+              9648
+          ],
+          "id": 810693,
+          "original_language": "ja",
+          "original_title": "劇場版 呪術廻戦 0",
+          "overview": "Yuta Okkotsu es un nervioso estudiante de instituto que sufre un grave problema: su amiga de la infancia Rika se ha convertido en una maldición y no le deja en paz. Como Rika no es una maldición cualquiera, su situación es percibida por Satoru Gojo, un profesor del instituto Jujutsu, una escuela donde los exorcistas noveles aprenden a combatir las maldiciones. Gojo convence a Yuta para que se matricule, pero ¿podrá aprender lo suficiente a tiempo para enfrentarse a la Maldición que le persigue?",
+          "popularity": 278.121,
+          "poster_path": "/eiSlgyx7G61Ey69K9MmCw9OaHMA.jpg",
+          "release_date": "2022-05-27",
+          "title": "Jujutsu Kaisen 0",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 133
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/9Fv41b6nEBGrSprFDVpO6GA94Wi.jpg",
+          "genre_ids": [
+              12,
+              28,
+              878,
+              53
+          ],
+          "id": 507086,
+          "original_language": "en",
+          "original_title": "Jurassic World Dominion",
+          "overview": "La sexta película de la serie \"Jurassic\" se centrará en los dinosaurios que se venden y se extienden por todo el mundo, en lugar de mantenerse en un área cerrada como todas las películas anteriores. El escritor y director Colin Trevorrow ha declarado que el escenario será un mundo en el que 'un dinosaurio podría salir corriendo frente a su automóvil en un camino de niebla o invadir su campamento en busca de comida. Un mundo donde la interacción de los dinosaurios es poco probable pero posible, de la misma manera que cuidamos a los osos o los tiburones \".",
+          "popularity": 243.376,
+          "poster_path": "/sXeWfpT1EhG7f4uBouqraOhmouH.jpg",
+          "release_date": "2022-06-09",
+          "title": "Jurassic World: Dominion",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
+          "genre_ids": [
+              28,
+              18
+          ],
+          "id": 361743,
+          "original_language": "en",
+          "original_title": "Top Gun: Maverick",
+          "overview": "Después de más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete \"Mavericks\" Mitchel (Tom Cruise) se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba y esquivando el alcance en su rango, que no le dejaría volar emplazándolo en tierra. Cuando se encuentra entrenando a un destacamento de graduados de Top Gun para una misión especializada, Maverick se encuentra allí con el teniente Bradley Bradshaw (Miles Teller), el hijo de su difunto amigo \"Goose\"... Secuela de Top Gun.",
+          "popularity": 225.314,
+          "poster_path": "/AlWpEpQq0RgZIXVHAHZtFhEvRgd.jpg",
+          "release_date": "2022-05-26",
+          "title": "Top Gun: Maverick",
+          "video": false,
+          "vote_average": 5.5,
+          "vote_count": 3
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/oZtoyj3rhOST8FUtIXUqblIYmCv.jpg",
+          "genre_ids": [
+              10752,
+              36,
+              18
+          ],
+          "id": 661231,
+          "original_language": "en",
+          "original_title": "Operation Mincemeat",
+          "overview": "Año 1943, en plena II Guerra Mundial. Las fuerzas aliadas están decididas a lanzar un asalto definitivo en Europa. Pero se enfrentan un desafío importante: proteger durante la invasión a sus tropas de la potencia de fuego alemana, y así evitar una posible masacre. Dos brillantes oficiales de inteligencia, Ewen Montagu (Firth) y Charles Cholmondeley, son los encargados de establecer la estrategia de desinformación más inspirada e improbable de la guerra... Una historia inspirada en hechos reales basada en un 'bestseller' de Ben Macintyre.",
+          "popularity": 232.113,
+          "poster_path": "/dX7xsqU7P6YY8hbgsi4T3ISMqWz.jpg",
+          "release_date": "2022-05-20",
+          "title": "El arma del engaño",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 106
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/VxMs7PvSG38fhkYli9o2mLsllD.jpg",
+          "genre_ids": [
+              35,
+              10749
+          ],
+          "id": 892835,
+          "original_language": "en",
+          "original_title": "Book of Love",
+          "overview": "La novela del joven y tenso escritor inglés Henry es un rotundo fracaso. Está encantado de saber que su libro es un éxito sorpresa en México, pero cuando lo invitan allí para promocionarlo, pronto descubre por qué: su traductora al español, María, ha reescrito su aburrido libro como una novela erótica. Henry está furioso, y aún más cuando su editor insiste en que él y María realicen juntos una gira de libros por México. Los opuestos se atraen y la química entre la pareja hace que salten chispas.",
+          "popularity": 58.007,
+          "poster_path": "/aU4cUkmn8CqnBYlYgE2sHlZ2AGy.jpg",
+          "release_date": "2022-06-03",
+          "title": "Book of Love",
+          "video": false,
+          "vote_average": 5.3,
+          "vote_count": 29
+      },
+      {
+          "adult": false,
+          "backdrop_path": null,
+          "genre_ids": [
+              53,
+              18
+          ],
+          "id": 921959,
+          "original_language": "es",
+          "original_title": "Sin ti no puedo",
+          "overview": "David es un empresario de éxito que tiene una vida acomodada junto a su novio Álex, un atractivo monitor de gimnasio. Álex siempre ha querido ser padre y a menudo se plantea qué camino seguir para lograrlo... ¿Adopción? ¿Vientre de alquiler? Aunque David no quiere ni oír hablar del tema. Todo sigue su curso hasta que irrumpe en sus vidas Blanca, la hermana de David con la que rompió toda relación tras un oscuro suceso del pasado. Ahora empieza una nueva etapa y decidida a recuperar la única familia que tiene: su hermano David. Y será capaz de hacer cualquier cosa para que su hermano vuelva a aceptarla en su vida.",
+          "popularity": 23.871,
+          "poster_path": "/vB52z6G05RzpsQEtee6nnpqTOAQ.jpg",
+          "release_date": "2022-06-03",
+          "title": "Sin ti no puedo",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/jIkH6cy0Haa1cyitn6gtKmE3lxu.jpg",
+          "genre_ids": [
+              53,
+              80,
+              28
+          ],
+          "id": 738652,
+          "original_language": "en",
+          "original_title": "Copshop",
+          "overview": "Huyendo de un asesino letal, un astuto estafador inventa un plan para esconderse dentro de una comisaría de policía de un pequeño pueblo. Sin embargo, cuando el asesino a sueldo aparece en la comisaría, un policía novato desprevenido se encuentra atrapada en la mira.",
+          "popularity": 21.478,
+          "poster_path": "/9P0URZBpYTPL1h1pYG2ooTiKOH5.jpg",
+          "release_date": "2022-05-20",
+          "title": "Juego de asesinos",
+          "video": false,
+          "vote_average": 6.2,
+          "vote_count": 388
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/i8ung7plwLlpUBltgn3jD6blV80.jpg",
+          "genre_ids": [
+              16,
+              35,
+              10751
+          ],
+          "id": 778810,
+          "original_language": "en",
+          "original_title": "Fireheart",
+          "overview": "Georgia Nolan sueña con ser la primera mujer bombero del mundo, pero todos quieren convencerla de que esa no es una profesión para chicas. Cuando, años más tarde, un misterioso pirómano comienza a sembrar el pánico en Broadway, surgirá la oportunidad que siempre ha estado esperando.",
+          "popularity": 20.444,
+          "poster_path": "/fJlDrKbzGkkPxZumwT0mNMX8qQn.jpg",
+          "release_date": "2022-05-20",
+          "title": "Corazón de Fuego",
+          "video": false,
+          "vote_average": 6.5,
+          "vote_count": 32
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/znpokr30qWVJztgO3t98PVyFLdC.jpg",
+          "genre_ids": [
+              18,
+              36,
+              35
+          ],
+          "id": 617762,
+          "original_language": "en",
+          "original_title": "The Electrical Life of Louis Wain",
+          "overview": "Cuenta la historia real del británico Louis Wain, un artista, inventor y empresario, que hizo todo lo posible para cuidar de sus cinco hermanas y su madre. Dos eventos cambiaron su vida para siempre: conocer a Emily, el amor de su vida, y adoptar a Peter, un gatito perdido. Los dos se convertirán tanto en su familia como en su inspiración para pintar las extraordinarias imágenes de gatos que lo hicieron mundialmente famoso.",
+          "popularity": 12.796,
+          "poster_path": "/zWtI3BI6dnfwRIr7xk2xC84Zian.jpg",
+          "release_date": "2022-06-03",
+          "title": "Mr. Wain",
+          "video": false,
+          "vote_average": 7.1,
+          "vote_count": 245
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/pTfUqVyM3mRuxvUiAvaSmdBrhdl.jpg",
+          "genre_ids": [
+              16,
+              12,
+              35
+          ],
+          "id": 504827,
+          "original_language": "en",
+          "original_title": "The Bob's Burgers Movie",
+          "overview": "Bob's Burgers La Película es una comedia de animación para la gran pantalla. La historia arranca cuando la rotura de una tubería de agua crea un enorme socavón justo delante del Bob's Burgers, bloqueando la entrada de forma indefinida a la hamburguesería y arruinando los planes que tenían los Belcher de cara al verano. Mientras Bob y Linda luchan por mantener a flote su negocio, los niños intentan resolver un misterio que podría salvar el restaurante familiar. A medida que aumentan los peligros, todos se apoyan entre ellos con la esperanza de volver a ponerse detrás de ese mostrador.",
+          "popularity": 13.437,
+          "poster_path": "/31vliI2mopLlh5kUoWpJZ19cF8y.jpg",
+          "release_date": "2022-05-27",
+          "title": "Bob's Burgers: La película",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/gF02RlJ9hHwqUrUTphEppsCrjmY.jpg",
+          "genre_ids": [
+              18
+          ],
+          "id": 645689,
+          "original_language": "en",
+          "original_title": "The Duke",
+          "overview": "En 1961, un taxista de 60 años robó el retrato de Goya del duque de Wellington de la National Gallery de Londres. Fue el primer (y sigue siendo el único) robo en la historia de la Galería. Lo que sucedió a continuación se convirtió en algo legendario.",
+          "popularity": 8.273,
+          "poster_path": "/vxqFcrVDPDfI60e8f1EKxpj0QvH.jpg",
+          "release_date": "2022-06-03",
+          "title": "El Duque",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 64
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/hBs5MiapyrnKIxdo42miqqgu3b6.jpg",
+          "genre_ids": [],
+          "id": 929449,
+          "original_language": "es",
+          "original_title": "Espejo, espejo",
+          "overview": "Cuatro empleados de una oficina se preparan para la celebración de los 50 años de la empresa mientras intentan resolver ciertos problemas. Álvaro (Santi Millán), Cristina (Malena Alterio), Paula (Natalia de Molina) y Alberto (Carlos Areces) son cuatro personas en crisis que trabajan para la misma empresa de cosmética. Luchan por lo que quieren mientras se enfrentan a sus propios reflejos ante el espejo. Ambición, miedo, amor y traición se mezclan en una historia sobre la identidad. A veces tu peor enemigo eres tú mismo.",
+          "popularity": 10.584,
+          "poster_path": "/3FUfdBpl7VjC0ZWAbhLMcave9Ar.jpg",
+          "release_date": "2022-05-20",
+          "title": "Espejo, espejo",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/dXyR2yzDJcqB7iGHUtsJxocL89c.jpg",
+          "genre_ids": [
+              10749
+          ],
+          "id": 774343,
+          "original_language": "fr",
+          "original_title": "Tromperie",
+          "overview": "Un novelista estadounidense que pasa una temporada en Londres conversa con su mujer, su amante y otros personajes femeninos que podrían ser producto de su imaginación.",
+          "popularity": 6.915,
+          "poster_path": "/q2qDaq3mpEOeAeJU4lnkImAcNBr.jpg",
+          "release_date": "2022-06-03",
+          "title": "Fantasías de un escritor",
+          "video": false,
+          "vote_average": 5.4,
+          "vote_count": 21
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/ikr6ujf5hPDyLKFdxnHQR6KpvJ8.jpg",
+          "genre_ids": [
+              18
+          ],
+          "id": 835504,
+          "original_language": "es",
+          "original_title": "Cinco lobitos",
+          "overview": "Amaia (Laia Costa) acaba de ser madre y se da cuenta de que no sabe muy bien cómo serlo. Al ausentarse su pareja por trabajo unas semanas, decide volver a casa de sus padres, en un bonito pueblo costero del País Vasco y así compartir la responsabilidad de cuidar a su bebé. Lo que no sabe Amaia es que, aunque ahora sea madre, no dejará de ser hija.",
+          "popularity": 9.743,
+          "poster_path": "/7Iacor1r5Z4aj4SlGpW8HceyM7C.jpg",
+          "release_date": "2022-05-20",
+          "title": "Cinco lobitos",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/wu6cgVhAXvdlNlSVttBkGlUwAYb.jpg",
+          "genre_ids": [
+              99
+          ],
+          "id": 891129,
+          "original_language": "es",
+          "original_title": "¡Dolores guapa!",
+          "overview": "Las imágenes y tradiciones de base religiosa atraviesan las vidas de todas las personas que habitan Sevilla. Históricamente, también los mariquitas de la ciudad las han asimilado desde su infancia y a través de ellas han ido armando espacios de encuentro y códigos propios.\r En la actualidad, nuevas identidades disidentes siguen respondiendo a ellas: participan o se alejan, continúan lo que existe o lo transforman. Esta película mira a esas tradiciones desde una perspectiva siempre relegada a los márgenes.",
+          "popularity": 8.015,
+          "poster_path": "/Af2fHOszDJy2hWfknbQGRWUPKDe.jpg",
+          "release_date": "2022-05-20",
+          "title": "¡Dolores guapa!",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/bEXajIP97e9w0Q26kAPOKUv0uYm.jpg",
+          "genre_ids": [
+              18
+          ],
+          "id": 854359,
+          "original_language": "en",
+          "original_title": "Sundown",
+          "overview": "Neil y Alice Bennett son el núcleo de una familia adinerada de vacaciones en México con los miembros más jóvenes Colin y Alexa hasta que una emergencia lejana interrumpe su viaje. Cuando un pariente interrumpe el orden muy unido de la familia, las tensiones latentes salen a la luz.",
+          "popularity": 6.028,
+          "poster_path": "/v0kJ3VYwhgdxUtcH0Y9VeyR3w9G.jpg",
+          "release_date": "2022-05-27",
+          "title": "Sundown",
+          "video": false,
+          "vote_average": 6.2,
+          "vote_count": 10
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/zN1uM7KYMpHI8UuLuqDshq421tp.jpg",
+          "genre_ids": [
+              99
+          ],
+          "id": 836486,
+          "original_language": "en",
+          "original_title": "JFK Revisited: Through the Looking Glass",
+          "overview": "Presenta archivos desclasificados relacionados con el asesinato del presidente Kennedy que intentan arrojar luz sobre lo que sucedió en 1963.",
+          "popularity": 6.201,
+          "poster_path": "/uWwEWzjkmuNGXpMhpVsrhNNB0NV.jpg",
+          "release_date": "2022-05-20",
+          "title": "JFK: Caso revisado",
+          "video": false,
+          "vote_average": 6.9,
+          "vote_count": 24
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/7IW5xt241RUAufYiFBoAPx5n52V.jpg",
+          "genre_ids": [
+              35,
+              18
+          ],
+          "id": 936074,
+          "original_language": "fr",
+          "original_title": "Ténor",
+          "overview": "Mientras trabaja a tiempo parcial como repartidor de sushi, Antoine, un joven aspirante a rapero de los suburbios de París, conoce a la Sra. Loiseau, una eminente profesora de la Ópera de París. Asombrada por el talento del joven, ella lo introduce en el mundo de la ópera y le ofrece un puesto como alumno suyo. Temiendo que no le entiendan, Antoine, lo oculta a sus amigos y familiares pero esta doble vida lo agobia... En algún lugar entre la dorada y encorsetada clase alta parisina, y los duros suburbios en los que creció, Antoine tendrá que encontrar su propia voz.",
+          "popularity": 8.109,
+          "poster_path": "/t8ShCiZxrbiy7kuO06OilLI3PeL.jpg",
+          "release_date": "2022-06-09",
+          "title": "Tenor",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 20
+      }
+  ],
+  "total_pages": 2,
+  "total_results": 39
+}

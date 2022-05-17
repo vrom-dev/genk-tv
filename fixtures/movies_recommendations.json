@@ -1,0 +1,443 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "adult": false,
+          "backdrop_path": "/ewUqXnwiRLhgmGhuksOdLgh49Ch.jpg",
+          "genre_ids": [
+              28,
+              12,
+              35,
+              878
+          ],
+          "id": 696806,
+          "media_type": "movie",
+          "title": "El Proyecto Adam",
+          "original_language": "en",
+          "original_title": "The Adam Project",
+          "overview": "Adam Reed es un piloto de caza que viaja en el tiempo. Cuando se estrella en el año 2022, conoce a su yo de 12 años y juntos emprenden una misión para salvar el futuro.",
+          "popularity": 908.704,
+          "poster_path": "/k5waciRFMN5bwudDrgFLffoAorm.jpg",
+          "release_date": "2022-03-11",
+          "video": false,
+          "vote_average": 7.054,
+          "vote_count": 2195
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/xHrp2pq73oi9D64xigPjWW1wcz1.jpg",
+          "genre_ids": [
+              80,
+              9648,
+              53
+          ],
+          "id": 414906,
+          "media_type": "movie",
+          "title": "The Batman",
+          "original_language": "en",
+          "original_title": "The Batman",
+          "overview": "Cuando un asesino se dirige a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas envía Batman a una investigación en los bajos fondos. A medida que las pruebas comienzan a acercarse a su casa y se hace evidente la magnitud de los planes del autor, Batman debe forjar nuevas relaciones, desenmascarar al culpable y hacer justicia al abuso de poder y la corrupción que durante mucho tiempo han asolado Gotham City.",
+          "popularity": 3923.239,
+          "poster_path": "/zFTLPipninMF4THDbdkQUZLWMEw.jpg",
+          "release_date": "2022-03-01",
+          "video": false,
+          "vote_average": 7.795,
+          "vote_count": 4581
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/4YOpxmGyQZFELwLB7JqcpYKnmKw.jpg",
+          "genre_ids": [
+              10751,
+              35
+          ],
+          "id": 691683,
+          "media_type": "movie",
+          "title": "Doce en casa",
+          "original_language": "en",
+          "original_title": "Cheaper by the Dozen",
+          "overview": "Una nueva historia basada en el exitoso filme del 2003 sobre las alocadas aventuras de una muy variada familia de 12, los Baker.",
+          "popularity": 201.869,
+          "poster_path": "/wGYAfIqMiTtNUMrtOPgWLxYKTrE.jpg",
+          "release_date": "2022-03-18",
+          "video": false,
+          "vote_average": 6.252,
+          "vote_count": 121
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/aqur5wKVGLErWN5mcOtGlUq2n5N.jpg",
+          "genre_ids": [
+              27,
+              53
+          ],
+          "id": 787752,
+          "media_type": "movie",
+          "title": "Fresh",
+          "original_language": "en",
+          "original_title": "Fresh",
+          "overview": "Thriller sobre los horrores de las citas modernas vistos a través de la desafiante batalla de una joven para sobrevivir a los inusuales apetitos de su nuevo novio.",
+          "popularity": 38.299,
+          "poster_path": "/fQRRHBUsgJXCS3SUAv64W59DQGD.jpg",
+          "release_date": "2022-03-03",
+          "video": false,
+          "vote_average": 6.839,
+          "vote_count": 524
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/exnFsbb9c3fDutTsgtJSWcDmZm0.jpg",
+          "genre_ids": [
+              18,
+              10749,
+              80
+          ],
+          "id": 511809,
+          "media_type": "movie",
+          "title": "West Side Story",
+          "original_language": "en",
+          "original_title": "West Side Story",
+          "overview": "Los adolescentes Tony y María, a pesar de tener afiliaciones con pandillas callejeras rivales, los Jets y los Sharks, se enamoran en la ciudad de Nueva York en la década de los 50. Nueva versión del legendario musical 'West Side Story', a su vez adaptación de una famosa obra de teatro de Broadway, que modernizaba la historia de 'Romeo y Julieta', de Shakespeare.",
+          "popularity": 176.251,
+          "poster_path": "/rPCaSDC9cJD8EqHpCePf3owtqUD.jpg",
+          "release_date": "2021-12-08",
+          "video": false,
+          "vote_average": 7.201,
+          "vote_count": 877
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/qswImgf57wBf2i8Fv6K2O2BdMoe.jpg",
+          "genre_ids": [
+              18,
+              9648,
+              53
+          ],
+          "id": 619979,
+          "media_type": "movie",
+          "title": "Aguas Profundas",
+          "original_language": "en",
+          "original_title": "Deep Water",
+          "overview": "Un marido adinerado, que permite que su esposa tenga relaciones extramatrimoniales para evitar el divorcio, se convierte en el principal sospechoso de la desaparición de los amantes de ella... Adaptación de la novela de Patricia Highsmith.",
+          "popularity": 259.067,
+          "poster_path": "/aarAi6bp8Cl3RYXy2lpeLc1hGS7.jpg",
+          "release_date": "2022-03-18",
+          "video": false,
+          "vote_average": 5.646,
+          "vote_count": 560
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/33wnBK5NxvuKQv0Cxo3wMv0eR7F.jpg",
+          "genre_ids": [
+              27,
+              53
+          ],
+          "id": 833425,
+          "media_type": "movie",
+          "title": "En la tormenta",
+          "original_language": "en",
+          "original_title": "No Exit",
+          "overview": "Darby Thorne, una joven que va a una emergencia familiar, queda atrapada en una ventisca y se refugia en un área de descanso de la autopista con unos desconocidos. Cuando encuentra a una chica secuestrada en una furgoneta, se ve en una aterradora lucha a vida o muerte para descubrir quién es el secuestrador.",
+          "popularity": 683.804,
+          "poster_path": "/6bis845x7oW3yz0OqgA9cf2JnPf.jpg",
+          "release_date": "2022-02-25",
+          "video": false,
+          "vote_average": 6.67,
+          "vote_count": 445
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
+          "genre_ids": [
+              28,
+              878,
+              35,
+              10751,
+              12
+          ],
+          "id": 675353,
+          "media_type": "movie",
+          "title": "Sonic 2: La Película",
+          "original_language": "en",
+          "original_title": "Sonic the Hedgehog 2",
+          "overview": "Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no esta solo lo ayudara Tails.",
+          "popularity": 9124.409,
+          "poster_path": "/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg",
+          "release_date": "2022-03-30",
+          "video": false,
+          "vote_average": 7.739,
+          "vote_count": 1398
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/g0YNGpmlXsgHfhGnJz3c5uyzZ1B.jpg",
+          "genre_ids": [
+              80,
+              18,
+              53
+          ],
+          "id": 597208,
+          "media_type": "movie",
+          "title": "El callejón de las almas perdidas",
+          "original_language": "en",
+          "original_title": "Nightmare Alley",
+          "overview": "Un buscavidas se compincha con una pitonisa para engañar a la gente y conseguir dinero... Remake del film \"El callejón de las almas perdidas\" (Nightmare Alley) de 1947.",
+          "popularity": 312.887,
+          "poster_path": "/3eceDLSJQ4GbSdnBj08QkmKoqni.jpg",
+          "release_date": "2021-12-02",
+          "video": false,
+          "vote_average": 7.045,
+          "vote_count": 1638
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/lUwqoCLt8hThgf4SvukVMorPrkg.jpg",
+          "genre_ids": [
+              99
+          ],
+          "id": 940075,
+          "media_type": "movie",
+          "title": "Abraza a tu panda interior: Así se hizo Red",
+          "original_language": "en",
+          "original_title": "Embrace the Panda: Making Turning Red",
+          "overview": "\"Abraza tu panda interior: Así se hizo Red\" es un documental sobre el equipo femenino al mando de \"Red\", el largometraje original de Pixar.  Este documental, que muestra inéditas escenas entre bastidores de Domee Shi, la directora, y el núcleo del equipo directivo, revela las impresionantes trayectorias profesionales y personales que dieron fruto a esta película tan cómica y entrañable, con la que es muy fácil sentirse identificado.",
+          "popularity": 6.187,
+          "poster_path": "/wiVvFcHWYTKxCdggv1qtAUT8mnQ.jpg",
+          "release_date": "2022-03-11",
+          "video": false,
+          "vote_average": 6.4,
+          "vote_count": 19
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
+          "genre_ids": [
+              16,
+              35,
+              10751,
+              14
+          ],
+          "id": 568124,
+          "media_type": "movie",
+          "title": "Encanto",
+          "original_language": "en",
+          "original_title": "Encanto",
+          "overview": "Los Madrigal son una familia extraordinaria que vive en una casa mágica de un pueblo vibrante en las montañas de Colombia, escondidas en un 'Encanto'. La magia ha bendecido a cada niño de la familia con un don único, desde la superfuerza hasta el poder de sanar. A todos, excepto Mirabel, quien desea ser tan especial como el resto de su familia.  Pero cuando la magia que rodea al Encanto está en peligro, Mirabel decide que ella, la única Madrigal sin ningún tipo de don único, puede ser la única esperanza de su excepcional familia.",
+          "popularity": 1211.292,
+          "poster_path": "/d0ezQ1Jz0lpNsX1skEmIvqRL7mN.jpg",
+          "release_date": "2021-11-24",
+          "video": false,
+          "vote_average": 7.682,
+          "vote_count": 6434
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+          "genre_ids": [
+              28,
+              12,
+              878
+          ],
+          "id": 634649,
+          "media_type": "movie",
+          "title": "Spider-Man: No Way Home",
+          "original_language": "en",
+          "original_title": "Spider-Man: No Way Home",
+          "overview": "Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.",
+          "popularity": 3425.572,
+          "poster_path": "/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg",
+          "release_date": "2021-12-15",
+          "video": false,
+          "vote_average": 8.099,
+          "vote_count": 12805
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/t7I942V5U1Ggn6OevN75u3sNYH9.jpg",
+          "genre_ids": [
+              28,
+              53
+          ],
+          "id": 760868,
+          "media_type": "movie",
+          "title": "Cangrejo Negro",
+          "original_language": "sv",
+          "original_title": "Svart krabba",
+          "overview": "Para poner fin a una guerra apocalíptica y salvar a su hija, una soldado emprende una misión desesperada: transportar un cargamento ultrasecreto por un mar helado.",
+          "popularity": 611.093,
+          "poster_path": "/pfgfS62kahCuCl1QazWiRwbnWR2.jpg",
+          "release_date": "2022-03-18",
+          "video": false,
+          "vote_average": 6.29,
+          "vote_count": 431
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/iDeWAGnmloZ5Oz3bocDp4rSbUXd.jpg",
+          "genre_ids": [
+              28,
+              53
+          ],
+          "id": 823625,
+          "media_type": "movie",
+          "title": "Luz Negra",
+          "original_language": "en",
+          "original_title": "Blacklight",
+          "overview": "Travis Block, un agente del gobierno en la sombra que se especializa en eliminar operativos cuyas coberturas han sido expuestas, descubre una conspiración mortal dentro de sus propias filas que alcanza los niveles más altos del poder.",
+          "popularity": 800.246,
+          "poster_path": "/xXpnsXZNXLsrQ4afiFkuTx6wk49.jpg",
+          "release_date": "2022-02-10",
+          "video": false,
+          "vote_average": 6.216,
+          "vote_count": 364
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/tq3klWQevRK0Or0cGhsw0h3FDWQ.jpg",
+          "genre_ids": [
+              12,
+              16,
+              35,
+              10751,
+              14
+          ],
+          "id": 676705,
+          "media_type": "movie",
+          "title": "Las aventuras de Pil",
+          "original_language": "fr",
+          "original_title": "Pil",
+          "overview": "Pil es una pequeña huérfana que vive en la calle, en la ciudad medieval de Roc-en-Brume. Junto a sus tres comadrejas amaestradas, Pil sobrevive robando comida en el castillo del siniestro rey Tristain, que ha usurpado el trono.",
+          "popularity": 716.779,
+          "poster_path": "/xIMqbFYkZx0pfgOLMXDdgsY6dA4.jpg",
+          "release_date": "2021-08-11",
+          "video": false,
+          "vote_average": 6.963,
+          "vote_count": 82
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/i5dUmY2xRzgkmjHJYKNj8kPX1Xx.jpg",
+          "genre_ids": [
+              37,
+              28
+          ],
+          "id": 928999,
+          "media_type": "movie",
+          "title": "Desperate Riders",
+          "original_language": "en",
+          "original_title": "Desperate Riders",
+          "overview": "Después de que Kansas Red rescata al joven Billy de un tiroteo en un juego de cartas, el niño le pide ayuda a Red para proteger a su familia del forajido Thorn, que acaba de secuestrar a la madre de Billy, Carol. Mientras Red y Billy cabalgan para rescatar a Carol, se encuentran con la hermosa y dura Leslie, que logró escapar de los hombres de Thorn. Los tres corren para detener la boda de Thorn con Carol con las armas encendidas, pero ¿ella quiere ser rescatada?",
+          "popularity": 311.819,
+          "poster_path": "/3AqV9ygw2hrDQ0AIGPdTee9ocqd.jpg",
+          "release_date": "2022-02-25",
+          "video": false,
+          "vote_average": 6.162,
+          "vote_count": 37
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/lRbDyjI7HEaXxflFQbYpqHRGFBJ.jpg",
+          "genre_ids": [
+              80,
+              18,
+              9648,
+              53
+          ],
+          "id": 505026,
+          "media_type": "movie",
+          "title": "Muerte en el Nilo",
+          "original_language": "en",
+          "original_title": "Death on the Nile",
+          "overview": "Vuelven las pesquisas del célebre detective Hércules Poirot. Esta vez, durante un viaje en crucero por el Nilo, Poirot deberá investigar el misterioso asesinato de una joven heredera sin explicación aparente. Esta secuela de Asesinato en el Orient Express (2017) es la adaptación de la novela Muerte en el Nilo (1937) de Agatha Christie.",
+          "popularity": 251.656,
+          "poster_path": "/4Fbl3qZSraPXdgmQQzQIDJA736N.jpg",
+          "release_date": "2022-02-09",
+          "video": false,
+          "vote_average": 6.532,
+          "vote_count": 1649
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/isBUqT3hGKvzIoiGcVzURh1EdvQ.jpg",
+          "genre_ids": [
+              53,
+              9648
+          ],
+          "id": 840882,
+          "media_type": "movie",
+          "title": "Fin de semana en Croacia",
+          "original_language": "en",
+          "original_title": "The Weekend Away",
+          "overview": "Cuando su mejor amiga desaparece durante una escapada de fin de semana de chicas a Croacia, Beth se empeña en descubrir qué pasó. Pero cada pista revela una nueva e inquietante mentira, y sus esfuerzos por descubrir la verdad sacan a la luz amargos secretos.",
+          "popularity": 313.176,
+          "poster_path": "/gsWeY3S6EFqAkhZ08CWbSFKF6Hs.jpg",
+          "release_date": "2022-03-03",
+          "video": false,
+          "vote_average": 5.94,
+          "vote_count": 390
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/f2J8DpT5bqV0AiI9VVcfiuqKo5l.jpg",
+          "genre_ids": [
+              35,
+              28,
+              99
+          ],
+          "id": 656663,
+          "media_type": "movie",
+          "title": "Jackass Forever",
+          "original_language": "en",
+          "original_title": "Jackass Forever",
+          "overview": "El equipo de Jackass ha vuelto para su cruzada final. Johnny Knoxville, Steve-O y el resto de la pandilla regresan para otra ronda de divertidas, salvajemente absurdas y a menudo, peligrosos retos.",
+          "popularity": 451.94,
+          "poster_path": "/rCfviMjtmvMJUGBWK1xjUsQhn7S.jpg",
+          "release_date": "2022-02-01",
+          "video": false,
+          "vote_average": 6.926,
+          "vote_count": 351
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/hB4ibOHXm1Xl0IbuYVioktDGUWJ.jpg",
+          "genre_ids": [
+              18,
+              35
+          ],
+          "id": 718032,
+          "media_type": "movie",
+          "title": "Licorice Pizza",
+          "original_language": "en",
+          "original_title": "Licorice Pizza",
+          "overview": "Alana Kane y Gary Valentine se conocen, pasan el tiempo juntos y acaban enamorándose en el Valle de San Fernando en 1973.",
+          "popularity": 42.396,
+          "poster_path": "/5ASO5vN6tImSLqw2BhLBxnrwVPd.jpg",
+          "release_date": "2021-11-26",
+          "video": false,
+          "vote_average": 7.097,
+          "vote_count": 1016
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/An1nKjXahrChfEbZ3MAE8fsiut1.jpg",
+          "genre_ids": [
+              27
+          ],
+          "id": 661791,
+          "media_type": "movie",
+          "title": "The Grandmother",
+          "original_language": "es",
+          "original_title": "La abuela",
+          "overview": "Susana tiene que dejar su vida en París trabajando como modelo para regresar a Madrid. Su abuela Pilar acaba de sufrir un derrame cerebral. Años atrás, cuando los padres de Susana murieron, su abuela la crió como si fuese su propia hija. Susana necesita encontrar a alguien que cuide de Pilar, pero lo que deberían ser solo unos días con su abuela, se acabarán convirtiendo en una terrorífica pesadilla.",
+          "popularity": 1056.261,
+          "poster_path": "/19rA9FjhwI4VEfaCXV7648XUInR.jpg",
+          "release_date": "2022-01-28",
+          "video": false,
+          "vote_average": 5.984,
+          "vote_count": 158
+      }
+  ],
+  "total_pages": 2,
+  "total_results": 40
+}

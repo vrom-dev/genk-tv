@@ -7,7 +7,8 @@ export class TMDBMoviePopularPage extends HTMLElement {
     this.innerHTML = `
       <tmdb-header></tmdb-header>
       <main>
-        <h1 class='page-title'>Películas populares</h1>
+        <h1 class='mb-1'>Películas populares</h1>
+        <p class='mb-4'>Top 20 de programas de televisión y series más populares del momento</p>
         <tmdb-most-popular type="movie"></tmdb-most-popular>
       </main>
       <tmdb-footer></tmdb-footer>

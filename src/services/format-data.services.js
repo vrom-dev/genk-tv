@@ -9,10 +9,6 @@ export class FormatDataService {
     };
   }
 
-  static filterVideos (videosArray) {
-    return [...videosArray].find(video => video.type === 'Trailer');
-  }
-
   static sortByPopularity (elementsArray) {
     return [...elementsArray].sort((a, b) => b.popularity - a.popularity);
   }

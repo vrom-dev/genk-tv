@@ -3,8 +3,14 @@ import './genre-tag.ui';
 
 import { UtilsService } from '../services/utils.services';
 import config from '../../api.config.json';
+import { NearScreenController } from '../controllers/near-screen-controller';
 
 export class TMDBCardUi extends LitElement {
+  constructor () {
+    super();
+    this.observer = new NearScreenController(this);
+  }
+
   static get properties () {
     return {
       element: {
@@ -17,6 +23,10 @@ export class TMDBCardUi extends LitElement {
       },
       show: {
         type: Boolean,
+        state: true
+      },
+      observer: {
+        type: Object,
         state: true
       }
     };
@@ -44,7 +54,8 @@ export class TMDBCardUi extends LitElement {
         margin: 0;
       }
       .profile{
-        transition: transform 0.2s ease;
+        transition: transform 200ms ease;
+        animation: fade-in 1s ease;
       }
       .card:hover .profile{
         transform:scale(125%);
@@ -92,6 +103,16 @@ export class TMDBCardUi extends LitElement {
       time {
         font-size: 0.9rem
       }
+      @keyframes fade-in {
+        from {
+          filter: blur(5px);
+          opacity: 0;
+        }
+        to {
+          filter: blur(0);
+          opacity: 1;
+        }
+      }
     `;
   }
 
@@ -102,26 +123,31 @@ export class TMDBCardUi extends LitElement {
 
   render () {
     return html`
-      <article class="card">
-        <div>
-          <header class="back" @click=${this.handleClick}>
-            <a href=${`/${this.element.media_type}/${this.element.id}/${UtilsService.slugify(this.element.title)}`}>
-              <h2>${this.element.title}</h2>
-            </a>
-            <time>${this.element.release_date && new Date(this.element.release_date).getFullYear()}</time>
-            <ul>${this.element.genre_ids.map(genre => html`<li><tmdb-tag>${this.genres[genre]}</tmdb-tag></li>`)}</ul>
-            <p class="des">
-              ${
-                this.element.overview
-                ? UtilsService.textShortener(this.element.overview, 100)
-                : 'No existe una sinopsis en español. Puedes ayudar a TMDB a ampliar su base de datos añadiendo una.'
-              }
-            </p>
-          </header>
-          <figure class="front">
-            <img class="profile" src=${`${config.BASE_URL_IMG}/w220_and_h330_face/${this.element.poster_path}`} alt=${`${this.element.title} - Poster path`}>
-          </figure>
-        </div>
+    <article class="card">
+        ${
+          this.observer.isVisible
+          ? html` 
+            <div>
+              <header class="back" @click=${this.handleClick}>
+                <a href=${`/${this.element.media_type}/${this.element.id}/${UtilsService.slugify(this.element.title)}`}>
+                  <h2>${this.element.title}</h2>
+                </a>
+                <time>${this.element.release_date && new Date(this.element.release_date).getFullYear()}</time>
+                <ul>${this.element.genre_ids.map(genre => html`<li><tmdb-tag>${this.genres[genre]}</tmdb-tag></li>`)}</ul>
+                <p class="des">
+                  ${
+                    this.element.overview
+                    ? UtilsService.textShortener(this.element.overview, 100)
+                    : 'No existe una sinopsis en español. Puedes ayudar a TMDB a ampliar su base de datos añadiendo una.'
+                  }
+                </p>
+              </header>
+              <figure class="front">
+                <img class="profile" src=${`${config.BASE_URL_IMG}/w220_and_h330_face/${this.element.poster_path}`} alt=${`${this.element.title} - Poster path`}>
+              </figure>
+            </div>`
+          : null
+        }
       </article>`;
   }
 }

@@ -1,0 +1,433 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "original_name": "The Time Traveler's Wife",
+          "origin_country": [
+              "US"
+          ],
+          "overview": "Clare y Henry forman una pareja aparentemente normal, se quieren e intentan ser felices. Sin embargo, Henry padece una extraña enfermedad que le impulsa a viajar en el tiempo, que le permitió conocer a Clare cuando aún era una niña y que lo condena a enfrentarse a su incierto, y acaso trágico, futuro.",
+          "vote_count": 6,
+          "backdrop_path": "/uIzUchinkjphpLtVL9iS4Q9ceOW.jpg",
+          "vote_average": 6.2,
+          "genre_ids": [
+              10765,
+              18
+          ],
+          "poster_path": "/ng7ERYMIaOoUZdWxLjQARFCirJ3.jpg",
+          "id": 81322,
+          "first_air_date": "2022-05-15",
+          "name": "La mujer del viajero en el tiempo",
+          "original_language": "en",
+          "popularity": 62.027,
+          "media_type": "tv"
+      },
+      {
+          "original_name": "Moon Knight",
+          "id": 92749,
+          "overview": "Steven Grant, un amable empleado de una tienda de regalos, sufre pérdidas de memoria y experimenta recuerdos de otra vida. Steven descubre que tiene un trastorno de identidad disociativo y que comparte cuerpo con el mercenario Marc Spector. A medida que los enemigos de Steven/Marc van convergiendo, debe lidiar con la complejidad de sus identidades mientras se sumerge en un misterio letal que habita entre los poderosos dioses de Egipto.",
+          "vote_count": 799,
+          "vote_average": 8.3,
+          "backdrop_path": "/vfWdZYGR5505zrCdgTHteFyARu3.jpg",
+          "name": "Caballero luna",
+          "genre_ids": [
+              10759,
+              10765,
+              9648
+          ],
+          "first_air_date": "2022-03-30",
+          "original_language": "en",
+          "origin_country": [
+              "US"
+          ],
+          "poster_path": "/5AHnvXfW0mtsm047OP54n4pnV0R.jpg",
+          "popularity": 3233.696,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/u2ekcvwO0AdSwUxFFhnLd9SV4Rh.jpg",
+          "name": "El abogado del Lincoln",
+          "id": 116799,
+          "original_language": "en",
+          "vote_count": 22,
+          "poster_path": "/4jSaIqEU8CPBBNn4iVCK6wzPjSx.jpg",
+          "first_air_date": "2022-05-13",
+          "overview": "Después de un accidente, el famoso abogado de Los Ángeles Mickey Haller vuelve a arrancar su carrera (y su coche de marca) cuando acepta un caso de asesinato.",
+          "vote_average": 8.3,
+          "genre_ids": [
+              18,
+              80
+          ],
+          "original_name": "The Lincoln Lawyer",
+          "origin_country": [
+              "US"
+          ],
+          "popularity": 117.88,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/1qpUk27LVI9UoTS7S0EixUBj5aR.jpg",
+          "genre_ids": [
+              10759,
+              10765
+          ],
+          "vote_count": 655,
+          "original_language": "en",
+          "vote_average": 8.7,
+          "poster_path": "/lfTm372lHNjQnnUwpdumVfUB0rh.jpg",
+          "overview": "En el siglo 26, la humanidad tiene que lidiar con una amenaza alienígena conocida como the Covenant (El Pacto).",
+          "first_air_date": "2022-03-24",
+          "original_name": "Halo",
+          "origin_country": [
+              "US"
+          ],
+          "name": "Halo",
+          "id": 52814,
+          "popularity": 4263.558,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/9JcT2ZVxz8TXCKnVGoDgrS38yMx.jpg",
+          "first_air_date": "2022-05-16",
+          "genre_ids": [
+              16,
+              18,
+              10765,
+              10759
+          ],
+          "id": 99772,
+          "name": "Un vampiro en el jardín",
+          "origin_country": [
+              "JP"
+          ],
+          "original_language": "ja",
+          "original_name": "ヴァンパイア・イン・ザ・ガーデン",
+          "overview": "En el dividido mundo del futuro, dos chicas sienten atracción por lo prohibido: la humana quiere tocar el violín, y la vampira desea ir más allá de lo conocido.",
+          "poster_path": "/95ShtCC71Qs75JyjA4S7epY9Zqw.jpg",
+          "vote_average": 10.0,
+          "vote_count": 1,
+          "popularity": 43.014,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/zUw5IRkHZnZ1arE68UHyRAQ6Ox6.jpg",
+          "first_air_date": "2022-05-15",
+          "genre_ids": [
+              18
+          ],
+          "id": 99747,
+          "name": "Conversaciones entre amigos",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Conversations with Friends",
+          "overview": "Dos estudiantes universitarias, Frances y Bobbi, entablan una extraña e inesperada relación con un matrimonio.",
+          "poster_path": "/kk6kXltSgeAA1yWiRaZ1sOexm1V.jpg",
+          "vote_average": 8.9,
+          "vote_count": 10,
+          "popularity": 65.766,
+          "media_type": "tv"
+      },
+      {
+          "original_language": "en",
+          "poster_path": "/lSVygN5ZLmSMycBTe94umdKfTSd.jpg",
+          "original_name": "The Essex Serpent",
+          "origin_country": [
+              "GB"
+          ],
+          "overview": "Cora (Claire Danes) es una mujer recientemente viuda que, tras haberse liberado de un matrimonio abusivo, se muda del Londres victoriano al pequeño pueblo de Aldwinter en Essex. Allí se siente intrigada por una superstición local de que una criatura mítica conocida como la 'Serpiente de Essex' ha regresado a la zona.",
+          "vote_count": 14,
+          "vote_average": 6.9,
+          "first_air_date": "2022-05-13",
+          "backdrop_path": "/wXPDaCGosh1BTHggpsoUQn2gBZi.jpg",
+          "name": "La Serpiente de Essex",
+          "genre_ids": [
+              18
+          ],
+          "id": 108171,
+          "popularity": 90.224,
+          "media_type": "tv"
+      },
+      {
+          "original_name": "Better Call Saul",
+          "id": 60059,
+          "overview": "Better Call Saul es una serie de televisión estadounidense creada por Vince Gilligan y Peter Gould. Se trata de un spin-off de Breaking Bad que consiste en una precuela de su historia. Situada en 2002, consiste en la vida del abogado James \"Jimmy\" McGill (Bob Odenkirk) siete años antes de su aparición como Saul Goodman en Breaking Bad. También se exploran eventos situados durante y después de Breaking Bad.",
+          "vote_count": 2727,
+          "vote_average": 8.5,
+          "backdrop_path": "/t15KHp3iNfHVQBNIaqUGW12xQA4.jpg",
+          "name": "Better Call Saul",
+          "genre_ids": [
+              35,
+              80,
+              18
+          ],
+          "first_air_date": "2015-02-08",
+          "original_language": "en",
+          "origin_country": [
+              "US"
+          ],
+          "poster_path": "/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+          "popularity": 271.038,
+          "media_type": "tv"
+      },
+      {
+          "poster_path": "/goKUd5y4lHU3qkW0XKKxmNSNcem.jpg",
+          "vote_average": 8.8,
+          "id": 37854,
+          "original_name": "ワンピース",
+          "origin_country": [
+              "JP"
+          ],
+          "name": "One Piece",
+          "backdrop_path": "/a6ptrTUH1c5OdWanjyYtAkOuYD0.jpg",
+          "vote_count": 2930,
+          "genre_ids": [
+              10759,
+              35,
+              16
+          ],
+          "overview": "Riqueza, fama, poder... un hombre había obtenido todo en este mundo, era el Rey de los Piratas Gold Roger. Antes de morir sus últimas palabras inspiraron al mundo a aventurarse al mar: \"¿Mi tesoro? Si lo queréis es vuestro... lo he escondido todo en ese lugar\". Y así dio comienzo lo que se conoce como la Gran Era de la Piratería, lanzando a cientos de piratas al mar para encontrar el gran tesoro One Piece. Esta serie relata las aventuras y desventuras de uno de esos piratas, Monkey D. Luffy, quien accidentalmente de pequeño, comió una Fruta del Diablo (Akuma no Mi en japonés), en particular una Gomu Gomu no Mi que hizo que su cuerpo ganara las propiedades físicas de la goma, convirtiéndose en el hombre de goma. Luffy, después de dicho suceso, decide que se convertirá en el próximo Rey de los Piratas y para ello, deberá encontrar el \"One Piece\".",
+          "original_language": "ja",
+          "first_air_date": "1999-10-20",
+          "popularity": 118.255,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/rzAzvWJoZSwVSswvWsKx1lqT63m.jpg",
+          "first_air_date": "2022-05-05",
+          "genre_ids": [
+              10765
+          ],
+          "original_language": "en",
+          "name": "Star Trek: Strange New Worlds",
+          "poster_path": "/iwIdajr5Y4zq2ibvq75VnDAJBr.jpg",
+          "vote_average": 8.2,
+          "id": 103516,
+          "original_name": "Star Trek: Strange New Worlds",
+          "origin_country": [
+              "US"
+          ],
+          "vote_count": 46,
+          "overview": "Siga a Christopher Pike, Spock y Number One en los años antes de que el Capitán Kirk abordara el U.S.S. Enterprise, mientras exploran nuevos mundos alrededor de la galaxia.",
+          "popularity": 850.393,
+          "media_type": "tv"
+      },
+      {
+          "first_air_date": "2016-07-15",
+          "vote_average": 8.6,
+          "original_name": "Stranger Things",
+          "origin_country": [
+              "US"
+          ],
+          "name": "Stranger Things",
+          "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+          "id": 66732,
+          "genre_ids": [
+              18,
+              9648,
+              10765
+          ],
+          "vote_count": 9802,
+          "original_language": "en",
+          "overview": "A raíz de la desaparición de un niño, un pueblo desvela un misterio relacionado con experimentos secretos, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
+          "poster_path": "/g3nzhHBDTrJ7RWhzozFTYFjvRbd.jpg",
+          "popularity": 393.487,
+          "media_type": "tv"
+      },
+      {
+          "vote_average": 8.8,
+          "overview": "Todo el mundo tiene una parte de sí mismos que no puede mostrar a los demás. En una era en la que las naciones de todo el mundo se encuentran involucradas en una feroz guerra de información a puerta cerrada, Ostania y Westalis llevan décadas en guerra fría. La División de Inteligencia de Westalis (WISE) envía a su mejor espía, \"Twilight\", en una misión ultrasecreta para vigilar los movimientos de Donovan Desmond, quien dirige el Partido Nacional por la Unidad de Ostania, responsable de bombardear los esfuerzos de paz entre ambos países.",
+          "name": "Spy x Family",
+          "id": 120089,
+          "backdrop_path": "/tUyMPMJlql8Ec7d58EIhX5WEGG4.jpg",
+          "genre_ids": [
+              16,
+              35,
+              10759,
+              80
+          ],
+          "vote_count": 77,
+          "original_language": "ja",
+          "first_air_date": "2022-04-09",
+          "poster_path": "/vaIREdPGZOnW9Jrs86mheVVlIQQ.jpg",
+          "original_name": "SPY×FAMILY",
+          "origin_country": [
+              "JP"
+          ],
+          "popularity": 1361.934,
+          "media_type": "tv"
+      },
+      {
+          "overview": "The Quest es una innovadora serie de competencia inmersiva que sumerge a 8 jóvenes en el mundo fantástico y ficticio de Everrealm, donde deben salvar un reino cumpliendo una antigua profecía.",
+          "id": 196749,
+          "backdrop_path": "/7mQlLMdpdarelaVWj5NV7UYrF6f.jpg",
+          "vote_count": 19,
+          "genre_ids": [
+              10765,
+              10759,
+              18
+          ],
+          "first_air_date": "2022-05-11",
+          "name": "The Quest",
+          "original_name": "The Quest",
+          "poster_path": "/mWl36rk3PcyfOE05hz2ZqQIhBia.jpg",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "vote_average": 6.8,
+          "popularity": 207.007,
+          "media_type": "tv"
+      },
+      {
+          "first_air_date": "2011-04-17",
+          "genre_ids": [
+              10765,
+              18,
+              10759
+          ],
+          "id": 1399,
+          "poster_path": "/z9gCSwIObDOD2BEtmUwfasar3xs.jpg",
+          "original_name": "Game of Thrones",
+          "origin_country": [
+              "US"
+          ],
+          "vote_average": 8.4,
+          "name": "Juego de tronos",
+          "vote_count": 17863,
+          "overview": "En una tierra donde los veranos duran décadas y los inviernos pueden durar toda una vida, los problemas acechan. Desde las maquinaciones del sur a las salvajes tierras del este, pasando por el helado norte y el milenario muro que protege el reino de las fuerzas tenebrosas, dos poderosas familias mantienen un enfrentamiento letal por gobernar los Siete Reinos de Poniente. Mientras la traición, la lujuria y las fuerzas sobrenaturales sacuden los pilares de los reinos, la sangrienta batalla por el trono de Hierro tendrá consecuencias imprevistas y trascendentales. El invierno se acerca. Que empiece 'Juego de tronos'.",
+          "original_language": "en",
+          "backdrop_path": "/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+          "popularity": 482.005,
+          "media_type": "tv"
+      },
+      {
+          "first_air_date": "2019-07-25",
+          "poster_path": "/zBi4Otjddaa92ecwcNDEIhQFxcl.jpg",
+          "id": 76479,
+          "overview": "La serie tiene lugar en un mundo en el que los superhéroes representan el lado oscuro de la celebridad y la fama. Un grupo de vigilantes que se hacen llamar \"The Boys\" decide hacer todo lo posible por frenar a los superhéroes que están perjudicando a la sociedad, independientemente de los riesgos que ello conlleva.",
+          "vote_count": 5586,
+          "vote_average": 8.4,
+          "original_name": "The Boys",
+          "origin_country": [
+              "US"
+          ],
+          "backdrop_path": "/mGVrXeIjyecj6TKmwPVpHlscEmw.jpg",
+          "name": "The Boys",
+          "genre_ids": [
+              10765,
+              10759
+          ],
+          "original_language": "en",
+          "popularity": 235.784,
+          "media_type": "tv"
+      },
+      {
+          "vote_average": 8.3,
+          "id": 153657,
+          "overview": "Bosch se embarca en el siguiente capítulo de su carrera y se encuentra trabajando con su antigua enemiga, Honey Chandler.",
+          "original_name": "Bosch: Legacy",
+          "origin_country": [
+              "US"
+          ],
+          "genre_ids": [
+              80,
+              18
+          ],
+          "vote_count": 15,
+          "original_language": "en",
+          "backdrop_path": "/wVGiwvE5CtlVPrP0oEO3W70ft6D.jpg",
+          "poster_path": "/9Z7L7wSB6nLwWk7coUgm1ytQbOB.jpg",
+          "name": "Bosch: Legacy",
+          "first_air_date": "2022-05-05",
+          "popularity": 42.207,
+          "media_type": "tv"
+      },
+      {
+          "original_name": "進撃の巨人",
+          "origin_country": [
+              "JP"
+          ],
+          "overview": "Hace cien años, los titanes atacaron y diezmaron a la humanidad. Para sobrevivir, esta se recluyó en grandes ciudades amuralladas, creyendo que estaría segura para siempre. Pero, cien años después de aquel ataque, un titán colosal hace su aparición en una de las urbes, destruye el parapeto y permite que sus congéneres menores devoren de nuevo a los hombres. El Cuerpo de Exploradores, al que pertenece Eren Jaeger, deberá enfrentarse a ellos y contraatacarlos, para que la humanidad pueda vivir de nuevo en paz.",
+          "vote_count": 4159,
+          "backdrop_path": "/t5VI9pTqoIlIqazask1CJ1ioAaI.jpg",
+          "vote_average": 8.6,
+          "genre_ids": [
+              10765,
+              16,
+              10759
+          ],
+          "poster_path": "/xtDs2WuiOyKYEn2bGax9TxX4GDo.jpg",
+          "id": 1429,
+          "first_air_date": "2013-04-07",
+          "name": "Ataque a los Titanes",
+          "original_language": "ja",
+          "popularity": 135.34,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/xio3AqrtsEERoVghgl8WWG0mXMu.jpg",
+          "first_air_date": "2022-04-24",
+          "id": 118663,
+          "original_language": "en",
+          "poster_path": "/p1aBjGkyG25ADy4xu69joNMV3eQ.jpg",
+          "original_name": "The Man Who Fell to Earth",
+          "origin_country": [
+              "US"
+          ],
+          "name": "El hombre que cayó a la Tierra",
+          "overview": "Un extraterrestre llega a la Tierra en un punto de inflexión en la evolución humana y debe enfrentarse a su propio pasado para determinar nuestro futuro.",
+          "vote_count": 20,
+          "vote_average": 8.5,
+          "genre_ids": [
+              18
+          ],
+          "popularity": 59.749,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/6Ys6koNajP5ld9EIMfOSQrRquki.jpg",
+          "id": 71712,
+          "genre_ids": [
+              18
+          ],
+          "original_language": "en",
+          "name": "The Good Doctor",
+          "poster_path": "/ubOaaQjDQ4lWtw1dkXhqsQWTsEY.jpg",
+          "vote_count": 10491,
+          "overview": "Un cirujano joven y autista que padece el síndrome del sabio empieza a trabajar en un hospital prestigioso. Allá tendrá que vencer el escepticismo con el que sus colegas lo reciben.",
+          "vote_average": 8.5,
+          "original_name": "The Good Doctor",
+          "origin_country": [
+              "US"
+          ],
+          "first_air_date": "2017-09-25",
+          "popularity": 707.011,
+          "media_type": "tv"
+      },
+      {
+          "backdrop_path": "/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
+          "genre_ids": [
+              80,
+              18
+          ],
+          "vote_count": 16324,
+          "original_language": "es",
+          "vote_average": 8.3,
+          "poster_path": "/z01Dc0Ly2GmCpLe6Scx4d3dPP1S.jpg",
+          "overview": "Un enigmático personaje llamado el Profesor planea algo grande: llevar a cabo el mayor atraco de la historia. Para ello recluta una banda de ocho personas que reúnen un único requisito, ninguno tiene nada que perder. Cinco meses de reclusión memorizando cada paso, cada detalle, cada probabilidad… y por fin, once días de encierro en la Fábrica Nacional de Moneda, rodeados de cuerpos de policía y con decenas de rehenes en su poder para saber si su apuesta suicida será todo o nada.",
+          "first_air_date": "2017-05-02",
+          "original_name": "La Casa de Papel",
+          "origin_country": [
+              "ES"
+          ],
+          "name": "La Casa de Papel",
+          "id": 71446,
+          "popularity": 235.461,
+          "media_type": "tv"
+      }
+  ],
+  "total_pages": 1000,
+  "total_results": 20000
+}
