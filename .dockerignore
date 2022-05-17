@@ -10,4 +10,3 @@ cypress.json
 README.md
 Dockerfile
 .dockerignore
-.env
