@@ -27,4 +27,4 @@ function saveToLocalStorage () {
   localStorage.setItem('genktv-my-list', JSON.stringify(myListState));
 }
 
-window.addEventListener('beforeunload', saveToLocalStorage());
+window.addEventListener('beforeunload', saveToLocalStorage);
