@@ -1,4 +1,5 @@
 import { LitElement, css, html } from 'lit';
+import { getStoredTheme, updateTheme } from '../states/dark-theme.state';
 
 export class DarkTheme extends LitElement {
   static get styles () {
@@ -86,14 +87,14 @@ export class DarkTheme extends LitElement {
   connectedCallback () {
     super.connectedCallback();
     const root = document.querySelector('html');
-    const savedTheme = JSON.parse(window.localStorage.getItem('tmdb-vrom-dark-theme'));
+    const savedTheme = getStoredTheme();
     if (savedTheme) {
       root.dataset.theme = savedTheme;
     }
   }
 
   firstUpdated () {
-    const savedTheme = JSON.parse(window.localStorage.getItem('tmdb-vrom-dark-theme'));
+    const savedTheme = getStoredTheme();
     const svg = this.shadowRoot.querySelector('svg');
     if (savedTheme) {
       svg.dataset.theme = savedTheme;
@@ -105,7 +106,7 @@ export class DarkTheme extends LitElement {
     const svg = this.shadowRoot.querySelector('svg');
     const actualTheme = root.dataset.theme;
     const newTheme = actualTheme === 'light' ? 'dark' : 'light';
-    window.localStorage.setItem('tmdb-vrom-dark-theme', JSON.stringify(newTheme));
+    updateTheme(newTheme);
     root.dataset.theme = newTheme;
     svg.dataset.theme = newTheme;
   }

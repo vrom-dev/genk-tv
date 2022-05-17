@@ -36,7 +36,6 @@ export class DetailedViewComponent extends LitElement {
   }
 
   render () {
-    console.log(this.id, this.type);
     return html`
         <tmdb-detailed-view-ui .element=${this.element} type=${this.type}></tmdb-detailed-view-ui>
         <tmdb-recommendations id=${this.id} type=${this.type}></tmdb-recommendations>

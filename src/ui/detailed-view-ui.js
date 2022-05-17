@@ -1,6 +1,7 @@
 import { css, html, LitElement } from 'lit';
 import apiConfig from '../../api.config.json';
 import './modal-video.ui';
+import './add-to-list.ui';
 
 class TMDBDetailedViewUi extends LitElement {
   static get properties () {
@@ -195,7 +196,9 @@ class TMDBDetailedViewUi extends LitElement {
                   </span> TMDb
                 </a>
               </li>
-              <li class='vote-average'>Añadir a mi lista</li>
+              <li>
+                <tmdb-add-list-button .element=${this.element} .type=${this.type}></tmdb-add-list-button>
+              </li>
             </ul>
           </header>
           <p class='detail__overview'>

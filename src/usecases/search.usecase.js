@@ -1,4 +1,5 @@
 import { TMDBRepository } from '../repositories/tmdb.repository';
+import { FormatDataService } from '../services/format-data.services';
 
 export class SearchUseCase {
   async execute ({ query = '' }) {
@@ -12,29 +13,16 @@ export class SearchUseCase {
       repository.getGenres({ type: 'movie' }),
       repository.getGenres({ type: 'tv' })
     ]);
-    const filteredResults = [...results]
-      .filter(result => {
-        return result.media_type === 'movie' || result.media_type === 'tv';
-      })
-      .filter(result => result.poster_path !== null)
-      .map(result => {
-        if (result.media_type === 'tv') {
-        /* eslint-disable camelcase */
-          const { first_air_date: release_date, name: title } = result;
-          return {
-            release_date,
-            title,
-            ...result
-          };
-        }
-        return result;
-      });
-    const allGenres = genresMovies
-      .concat(genresTV)
-      .reduce((prev, current) => {
-        prev[current.id] = current.name;
-        return prev;
-      }, {});
-    return { results: filteredResults, genres: allGenres };
+    const moviesAndTvShows = FormatDataService.filterMoviesAndTv(results);
+    const moviesAndTvShowsWithPoster = FormatDataService.filterByPoster(moviesAndTvShows);
+    const resultsWithAllData = [...moviesAndTvShowsWithPoster].map(result => {
+      if (result.media_type === 'tv') {
+        return FormatDataService.addReleaseDateAndTitle(result);
+      }
+      return result;
+    });
+    const genresObject = FormatDataService.getGenresObject(genresMovies.concat(genresTV));
+
+    return { results: resultsWithAllData, genres: genresObject };
   }
 }
