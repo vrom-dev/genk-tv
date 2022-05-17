@@ -1,3 +1,13 @@
 .overflow-hidden {
   overflow-y: hidden;
 }
+.centered {
+  text-align: center;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}

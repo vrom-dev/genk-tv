@@ -1,4 +1,4 @@
-import { css, html, LitElement } from 'lit';
+import { html, LitElement } from 'lit';
 import { router } from '../router';
 
 import { DetailedViewUseCase } from '../usecases/detailed-view.usecase';
