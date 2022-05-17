@@ -1,5 +1,6 @@
 
 import { TMDBRepository } from '../repositories/tmdb.repository';
+import { FormatDataService } from '../services/format-data.services';
 
 export class RecommendationUseCase {
   async execute ({ id, type }) {
@@ -8,30 +9,15 @@ export class RecommendationUseCase {
       repository.getRecommendations({ id, type }),
       repository.getGenres({ type })
     ]);
-    let recommendations = [...results]
-      .map(result => {
-        return { media_type: type, ...result };
-      });
+    let resultsWithAllData = FormatDataService.addMediaTypeProp(results, type);
     if (type === 'tv') {
-      recommendations = [...recommendations]
-        .map((tvshow) => {
-        /* eslint-disable camelcase */
-          const { first_air_date: release_date, name: title } = tvshow;
-          return {
-            release_date,
-            title,
-            ...tvshow
-          };
-        });
+      resultsWithAllData = [...resultsWithAllData].map(FormatDataService.addReleaseDateAndTitle);
     }
-    const genresObj = genres.reduce((prev, current) => {
-      prev[current.id] = current.name;
-      return prev;
-    }, {});
+    const genresObject = FormatDataService.getGenresObject(genres);
 
     return {
-      results: recommendations,
-      genres: genresObj
+      results: resultsWithAllData,
+      genres: genresObject
     };
   }
 }

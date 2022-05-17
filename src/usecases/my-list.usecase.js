@@ -1,6 +1,8 @@
 import { snapshot } from 'valtio/vanilla';
 import { myListState } from '../states/my-list.state';
 
+import { FormatDataService } from '../services/format-data.services';
+
 export class MyListUseCase {
   async execute () {
     const { tv, movie } = snapshot(myListState);
@@ -14,17 +16,12 @@ export class MyListUseCase {
       const genresArray = tv.genres.map(genre => genre.id);
       return { ...tv, genre_ids: genresArray, media_type: 'tv' };
     });
-    const allGenres = movieGenres
-      .concat(tvGenres)
-      .reduce((prev, current) => {
-        prev[current.id] = current.name;
-        return prev;
-      }, {});
+    const genresObject = FormatDataService.getGenresObject(movieGenres.concat(tvGenres));
 
     return {
       movies: formattedMovies,
       tv: formattedTv,
-      genres: allGenres
+      genres: genresObject
     };
   }
 }
