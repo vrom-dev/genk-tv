@@ -4,10 +4,12 @@ export const myListState = loadFromLocalStorage();
 
 export function addToMyList (element, type) {
   myListState[type].push(element);
+  saveToLocalStorage();
 }
 
 export function removeFromMyList (element, type) {
   myListState[type] = myListState[type].filter(e => e.id !== element.id);
+  saveToLocalStorage();
 }
 
 export function isAddedToList (element, type) {
@@ -28,5 +30,5 @@ function saveToLocalStorage () {
 }
 
 window.addEventListener('beforeunload', () => {
-  saveToLocalStorage();
+
 });

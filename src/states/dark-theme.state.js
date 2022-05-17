@@ -8,6 +8,7 @@ export function getStoredTheme () {
 
 export function updateTheme (newTheme) {
   darkThemeState.current = newTheme;
+  saveToLocalStorage();
 }
 
 function loadFromLocalStorage () {
@@ -21,7 +22,3 @@ function loadFromLocalStorage () {
 function saveToLocalStorage () {
   localStorage.setItem('genktv-theme', JSON.stringify(darkThemeState));
 }
-
-window.addEventListener('beforeunload', () => {
-  saveToLocalStorage();
-});
