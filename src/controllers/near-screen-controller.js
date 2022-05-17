@@ -1,21 +1,19 @@
 export class NearScreenController {
-  constructor (host, ref) {
-    this.host = host;
-    this.ref = ref;
-    this.show = false;
-    this.observer = new window.IntersectionObserver((entries) => {
-      const { isIntersecting } = entries[0];
-      console.log(entries[0]);
-      if (isIntersecting) {
-        this.show = true;
-        host.requestUpdate();
-        this.observer.disconnect();
-      }
-    });
+  constructor (host) {
+    this._host = host;
     host.addController(this);
+    this.isVisible = false;
+    this._observer = new window.IntersectionObserver((entries) => {
+      const { isIntersecting } = entries[0];
+      if (isIntersecting) {
+        this._observer.disconnect();
+      }
+      this.isVisible = isIntersecting;
+      this._host.requestUpdate();
+    });
   }
 
   hostConnected () {
-    this.observer.observe(this.host);
+    this._observer.observe(this._host);
   }
 }
