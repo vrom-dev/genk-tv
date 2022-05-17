@@ -51,10 +51,4 @@ describe('dark theme component', () => {
       .get('html')
       .should('have.attr', 'data-theme', 'dark');
   });
-  it('it loads the theme from localstorage if available', () => {
-    localStorage.setItem('genktv-theme', '{"current":"light"}');
-    cy
-      .get('html')
-      .should('have.attr', 'data-theme', 'dark');
-  });
 });
