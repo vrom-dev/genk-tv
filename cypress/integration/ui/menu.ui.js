@@ -18,7 +18,7 @@ describe('responsive menu ui', () => {
     cy
       .get('@menu')
       .children()
-      .should('have.lengthOf', 4);
+      .should('have.lengthOf', 5);
     cy
       .get('@menu')
       .contains('TV');
@@ -47,7 +47,7 @@ describe('responsive menu ui', () => {
     cy
       .get('@menu')
       .children()
-      .should('have.lengthOf', 4);
+      .should('have.lengthOf', 5);
     cy
       .get('@menu')
       .contains('TV');

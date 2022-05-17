@@ -1,0 +1,428 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "adult": false,
+          "backdrop_path": "/gG9fTyDL03fiKnOpf2tr01sncnt.jpg",
+          "genre_ids": [
+              28,
+              878,
+              14
+          ],
+          "id": 526896,
+          "original_language": "en",
+          "original_title": "Morbius",
+          "overview": "Peligrosamente enfermo de un extraño trastorno sanguíneo, y determinado a salvar a otras personas que padecen su mismo destino, el doctor Morbius intenta una apuesta desesperada. Lo que en un principio parece ser un éxito radical, pronto se revela como un remedio potencialmente peor que la enfermedad.",
+          "poster_path": "/6WmTdYNoSinBAXs0AfTTCSaV5lw.jpg",
+          "release_date": "2022-03-30",
+          "title": "Morbius",
+          "video": false,
+          "vote_average": 6.0,
+          "vote_count": 723,
+          "popularity": 1646.18,
+          "media_type": "movie"
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/ik9SVGcYxKg6y2a9cW0e0WchImW.jpg",
+          "genre_ids": [
+              28,
+              12,
+              18,
+              14
+          ],
+          "original_language": "en",
+          "original_title": "The Northman",
+          "poster_path": "/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
+          "video": false,
+          "vote_average": 7.6,
+          "vote_count": 826,
+          "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
+          "release_date": "2022-04-07",
+          "title": "El Hombre del Norte",
+          "id": 639933,
+          "popularity": 1761.05,
+          "media_type": "movie"
+      },
+      {
+          "backdrop_path": "/A3bsT0m1um6tvcmlIGxBwx9eAxn.jpg",
+          "genre_ids": [
+              28,
+              12,
+              35,
+              10749
+          ],
+          "title": "La Ciudad Perdida",
+          "original_language": "en",
+          "original_title": "The Lost City",
+          "poster_path": "/grEVYkBAVIzQ4JmZ7ydceN9DFQR.jpg",
+          "video": false,
+          "vote_average": 6.7,
+          "overview": "Una solitaria novelista romántica de gira con el modelo de la portada de su último libro se ve envuelta en un intento de secuestro que llevará a ambos a una feroz aventura en la jungla.",
+          "release_date": "2022-03-24",
+          "vote_count": 553,
+          "id": 752623,
+          "adult": false,
+          "popularity": 2962.142,
+          "media_type": "movie"
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/bIFrsAcqkLUUxaaiqqpFexYPeCh.jpg",
+          "genre_ids": [
+              53,
+              14,
+              27
+          ],
+          "id": 532710,
+          "original_language": "en",
+          "original_title": "Firestarter",
+          "overview": "Andy y Vicky son unos padres que llevan más de una década huyendo en un desesperado intento de esconder a su hija Charlie de una oscura agencia estadounidense empeñada en aprovechar su increíble don para convertir el fuego en un arma de destrucción masiva. Andy enseñó a Charlie cómo dominar su extraño poder, desencadenado normalmente por la ira o el dolor. Pero cuando Charlie cumple 11 años, el fuego es cada vez más difícil de controlar. Después de que un incidente inesperado revele la ubicación de la familia, un misterioso operario sale en busca de Charlie para hacerse con ella de una vez por todas. Pero Charlie tiene otros planes.",
+          "poster_path": "/lWHe42Fc8TKzvirq19AsfLfbGaX.jpg",
+          "release_date": "2022-05-12",
+          "title": "Llamas de Venganza",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 107,
+          "popularity": 345.109,
+          "media_type": "movie"
+      },
+      {
+          "original_title": "Senior Year",
+          "poster_path": "/4e3UlRyeCUm4YR63aSbkd0eRkDn.jpg",
+          "video": false,
+          "overview": "Una mujer de treinta y siete años se despierta de un coma de veinte años y regresa a la escuela secundaria donde una vez fue una popular animadora.",
+          "release_date": "2022-05-11",
+          "vote_count": 123,
+          "adult": false,
+          "backdrop_path": "/3FJ53wbpjSAGY98KYiHJ4DQccDr.jpg",
+          "vote_average": 6.0,
+          "genre_ids": [
+              35,
+              18
+          ],
+          "title": "Vuelta al insti",
+          "original_language": "en",
+          "id": 800937,
+          "popularity": 153.329,
+          "media_type": "movie"
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
+          "genre_ids": [
+              14,
+              28,
+              12
+          ],
+          "id": 453395,
+          "original_language": "en",
+          "original_title": "Doctor Strange in the Multiverse of Madness",
+          "overview": "Viaja a lo desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para enfrentarse a un nuevo y misterioso adversario.",
+          "poster_path": "/vThe85YlGE5r7fqEVFePETqnWzk.jpg",
+          "release_date": "2022-05-04",
+          "title": "Doctor Strange en el multiverso de la locura",
+          "video": false,
+          "vote_average": 7.5,
+          "vote_count": 1573,
+          "popularity": 3770.076,
+          "media_type": "movie"
+      },
+      {
+          "original_language": "en",
+          "original_title": "The Batman",
+          "poster_path": "/zFTLPipninMF4THDbdkQUZLWMEw.jpg",
+          "video": false,
+          "id": 414906,
+          "overview": "Cuando un asesino se dirige a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas envía Batman a una investigación en los bajos fondos. A medida que las pruebas comienzan a acercarse a su casa y se hace evidente la magnitud de los planes del autor, Batman debe forjar nuevas relaciones, desenmascarar al culpable y hacer justicia al abuso de poder y la corrupción que durante mucho tiempo han asolado Gotham City.",
+          "release_date": "2022-03-01",
+          "vote_count": 4572,
+          "adult": false,
+          "backdrop_path": "/xHrp2pq73oi9D64xigPjWW1wcz1.jpg",
+          "vote_average": 7.8,
+          "genre_ids": [
+              80,
+              9648,
+              53
+          ],
+          "title": "The Batman",
+          "popularity": 3923.239,
+          "media_type": "movie"
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/zGLHX92Gk96O1DJvLil7ObJTbaL.jpg",
+          "genre_ids": [
+              28,
+              12,
+              14
+          ],
+          "id": 338953,
+          "original_language": "en",
+          "original_title": "Fantastic Beasts: The Secrets of Dumbledore",
+          "overview": "El profesor Albus Dumbledore sabe que el poderoso mago oscuro Gellert Grindelwald está haciendo planes para apoderarse del mundo mágico. Incapaz de detenerlo él solo, confía en el Magizoólogo Newt Scamander para dirigir un intrépido equipo de magos, brujas y un valiente panadero Muggle en una misión peligrosa, donde se encuentran con antiguos y nuevos animales y se enfrentan a una legión cada vez más numerosa de seguidores de Grindelwald.",
+          "poster_path": "/yOeuJdwag4bAlnvgrdweRoiuXGC.jpg",
+          "release_date": "2022-04-06",
+          "title": "Animales Fantásticos: Los Secretos de Dumbledore",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 1022,
+          "popularity": 1044.003,
+          "media_type": "movie"
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/oZtoyj3rhOST8FUtIXUqblIYmCv.jpg",
+          "genre_ids": [
+              10752,
+              36,
+              18
+          ],
+          "id": 661231,
+          "original_language": "en",
+          "original_title": "Operation Mincemeat",
+          "poster_path": "/dX7xsqU7P6YY8hbgsi4T3ISMqWz.jpg",
+          "title": "El arma del engaño",
+          "video": false,
+          "vote_average": 6.8,
+          "vote_count": 106,
+          "overview": "Año 1943, en plena II Guerra Mundial. Las fuerzas aliadas están decididas a lanzar un asalto definitivo en Europa. Pero se enfrentan un desafío importante: proteger durante la invasión a sus tropas de la potencia de fuego alemana, y así evitar una posible masacre. Dos brillantes oficiales de inteligencia, Ewen Montagu (Firth) y Charles Cholmondeley, son los encargados de establecer la estrategia de desinformación más inspirada e improbable de la guerra... Una historia inspirada en hechos reales basada en un 'bestseller' de Ben Macintyre.",
+          "release_date": "2022-04-01",
+          "popularity": 232.113,
+          "media_type": "movie"
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/1aQ3plcRUNLnJRaL7KTvZU9IqcU.jpg",
+          "genre_ids": [
+              28
+          ],
+          "id": 923597,
+          "original_language": "en",
+          "original_title": "El Protector: Renace",
+          "overview": "Se basa en el alguacil estadounidense Mason Pollard, que está especializado en diseñar las muertes falsas de testigos que no dejan rastro de su existencia.",
+          "poster_path": "/8aqBvfg8Gm8KfAk6rd7ygNWPXzZ.jpg",
+          "release_date": "2022-03-31",
+          "title": "El Protector: Renace",
+          "video": false,
+          "vote_average": 6.6,
+          "vote_count": 8,
+          "popularity": 9.761,
+          "media_type": "movie"
+      },
+      {
+          "original_language": "en",
+          "original_title": "Sonic the Hedgehog 2",
+          "poster_path": "/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg",
+          "video": false,
+          "vote_average": 7.7,
+          "overview": "Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no esta solo lo ayudara Tails.",
+          "release_date": "2022-03-30",
+          "vote_count": 1388,
+          "title": "Sonic 2: La Película",
+          "adult": false,
+          "backdrop_path": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
+          "id": 675353,
+          "genre_ids": [
+              28,
+              878,
+              35,
+              10751,
+              12
+          ],
+          "popularity": 9124.409,
+          "media_type": "movie"
+      },
+      {
+          "overview": "Tras enamorarse de Kira King (hija de la estrella del baloncesto y empresario de zapatillas de deporte Darius King), un joven aspirante a diseñador de zapatillas persigue el sueño de convertirse en un diseñador profesional con la ayuda de su mejor amiga, Sami, y de su padrino.",
+          "release_date": "2022-05-11",
+          "title": "Sneakerella: Cenicienta en zapatillas",
+          "adult": false,
+          "backdrop_path": "/AfRgDih0N952YNipEHKS1t7PkEi.jpg",
+          "genre_ids": [
+              10402,
+              35,
+              10751
+          ],
+          "original_language": "en",
+          "original_title": "Sneakerella",
+          "poster_path": "/vkxKo08e8PhIKz6itm2b83scYQ7.jpg",
+          "vote_count": 14,
+          "video": false,
+          "vote_average": 6.4,
+          "id": 756187,
+          "popularity": 116.306,
+          "media_type": "movie"
+      },
+      {
+          "video": false,
+          "vote_average": 7.2,
+          "overview": "Un descendiente del explorador Sir Francis Drake descubre la ubicación de la legendaria ciudad de El Dorado. Con la ayuda de su mentor Victor Sullivan y la ambiciosa periodista Elena Fischer, Nathan Drake trabajará para descubrir sus secretos, mientras sobreviven en una isla llena de piratas, mercenarios, y un misterioso enemigo, se embarcarán en una búsqueda sin precedentes por alcanzar el tesoro antes que sus perseguidores. Adaptación del aclamado videojuego homónimo.",
+          "release_date": "2022-02-10",
+          "adult": false,
+          "backdrop_path": "/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
+          "vote_count": 1946,
+          "genre_ids": [
+              28,
+              12
+          ],
+          "title": "Uncharted",
+          "original_language": "en",
+          "original_title": "Uncharted",
+          "poster_path": "/6hlI9Ea1O4IeJ2cj7OiNinqg8Qd.jpg",
+          "id": 335787,
+          "popularity": 4274.019,
+          "media_type": "movie"
+      },
+      {
+          "poster_path": "/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg",
+          "id": 634649,
+          "video": false,
+          "vote_average": 8.1,
+          "overview": "Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.",
+          "release_date": "2021-12-15",
+          "title": "Spider-Man: No Way Home",
+          "adult": false,
+          "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+          "genre_ids": [
+              28,
+              12,
+              878
+          ],
+          "vote_count": 12795,
+          "original_language": "en",
+          "original_title": "Spider-Man: No Way Home",
+          "popularity": 3425.572,
+          "media_type": "movie"
+      },
+      {
+          "title": "Los Tipos Malos",
+          "vote_average": 7.7,
+          "overview": "Cinco villanos notorios: el Sr. Wolf, Mr. Snake, Mr. Piranha, Mr. Shark y Ms. Tarantula, que han pasado toda una vida juntos realizando grandes atracos.",
+          "release_date": "2022-03-17",
+          "adult": false,
+          "backdrop_path": "/fEe5fe82qHzjO4yej0o79etqsWV.jpg",
+          "vote_count": 410,
+          "genre_ids": [
+              16,
+              35,
+              28,
+              10751,
+              80
+          ],
+          "video": false,
+          "original_language": "en",
+          "original_title": "The Bad Guys",
+          "poster_path": "/wFdwJh3fbhp5aiRbQelVz1mbbwP.jpg",
+          "id": 629542,
+          "popularity": 3511.281,
+          "media_type": "movie"
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/9Ngw106BLlNJ4iVpRHlrDfaLpCV.jpg",
+          "genre_ids": [
+              878,
+              12,
+              28
+          ],
+          "original_title": "Moonfall",
+          "poster_path": "/9oF7M0gVeeOzR109cXkHWs2Ipgt.jpg",
+          "video": false,
+          "vote_average": 6.5,
+          "vote_count": 1013,
+          "original_language": "en",
+          "overview": "El mundo se enfrenta a la posibilidad de la extinción porque una fuerza desconocida empuja a la luna de su órbita rumbo a la Tierra. Un equipo de astronautas asume la misión de evitar el apocalipsis.",
+          "release_date": "2022-02-03",
+          "id": 406759,
+          "title": "Moonfall",
+          "popularity": 2463.964,
+          "media_type": "movie"
+      },
+      {
+          "original_title": "Shark Bait",
+          "poster_path": "/mVVU9zC8snNHlcqYONY2HOsh9ob.jpg",
+          "video": false,
+          "vote_average": 7.5,
+          "overview": "Un grupo de amigos que disfrutan de un fin de semana roban un par de motos acuáticas que los llevan al mar y terminan en una horrible colisión frontal. Luchan por encontrar el camino a casa con un amigo gravemente herido mientras los depredadores acechan en las aguas debajo.",
+          "release_date": "2022-05-13",
+          "id": 960258,
+          "adult": false,
+          "backdrop_path": "/dvHKdXijoN1OEzGcPhd0eRvkfMd.jpg",
+          "vote_count": 12,
+          "genre_ids": [
+              27,
+              53,
+              28
+          ],
+          "title": "Shark Bait",
+          "original_language": "en",
+          "popularity": 84.676,
+          "media_type": "movie"
+      },
+      {
+          "backdrop_path": "/v3B1kiCNun7JLHDsMpdWf62vQFI.jpg",
+          "genre_ids": [
+              27,
+              9648,
+              53
+          ],
+          "title": "Monstrous",
+          "original_language": "en",
+          "original_title": "Monstrous",
+          "poster_path": "/ec3aX4DyjepEhPkpIUukaBxKpN3.jpg",
+          "video": false,
+          "vote_average": 5.4,
+          "overview": "La historia se centra en una mujer traumatizada que huye de su exmarido abusivo con su hijo de 7 años. En su nuevo y remoto santuario, descubren que tienen que enfrentarse a un monstruo más grande y aterrador.",
+          "release_date": "2022-05-13",
+          "vote_count": 12,
+          "id": 811656,
+          "adult": false,
+          "popularity": 89.606,
+          "media_type": "movie"
+      },
+      {
+          "original_language": "en",
+          "original_title": "Ambulance",
+          "poster_path": "/hUbgg3mMSbY9PlpTxBo4IFUVSd6.jpg",
+          "video": false,
+          "id": 763285,
+          "overview": "Dos hermanos roban una ambulancia tras un atraco que sale mal y deberán de trabajar juntos para escapar de la policía que los persigue.",
+          "release_date": "2022-03-16",
+          "vote_count": 585,
+          "adult": false,
+          "backdrop_path": "/dW3fQJrshh2wYDoW4HUA7ZabsN1.jpg",
+          "vote_average": 7.0,
+          "genre_ids": [
+              28,
+              53,
+              80
+          ],
+          "title": "Ambulance: Plan de Huida",
+          "popularity": 2011.934,
+          "media_type": "movie"
+      },
+      {
+          "video": false,
+          "vote_average": 5.5,
+          "overview": "Después de más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete \"Mavericks\" Mitchel (Tom Cruise) se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba y esquivando el alcance en su rango, que no le dejaría volar emplazándolo en tierra. Cuando se encuentra entrenando a un destacamento de graduados de Top Gun para una misión especializada, Maverick se encuentra allí con el teniente Bradley Bradshaw (Miles Teller), el hijo de su difunto amigo \"Goose\"... Secuela de Top Gun.",
+          "release_date": "2022-05-19",
+          "adult": false,
+          "backdrop_path": "/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
+          "vote_count": 3,
+          "genre_ids": [
+              28,
+              18
+          ],
+          "title": "Top Gun: Maverick",
+          "original_language": "en",
+          "original_title": "Top Gun: Maverick",
+          "poster_path": "/AlWpEpQq0RgZIXVHAHZtFhEvRgd.jpg",
+          "id": 361743,
+          "popularity": 225.314,
+          "media_type": "movie"
+      }
+  ],
+  "total_pages": 1000,
+  "total_results": 20000
+}

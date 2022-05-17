@@ -1,28 +1,24 @@
 /* global cy */
 /// <reference types="Cypress" />
-describe('search results page', () => {
+describe('popular list of movies/tv-shows', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/search/multi?api_key=${process.env.API_KEY}&query=the%20last%20kingdom&language=es-ES&region=ES&include_adult=false`,
-      { fixture: './../../fixtures/multi_search.json' }
-    );
-    cy.intercept(
-      'GET',
-      `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.API_KEY}&language=es-ES`,
-      { fixture: './../../fixtures/movies_genres.json' }
+      `https://api.themoviedb.org/3/tv/popular?api_key=${process.env.API_KEY}&language=es-ES&page=1&region=ES&include_adult=false`,
+      { fixture: './../../fixtures/tvshow_popular.json' }
     );
     cy.intercept(
       'GET',
       `https://api.themoviedb.org/3/genre/tv/list?api_key=${process.env.API_KEY}&language=es-ES`,
       { fixture: './../../fixtures/tv_genres.json' }
     );
-    cy.visit('/search?q=the%20last%20kingdom');
+    cy.visit('/tv');
   });
 
-  it('displays a list of movies/tvshows', () => {
+  it('displays a list of tvshows', () => {
     cy
-      .get('tmdb-search-results');
+      .get('tmdb-most-popular')
+      .should('have.attr', 'type');
     cy
       .get('tmdb-cards-list-ui')
       .shadow()
@@ -37,10 +33,10 @@ describe('search results page', () => {
     cy.get('@cardsList')
       .find('ul')
       .children()
-      .should('have.lengthOf', 3);
+      .should('have.lengthOf', 20);
   });
 
-  it('displays a card with an image of the movie/tvshow', () => {
+  it('displays a card with an image of the tvshow', () => {
     cy
       .get('tmdb-cards-list-ui')
       .shadow()
@@ -55,7 +51,7 @@ describe('search results page', () => {
       .should('be.visible');
   });
 
-  it('the card has all movie/tvshow info', () => {
+  it('the card has all tvshow info', () => {
     cy
       .get('tmdb-cards-list-ui')
       .shadow()
@@ -67,11 +63,11 @@ describe('search results page', () => {
     cy.get('@firstCard')
       .find('header')
       .find('h2')
-      .contains('The Last Kingdom');
+      .contains('Halo');
 
     cy.get('@firstCard')
       .find('time')
-      .contains('2015');
+      .contains('2022');
 
     cy.get('@firstCard')
       .find('li')
@@ -80,11 +76,7 @@ describe('search results page', () => {
 
     cy.get('@firstCard')
       .find('li')
-      .contains('Drama');
-
-    cy.get('@firstCard')
-      .find('li')
-      .contains('War & Politics');
+      .contains('Sci-Fi');
   });
 
   it('info is not visible unless we mouse over the card', () => {
@@ -126,6 +118,6 @@ describe('search results page', () => {
     cy
       .get('@movieInfo')
       .findByRole('heading')
-      .contains('The Last Kingdom');
+      .contains('Halo');
   });
 });

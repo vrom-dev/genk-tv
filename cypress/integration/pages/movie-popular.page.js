@@ -1,11 +1,11 @@
 /* global cy */
 /// <reference types="Cypress" />
-describe('popular list of movies/tv-shows', () => {
+describe('popular list of movies', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
       `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}&language=es-ES&page=1&region=ES&include_adult=false`,
-      { fixture: './../../fixtures/popular_movies.json' }
+      { fixture: './../../fixtures/movies_popular.json' }
     );
     cy.intercept(
       'GET',
@@ -15,7 +15,7 @@ describe('popular list of movies/tv-shows', () => {
     cy.visit('/movie');
   });
 
-  it('displays a list of movies/tvshows', () => {
+  it('displays a list of movies', () => {
     cy
       .get('tmdb-most-popular')
       .should('have.attr', 'type');
@@ -36,7 +36,7 @@ describe('popular list of movies/tv-shows', () => {
       .should('have.lengthOf', 20);
   });
 
-  it('displays a card with an image of the movie/tvshow', () => {
+  it('displays a card with an image of the movie', () => {
     cy
       .get('tmdb-cards-list-ui')
       .shadow()
@@ -51,7 +51,7 @@ describe('popular list of movies/tv-shows', () => {
       .should('be.visible');
   });
 
-  it('the card has all movie/tvshow info', () => {
+  it('the card has all movie info', () => {
     cy
       .get('tmdb-cards-list-ui')
       .shadow()

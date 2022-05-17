@@ -1,0 +1,469 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "adult": false,
+          "backdrop_path": "/lHe8iwM4Cdm6RSEiara4PN8ZcBd.jpg",
+          "genre_ids": [
+              10759,
+              18,
+              10768
+          ],
+          "id": 44217,
+          "media_type": "tv",
+          "name": "Vikingos",
+          "origin_country": [
+              "CA"
+          ],
+          "original_language": "en",
+          "original_name": "Vikings",
+          "overview": "Sigue las aventuras de Ragnar Lothbrok, el héroe más grande de su época. La serie narra las sagas de la banda de hermanos vikingos de Ragnar y su familia, cuando él se levanta para convertirse en el rey de las tribus vikingas. Además de ser un guerrero valiente, Ragnar encarna las tradiciones nórdicas de la devoción a los dioses, la leyenda dice que él era un descendiente directo de Odín, el dios de la guerra y los guerreros.",
+          "popularity": 292.311,
+          "poster_path": "/uNFSCxeZsZVIQ1TrD6mzu6uMQEb.jpg",
+          "first_air_date": "2013-03-03",
+          "vote_average": 8.074,
+          "vote_count": 5398
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/nLlujkVolfX9jrfQdpJHv9FPFlt.jpg",
+          "genre_ids": [
+              10759,
+              18
+          ],
+          "id": 60699,
+          "media_type": "tv",
+          "name": "Marco Polo",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Marco Polo",
+          "overview": "Una aventura épica que sigue los años de juventud del famoso explorador Marco Polo y sus viajes por las exóticas tierras de la Ruta de la seda y del Kublai Kan. Avaricia, traición, intriga sexual y rivalidad dominan la corte, pero, a pesar de todo, el joven se convierte pronto en consejero de confianza del Kan que desea erigirse en el emperador del mundo.",
+          "popularity": 15.653,
+          "poster_path": "/syYTHCBvFlobr8eJjQMKAjrn9yV.jpg",
+          "first_air_date": "2014-12-12",
+          "vote_average": 7.429,
+          "vote_count": 337
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/mivFVU5AX3O9yRz6BejJpRypcCm.jpg",
+          "genre_ids": [
+              10759,
+              18
+          ],
+          "id": 64555,
+          "media_type": "tv",
+          "name": "Frontera",
+          "origin_country": [
+              "CA"
+          ],
+          "original_language": "en",
+          "original_name": "Frontier",
+          "overview": "Serie de aventuras que narra la caótica y violenta lucha por el control y las riquezas del comercio de pieles en la Norteamérica del siglo XVIII Relatada desde diferentes perspectivas la serie esta ambientada en un mundo en el que las negociaciones se pueden resolver con una pelea de hachas en espacios cerrados y en el que la complicada relación entre las tribus nativas y los europeos puede generar conflictos sangrientos.",
+          "popularity": 21.363,
+          "poster_path": "/qQZxmevYmuyehvARKxoaHSxanoK.jpg",
+          "first_air_date": "2016-11-06",
+          "vote_average": 6.791,
+          "vote_count": 206
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/mBHcWrRAtkRo9YgcHm1cUdLuyQ8.jpg",
+          "genre_ids": [
+              18,
+              10759
+          ],
+          "id": 47665,
+          "media_type": "tv",
+          "name": "Black Sails",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Black Sails",
+          "overview": "Basada en la famosa novela ‘La isla del tesoro’, aventuras de piratas plagada de sangre, sexo y violencia, ‘Black Sails‘ sigue las aventuras con el capitán Flint, un famoso pirata que supuestamente depositó un tesoro en una isla. Flint estará acompañado de un grumete llamado Long John Silver.",
+          "popularity": 42.951,
+          "poster_path": "/mZcSwrDdw6cdOVgXm496DgwrQcQ.jpg",
+          "first_air_date": "2014-01-25",
+          "vote_average": 7.51,
+          "vote_count": 984
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/pXwEO7OYA7LhVPYyGIIqa58wwcF.jpg",
+          "genre_ids": [
+              10759,
+              18,
+              37
+          ],
+          "id": 1401,
+          "media_type": "tv",
+          "name": "Infierno sobre ruedas",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Hell on Wheels",
+          "overview": "Hell on Wheels es una serie de televisión tipo western estadounidense creada y producida por Joe y Tony Gayton. Ambientado en 1865, la serie es protagonizado por Anson Mount como Cullen Bohannon, un exsoldado confederado que busca venganza contra los combatientes de la Unión que mataron a su esposa.",
+          "popularity": 25.206,
+          "poster_path": "/w24HTBQG6bYMlWUKSrv1uceVfXF.jpg",
+          "first_air_date": "2011-11-06",
+          "vote_average": 7.648,
+          "vote_count": 318
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/xyHrlFr8W9bGysDsYQRRfD3cdoR.jpg",
+          "genre_ids": [
+              18
+          ],
+          "id": 46296,
+          "media_type": "tv",
+          "name": "Spartacus",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Spartacus",
+          "overview": "Traicionado por su país. Convertido en esclavo. Renacido como guerrero. Spartacus protagoniza la historia más gráfica y visceral del gladiador más famoso de Roma. Con un reparto estelar, asistimos a una mezcla única de acción, efectos gráficos y brutales batallas. Separado del amor de su vida, Spartacus tendrá que luchar por su supervivencia, participando en un espectáculo, donde el principal entretenimiento es la muerte. En un mundo de corrupción, violencia, sexo y fama acabará interviniendo en política y vivirá atormentado por el deseo de venganza.",
+          "popularity": 120.028,
+          "poster_path": "/kAUI0oOWZbGAQMmv7WM6scvoE34.jpg",
+          "first_air_date": "2010-01-22",
+          "vote_average": 7.954,
+          "vote_count": 1702
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/p8A1HMw3f3djxMwQRccCuxdy754.jpg",
+          "genre_ids": [
+              18
+          ],
+          "id": 62084,
+          "media_type": "tv",
+          "name": "Poldark",
+          "origin_country": [
+              "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Poldark",
+          "overview": "En el siglo 18, Ross Poldark vuelve a sus minas de estaño de Cornualles después de pasar tres años en el ejército para evitar cargos de contrabando, dejando atrás a su novia Elizabeth. A su regreso, después de haber luchado en la Guerra de la Independencia, se encuentra con su padre muerto, su finca en ruinas y Elizabeth comprometida con su primo Francisco. En la necesidad de ayuda, se enfrente a un nuevo ayudante de cocina, Demelza, después de rescatarla de una paliza, que le puso en conflicto con los lugareños hostiles.",
+          "popularity": 19.298,
+          "poster_path": "/fTJZHMzlIGSJVPSe7Xz4p5SRwYP.jpg",
+          "first_air_date": "2015-03-08",
+          "vote_average": 7.9,
+          "vote_count": 206
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/lnEU5KKrpQNsDaxxjDHuzRRh8Zl.jpg",
+          "genre_ids": [
+              18,
+              10765
+          ],
+          "id": 56570,
+          "media_type": "tv",
+          "name": "Outlander",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Outlander",
+          "overview": "Sigue la historia de Claire Randall, una enfermera de combate casada en los años 40, que misteriosamente es arrastrada atrás en el tiempo hasta 1743, donde se lanza de inmediato a un mundo desconocido, viéndose amenazada su propia vida. Cuando se ve obligada a casarse con Jamie Fraser, un joven guerrero escocés caballeroso y romántico, Claire comienza un pasional triángulo entre dos hombres muy diferentes con dos vidas irreconciliables.",
+          "popularity": 154.501,
+          "poster_path": "/b1hYWp0qDbTSL7XE3dXbN70K83D.jpg",
+          "first_air_date": "2014-08-09",
+          "vote_average": 8.206,
+          "vote_count": 2064
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
+          "genre_ids": [
+              10765,
+              18,
+              10759
+          ],
+          "id": 71912,
+          "media_type": "tv",
+          "name": "The Witcher",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Witcher",
+          "overview": "Geralt, un brujo que se dedica a cazar monstruos genéticamente modificados, busca su lugar en un mundo donde a menudo los humanos demuestran ser peores que las bestias.",
+          "popularity": 110.99,
+          "poster_path": "/gh0fdOc2OleDCBjBR1dsQGK490I.jpg",
+          "first_air_date": "2019-12-20",
+          "vote_average": 8.243,
+          "vote_count": 3715
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/4mzVKkgpN4Sq7pUvuwLMf5qAGjL.jpg",
+          "genre_ids": [
+              18
+          ],
+          "id": 34539,
+          "media_type": "tv",
+          "name": "Daniel Deronda",
+          "origin_country": [
+              "GB"
+          ],
+          "original_language": "en",
+          "original_name": "Daniel Deronda",
+          "overview": "Daniel Deronda is a British television serial drama adapted by Andrew Davies from the George Eliot novel of the same name. The serial was directed by Tom Hooper, produced by Louis Marks, and was first broadcast in three parts on BBC One from 23 November to 7 December 2002. The serial starred Hugh Dancy as Daniel Deronda, Romola Garai as Gwendolen Harleth, Hugh Bonneville as Henleigh Grandcourt, and Jodhi May as Mirah Lapidoth. Co-production funding came from WGBH Boston.\n\nLouis Marks originally wanted to make a film adaptation of the novel but abandoned the project after a lengthy and fruitless casting process. The drama took a further five years to make it to television screens. Filming ran for 11 weeks from May to August on locations in England, Scotland and Malta. The serial was Marks' final television production before his death in 2010.",
+          "popularity": 4.861,
+          "poster_path": "/cytQ4yNq15TSllNnrtBJwgprVar.jpg",
+          "first_air_date": "2002-11-23",
+          "vote_average": 7.9,
+          "vote_count": 34
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/8UVzqlBMG3azowsi7f8lqZwhcBZ.jpg",
+          "genre_ids": [
+              18,
+              10768
+          ],
+          "id": 67026,
+          "media_type": "tv",
+          "name": "Sucesor designado",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Designated Survivor",
+          "overview": "Designated Survivor es una serie dramática de ABC. El nombre de esta  serie creada por David Guggenheim proviene del \"superviviente  designado\", que hace referencia al miembro del gobierno que no asiste al  Discurso sobre el Estado de la Nación en caso de que un ataque acabe  con la vida del Presidente y de la cúpula central del gobierno.  Así, Tom Kirkman (Kiefer Sutherkand) es un miembro de menor importancia  dentro del ejecutivo estadounidense. Sin embargo, después de un atentado  en el que el presidente de los Estados Unidos muere, será él quien  tenga que hacerse cargo de la Casa Blanca y de encontrar a los  responsables del ataque a los integrantes más importantes del gobierno.  Esta serie es un drama centrado en un hombre ordinario envuelto en una  situación extraordinaria. Designated Survivor está creada por David  Guggenheim (Safe House) y está co-producida por Simon Kinberg (The  Martian) y Suzan Bymel (Touch). Protagonizada por un elenco encabezado  por Kiefer Sutherland (24) en el papel del superviviente designado, y a  quien acompañan Kal Penn (House), Maggie Q (Nikita), Natascha McElhone  (El show de Truman), e Italia Ricci (Chasing Life).",
+          "popularity": 42.999,
+          "poster_path": "/5R125JAIh1N38pzHp2dRsBpOVNY.jpg",
+          "first_air_date": "2016-09-21",
+          "vote_average": 7.208,
+          "vote_count": 667
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/gD830J0sf5gEeZvzkRVPdGxJmSR.jpg",
+          "genre_ids": [
+              80,
+              18
+          ],
+          "id": 69740,
+          "media_type": "tv",
+          "name": "Ozark",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Ozark",
+          "overview": "Un asesor financiero arrastra a su familia de Chicago hasta Misuri con la misión de lavar 500 millones de dólares en cinco años para apaciguar a un capo de la droga.",
+          "popularity": 200.809,
+          "poster_path": "/8Q87HCPhj98Afc0XAHOuaLgTTpO.jpg",
+          "first_air_date": "2017-07-21",
+          "vote_average": 8.218,
+          "vote_count": 1418
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/t3arP2AFYje8mDr7uFHhtyCLKqv.jpg",
+          "genre_ids": [
+              18
+          ],
+          "id": 63349,
+          "media_type": "tv",
+          "name": "The Bastard Executioner",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Bastard Executioner",
+          "overview": "Ambientada en la Gales del siglo XIV, cuenta la historia de Wilkin Brattle, un caballero del rey Eduardo I que, torturado por los horrores de la batalla, abandona las armas para vivir una vida mucho más tranquila como agricultor bajo una nueva identidad. Sus esfuerzos por huir de la violencia son inútiles y finalmente se verá obligado a aceptar el trabajo más sanguinario del mundo: el de verdugo. ",
+          "popularity": 6.053,
+          "poster_path": "/apnKjgxmc2NtyRuII0TSQzqCs5D.jpg",
+          "first_air_date": "2015-09-15",
+          "vote_average": 6.0,
+          "vote_count": 54
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
+          "genre_ids": [
+              10765,
+              18,
+              10759
+          ],
+          "id": 1399,
+          "media_type": "tv",
+          "name": "Juego de tronos",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Game of Thrones",
+          "overview": "En una tierra donde los veranos duran décadas y los inviernos pueden durar toda una vida, los problemas acechan. Desde las maquinaciones del sur a las salvajes tierras del este, pasando por el helado norte y el milenario muro que protege el reino de las fuerzas tenebrosas, dos poderosas familias mantienen un enfrentamiento letal por gobernar los Siete Reinos de Poniente. Mientras la traición, la lujuria y las fuerzas sobrenaturales sacuden los pilares de los reinos, la sangrienta batalla por el trono de Hierro tendrá consecuencias imprevistas y trascendentales. El invierno se acerca. Que empiece 'Juego de tronos'.",
+          "popularity": 482.005,
+          "poster_path": "/z9gCSwIObDOD2BEtmUwfasar3xs.jpg",
+          "first_air_date": "2011-04-17",
+          "vote_average": 8.414,
+          "vote_count": 17866
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/vGgvaOcms6ZNRFuZblfUKhyB2As.jpg",
+          "genre_ids": [
+              10759
+          ],
+          "id": 47450,
+          "media_type": "tv",
+          "name": "Into the Badlands",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Into the Badlands",
+          "overview": "En una tierra controlada por siete barones feudales, cuenta la historia de Sunny, un gran guerrero entrenado en las artes marciales, y M.K., su joven aprendiz, que se embarcan en un viaje espiritual cruzando una tierra peligrosa para encontrar la iluminación.",
+          "popularity": 23.969,
+          "poster_path": "/3OntfHb974MdUb4ZHy8SmxzGMns.jpg",
+          "first_air_date": "2015-11-15",
+          "vote_average": 7.594,
+          "vote_count": 510
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/eVwD4s4dBOK5Jn7CzOLBTo0vXNH.jpg",
+          "genre_ids": [
+              18,
+              9648,
+              10765
+          ],
+          "id": 63639,
+          "media_type": "tv",
+          "name": "The Expanse",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Expanse",
+          "overview": "Doscientos años en el futuro, en un sistema solar totalmente colonizado, el detective de la policía Miller, nacido en el Cinturón de Asteroides, es encargado con la misión de encontrar a una joven mujer desaparecida llamada Julie Mao.  Acompañando a Miller en su misión se encuentra James Holden, anteriormente primer oficial en un carguero de hielo, y quien estuvo incolucrado en un incidente causado por las tensas relaciones entre la Tierra, Marte y el Cinturón. Pronto, ambos descubrirán que la mujer desaparecida es solo la punta del iceberg de una conspiración de inmensa magnitud que atentará contra la historia y la existencia de la Humanidad.\n\n'The Expanse' es un 'thriller' futurista de ciencia ficción, escrito por Mark Fergus y Hawk Ostby, basado en la serie de novelas del mismo nombre. El proyecto ha sido desarrollado por la cadena SyFy US en colaboración con Alcon Entertainment.",
+          "popularity": 55.967,
+          "poster_path": "/lLidDKUYF5pcmH7zaM6J6nyRQGG.jpg",
+          "first_air_date": "2015-12-14",
+          "vote_average": 8.01,
+          "vote_count": 1691
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/m9EDCdjZqrd8L8v03VbIM5x673f.jpg",
+          "genre_ids": [
+              18,
+              9648
+          ],
+          "id": 80054,
+          "media_type": "tv",
+          "name": "Truth Be Told",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Truth Be Told",
+          "overview": "Sumérgete en el mundo de los podcast de crímenes reales. Tras la aparición de nuevas pruebas, Poppy Parnell (Octavia Spencer) se ve obligada a reabrir el caso de asesinato que le dio la fama, y a enfrentarse al hombre (Aaron Paul) que ella puso entre rejas, quizás por error.",
+          "popularity": 13.052,
+          "poster_path": "/h6hJdgd6vhgpSvjZjAtf8ZT2J1v.jpg",
+          "first_air_date": "2019-12-06",
+          "vote_average": 7.56,
+          "vote_count": 126
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/y9ekzkPFmWSqUU3Kj0wHmYUM8qu.jpg",
+          "genre_ids": [
+              80,
+              18
+          ],
+          "id": 63351,
+          "media_type": "tv",
+          "name": "Narcos",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "Narcos",
+          "overview": "La verdadera historia de los poderosos y violentos cárteles colombianos sirve de hilo conductor en esta serie dramática de mafiosos de gran realismo.",
+          "popularity": 66.21,
+          "poster_path": "/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
+          "first_air_date": "2015-08-28",
+          "vote_average": 7.955,
+          "vote_count": 1979
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/sNqwjwT5kAogsREpOaso65QYItF.jpg",
+          "genre_ids": [
+              18,
+              80
+          ],
+          "id": 34415,
+          "media_type": "tv",
+          "name": "The Killing",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Killing",
+          "overview": "Del escritor y productor ejecutivo Veena Sud (Caso Abierto), The Killing se basa en la exitosa serie de televisión danesa Forbrydelsen y cuenta la historia del asesinato de una joven de Seattle y la investigación policial posterior. The Killing une tres historias distintas en torno a un solo asesinato: la de los detectives asignados al caso, la de la afligida familia de la víctima, y la de los sospechosos. Ubicada en Seattle, la historia también explora la política local, ya que sigue los políticos relacionados con el caso. A medida que la serie avanza, se hace evidente que no hay casualidades, todo el mundo tiene un secreto, y mientras que los personajes piensan que han cambiado, su pasado no lo hace con ellos.",
+          "popularity": 21.875,
+          "poster_path": "/oa3l61vnlOysS6vk8sC7gZIhv17.jpg",
+          "first_air_date": "2011-04-03",
+          "vote_average": 7.88,
+          "vote_count": 514
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/11ihDM8QlLI0BIOGPQpgQ5MfH1n.jpg",
+          "genre_ids": [
+              10765,
+              18
+          ],
+          "id": 60948,
+          "media_type": "tv",
+          "name": "12 monos",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "12 Monkeys",
+          "overview": "Sigue el viaje de un viajero en el tiempo desde el futuro post-apocalíptico que aparece en nuestros días a una misión para localizar y erradicar la fuente de una plaga mortal que eventualmente diezmará a la raza humana.",
+          "popularity": 39.065,
+          "poster_path": "/tPX5Jg29XSx05qNterYGYGKbh3o.jpg",
+          "first_air_date": "2015-01-16",
+          "vote_average": 7.421,
+          "vote_count": 847
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/8RNoJJn2S8DlA331OyIqTh3zr68.jpg",
+          "genre_ids": [
+              10759,
+              10765
+          ],
+          "id": 64122,
+          "media_type": "tv",
+          "name": "Las crónicas de Shannara",
+          "origin_country": [
+              "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Shannara Chronicles",
+          "overview": "Todo comienza cuando Ellcrys, un místico árbol élfico enferma y su muerte está cada día más cerca. Este árbol ha sido la única pieza mágica que ha protegido siempre las Cuatro Tierras del mundo maquiavélico de los demonios. Amberle Elessedil es la única que puede salvarlo. Para ello, tendrá que desbloquear la magia de los elfos que lleva miles de años sin utilizarse. Con la ayuda de Wil Ohmsford, viajará por cada rincón para buscar la magia perdida y curar al árbol Ellcrys.",
+          "popularity": 26.048,
+          "poster_path": "/bYq2R7V9r69pWGOqXOnaJtmmtQ8.jpg",
+          "first_air_date": "2016-01-05",
+          "vote_average": 7.081,
+          "vote_count": 723
+      }
+  ],
+  "total_pages": 2,
+  "total_results": 40
+}
