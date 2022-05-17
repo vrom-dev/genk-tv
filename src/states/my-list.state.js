@@ -28,7 +28,3 @@ function loadFromLocalStorage () {
 function saveToLocalStorage () {
   localStorage.setItem('genktv-my-list', JSON.stringify(myListState));
 }
-
-window.addEventListener('beforeunload', () => {
-
-});
