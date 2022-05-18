@@ -52,3 +52,36 @@ describe('dark theme component', () => {
       .should('have.attr', 'data-theme', 'dark');
   });
 });
+
+describe('dark theme component (state)', () => {
+  beforeEach(() => {
+    cy.intercept(
+      'GET',
+      `https://api.themoviedb.org/3/movie/508947?api_key=${process.env.API_KEY}&language=es-ES`,
+      { fixture: './../../fixtures/movie_detail.json' }
+    );
+    cy.intercept(
+      'GET',
+      `https://api.themoviedb.org/3/movie/508947/videos?api_key=${process.env.API_KEY}`,
+      { fixture: './../../fixtures/movie_videos.json' }
+    );
+    window.localStorage.setItem('genktv-theme', '{"current":"dark"}');
+    cy.visit('/movie/508947/red');
+  });
+  it('it loads theme from localstorage if available', () => {
+    cy.wait(100);
+    cy
+      .get('tmdb-menu-ui')
+      .shadow()
+      .as('menu');
+    cy
+      .get('@menu')
+      .find('tmdb-dark-theme')
+      .shadow()
+      .find('button')
+      .as('darkThemeButton');
+    cy
+      .get('html')
+      .should('have.attr', 'data-theme', 'dark');
+  });
+});
