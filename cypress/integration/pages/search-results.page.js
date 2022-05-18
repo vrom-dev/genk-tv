@@ -4,17 +4,17 @@ describe('search results page', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/search/multi?api_key=${process.env.API_KEY}&query=the%20last%20kingdom&language=es-ES&region=ES&include_adult=false`,
+      'https://api.themoviedb.org/3/search/multi?api_key=64a40f1d1740c362639f6b91739db0ca&query=the%20last%20kingdom&language=es-ES&region=ES&include_adult=false',
       { fixture: './../../fixtures/multi_search.json' }
     );
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.API_KEY}&language=es-ES`,
+      'https://api.themoviedb.org/3/genre/movie/list?api_key=64a40f1d1740c362639f6b91739db0ca&language=es-ES',
       { fixture: './../../fixtures/movies_genres.json' }
     );
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/genre/tv/list?api_key=${process.env.API_KEY}&language=es-ES`,
+      'https://api.themoviedb.org/3/genre/tv/list?api_key=64a40f1d1740c362639f6b91739db0ca&language=es-ES',
       { fixture: './../../fixtures/tv_genres.json' }
     );
     cy.visit('/search?q=the%20last%20kingdom');

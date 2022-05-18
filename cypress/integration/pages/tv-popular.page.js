@@ -4,12 +4,12 @@ describe('popular list of movies/tv-shows', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/tv/popular?api_key=${process.env.API_KEY}&language=es-ES&page=1&region=ES&include_adult=false`,
+      'https://api.themoviedb.org/3/tv/popular?api_key=64a40f1d1740c362639f6b91739db0ca&language=es-ES&page=1&region=ES&include_adult=false',
       { fixture: './../../fixtures/tvshow_popular.json' }
     );
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/genre/tv/list?api_key=${process.env.API_KEY}&language=es-ES`,
+      'https://api.themoviedb.org/3/genre/tv/list?api_key=64a40f1d1740c362639f6b91739db0ca&language=es-ES',
       { fixture: './../../fixtures/tv_genres.json' }
     );
     cy.visit('/tv');

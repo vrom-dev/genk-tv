@@ -4,7 +4,7 @@ describe('search bar component', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/search/multi?api_key=${process.env.API_KEY}&query=the%20last%20kingdom&language=es-ES&region=ES&include_adult=false`,
+      'https://api.themoviedb.org/3/search/multi?api_key=64a40f1d1740c362639f6b91739db0ca&query=the%20last%20kingdom&language=es-ES&region=ES&include_adult=false',
       { fixture: './../../fixtures/multi_search.json' }
     );
     cy.visit('/');

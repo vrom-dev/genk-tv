@@ -4,12 +4,12 @@ describe('dark theme component', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/movie/508947?api_key=${process.env.API_KEY}&language=es-ES`,
+      'https://api.themoviedb.org/3/movie/508947?api_key=64a40f1d1740c362639f6b91739db0ca&language=es-ES',
       { fixture: './../../fixtures/movie_detail.json' }
     );
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/movie/508947/videos?api_key=${process.env.API_KEY}`,
+      'https://api.themoviedb.org/3/movie/508947/videos?api_key=64a40f1d1740c362639f6b91739db0ca',
       { fixture: './../../fixtures/movie_videos.json' }
     );
     cy.visit('/movie/508947/red');
@@ -57,12 +57,12 @@ describe('dark theme component (state)', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/movie/508947?api_key=${process.env.API_KEY}&language=es-ES`,
+      'https://api.themoviedb.org/3/movie/508947?api_key=64a40f1d1740c362639f6b91739db0ca&language=es-ES',
       { fixture: './../../fixtures/movie_detail.json' }
     );
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/movie/508947/videos?api_key=${process.env.API_KEY}`,
+      'https://api.themoviedb.org/3/movie/508947/videos?api_key=64a40f1d1740c362639f6b91739db0ca',
       { fixture: './../../fixtures/movie_videos.json' }
     );
     window.localStorage.setItem('genktv-theme', '{"current":"dark"}');

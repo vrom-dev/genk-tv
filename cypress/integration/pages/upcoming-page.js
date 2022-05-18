@@ -5,7 +5,7 @@ describe('upcoming page', () => {
   beforeEach(() => {
     cy.intercept(
       'GET',
-      `https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.API_KEY}&language=es-ES&region=ES&include_adult=false`,
+      'https://api.themoviedb.org/3/movie/upcoming?api_key=64a40f1d1740c362639f6b91739db0ca&language=es-ES&region=ES&include_adult=false',
       { fixture: './../../fixtures/upcoming.json' }
     );
     cy.visit('/upcoming');
