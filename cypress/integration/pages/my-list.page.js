@@ -35,9 +35,13 @@ describe('my list page', () => {
       .get('@addListButton')
       .contains('Eliminar de Mi lista');
   });
-  it('my list page displays the movies and tv shows stored in localstorage', () => {
+});
+describe('my list page (localstorage)', () => {
+  beforeEach(() => {
     localStorage.setItem('genktv-my-list', JSON.stringify(SNAPSHOT));
     cy.visit('/my-list');
+  });
+  it('my list page displays the movies and tv shows stored in localstorage', () => {
     cy
       .get('tmdb-my-list')
       .children()
@@ -53,5 +57,9 @@ describe('my list page', () => {
       .children()
       .first()
       .contains('Red');
+    cy
+      .get('@moviesList')
+      .children()
+      .contains('El Padrino');
   });
 });
